@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACImageView.MoveToPoint" name="ActionComponents.ACImageView.MoveToPoint">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_image_view.html#abaafe0f3e516c65f57bf3de74dc48890" title="Sent when the ActionComponents.ACImageView is being dragged " alt="" coords="249,5,442,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image_view.html#a7aec70dbad5375eba4202b78902d43e7" title="Send when one or more fingers are lifted from the screen. " alt="" coords="249,73,442,117"/>
+</map>

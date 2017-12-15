@@ -1,0 +1,5 @@
+<map id="ActionComponents.ACImageView.DisposeImage" name="ActionComponents.ACImageView.DisposeImage">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_image_view.html#aa1cd3a22fe4f696b5748bf76471df3c8" title="Loads the Image displayed by this ActionComponents.ACImageView from the given filename. If unable to load from the file, the Image property will be null. " alt="" coords="249,5,442,49"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_image_view.html#af9bcd5f87aa59283297e91dd89781a78" title="The Purge command causes this ActionComponents.ACImageView to force the removal of any subview from t..." alt="" coords="249,73,442,117"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image_view.html#a443c36e5296d488417bb436557fbf6ed" title="Initializes a new instance of the ActionComponents.ACImageView class. " alt="" coords="491,5,685,49"/>
+</map>

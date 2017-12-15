@@ -1,0 +1,7 @@
+<map id="ActionComponents.ACTray.CloseTray" name="ActionComponents.ACTray.CloseTray">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tray.html#a4d600216e1927a69f9d888da1a20103e" title="Restores the state of this ActionComponents.ACTray after a rotation or restart " alt="" coords="266,5,451,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tray.html#a836c4777c42fa50c974c6d058e13a92f" title="Moves the ActionComponents.ACTray to the given x,y coordinates " alt="" coords="266,73,451,117"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tray.html#ab5c9c22235aed1d45bf57cdf3089c76f" title="Raises the touch event event. " alt="" coords="266,141,451,185"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tray_manager.html#acdce83e7b519ef11269ece0ab0f49e57" title="Adds the ActionComponents.ACTray to this ActionComponents.ACTrayManager&#39;s collection ..." alt="" coords="240,209,478,253"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_tray_manager.html#a556d9ea4fca4954ccb4d41370b86d110" title="Closes all open ActionComponents.ACTray in this ActionComponents.ACTrayManager&#39;s collection ..." alt="" coords="240,277,478,321"/>
+</map>

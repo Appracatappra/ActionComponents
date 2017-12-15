@@ -1,0 +1,6 @@
+<map id="ActionComponents.ACNavBarButtonCollection.SelectedForGroup" name="ActionComponents.ACNavBarButtonCollection.SelectedForGroup">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#ad691c42ac2a8b707d3b33199d0f7ed6b" title="Adds the given Nav Bar Button to the collection. " alt="" coords="286,73,487,117"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a4fff4f1b48ef739c44a9392d5772de24" title="Adds a view with the given image and auto dispose state. " alt="" coords="537,5,738,49"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a700601d404ad3db173c072ebded85dda" title="Adds a tool to the bar with the given image " alt="" coords="537,73,738,117"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#ae4b7e761e57014add88fe6c3514c7a20" title="Adds a selection to the given group with the given image " alt="" coords="537,141,738,185"/>
+</map>

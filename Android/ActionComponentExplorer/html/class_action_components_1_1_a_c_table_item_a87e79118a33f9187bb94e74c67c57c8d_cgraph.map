@@ -1,0 +1,5 @@
+<map id="ActionComponents.ACTableItem.AddAccessoryActionImageView" name="ActionComponents.ACTableItem.AddAccessoryActionImageView">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_table_item.html#a100afca82f64581d117713a6ee17d72e" title="Adds a Appracatappra.ActionComponents.ActionView.ACImageView accessory to this ActionComponents.ACTableItem " alt="" coords="294,5,533,49"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_image.html#a7720532448ce3150a5369c0ea033dc26" title="Loads the image from the given resources and resource ID " alt="" coords="315,73,512,117"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image.html#a4fb528fee30c213ac933baf9075d8293" title="Loads the image from the given filename and path " alt="" coords="582,5,778,49"/>
+</map>

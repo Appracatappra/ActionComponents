@@ -1,0 +1,8 @@
+<map id="ActionComponents.ACView.TouchesEnded" name="ActionComponents.ACView.TouchesEnded">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_view.html#a90945480405ec2c6cd51653423679b2f" title="Moves this ActionComponents.ACView to the given point and honors any ActionComponents.ACViewDragConstraints applied to the X or Y axis " alt="" coords="262,5,450,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_toast.html#a4af76b6552bb36363f996a98246f9861" title="Creates a new instance of the ActionComponents.ACToast message with the given properties and returns ..." alt="" coords="260,73,452,117"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_toast.html#a86fb712580c12d786782caba1b3c80d5" title="Show the ActionComponents.ACToast message " alt="" coords="243,141,469,169"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_view.html#a1fac9c8f300cdde5a534c711e598537b" title="Occurs when this ActionComponents.ACView is touched " alt="" coords="262,193,450,237"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_toast.html#a8d92226587ae0be62220d964b1ba6f6d" title="Initializes a new instance of the ActionComponents.ACToast class. " alt="" coords="517,69,709,113"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_toast.html#aac02447ee45d628c713b82652d15603b" title="Hides this ActionComponents.ACToast message " alt="" coords="517,137,709,181"/>
+</map>

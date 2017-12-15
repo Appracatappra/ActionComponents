@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACAlert.OnTouchEvent" name="ActionComponents.ACAlert.OnTouchEvent">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_alert.html#a7f2ae34aedf114191917afc9fdc08649" title="Moves this ActionComponents.ACAlert to the given point and honors any ActionComponents.ACAlertDragConstraints applied to the X or Y axis " alt="" coords="244,5,431,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_alert.html#a716f83fec3c5353a5610f15ec951de07" title="Occurs when this ActionComponents.ACAlert is touched " alt="" coords="244,73,431,117"/>
+</map>

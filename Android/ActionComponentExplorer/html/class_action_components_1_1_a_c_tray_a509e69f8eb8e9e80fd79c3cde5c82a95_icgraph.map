@@ -1,0 +1,5 @@
+<map id="ActionComponents.ACTray.OpenTray" name="ActionComponents.ACTray.OpenTray">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tray.html#a4d600216e1927a69f9d888da1a20103e" title="Restores the state of this ActionComponents.ACTray after a rotation or restart " alt="" coords="241,5,426,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tray.html#a836c4777c42fa50c974c6d058e13a92f" title="Moves the ActionComponents.ACTray to the given x,y coordinates " alt="" coords="241,73,426,117"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tray.html#ab5c9c22235aed1d45bf57cdf3089c76f" title="Raises the touch event event. " alt="" coords="241,141,426,185"/>
+</map>

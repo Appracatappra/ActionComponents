@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACImageView.FromFile" name="ActionComponents.ACImageView.FromFile">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_image_view.html#a5138a6dc73cdc7843fd7d73c73e82c7c" title="Forces the release of an image data attached to this ActionComponents.ACImageView ..." alt="" coords="250,5,443,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image.html#a0c6cf7b696b227cf59e2dae1d2a6d757" title="Returns a UIImage from the given filename or null if the image cannot be loaded " alt="" coords="248,73,445,117"/>
+</map>

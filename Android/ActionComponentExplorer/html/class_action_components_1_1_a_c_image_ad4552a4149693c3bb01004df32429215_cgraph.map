@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACImage.FromFile" name="ActionComponents.ACImage.FromFile">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_image.html#a88bba58023343ab2efa8643a2a1c584e" title="Calculates the sampling factor for an image being loaded into memory and down&#45;sampled at the same tim..." alt="" coords="251,5,448,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image.html#a50caafaeccb926dd13959eeac0b90ad0" title="Queries the given image file and returns information about the file in a ActionComponents.ACImageInfo " alt="" coords="251,73,448,117"/>
+</map>

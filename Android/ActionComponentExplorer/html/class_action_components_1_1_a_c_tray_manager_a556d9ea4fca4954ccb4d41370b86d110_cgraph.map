@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACTrayManager.CloseAllTrays" name="ActionComponents.ACTrayManager.CloseAllTrays">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tray.html#a81588bb8494487fffa78627456ea3590" title="Closes the ActionComponents.ACTray " alt="" coords="317,5,502,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tray_manager.html#aa263742cb43395b3498f37a6d4f3beaa" title="Occurs when this ActionComponents.ACTray is touched " alt="" coords="290,73,528,117"/>
+</map>

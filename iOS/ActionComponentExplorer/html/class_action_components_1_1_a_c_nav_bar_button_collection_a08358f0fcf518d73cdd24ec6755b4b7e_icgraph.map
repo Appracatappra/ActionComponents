@@ -1,0 +1,9 @@
+<map id="ActionComponents.ACNavBarButtonCollection.AdjustContainerHeight" name="ActionComponents.ACNavBarButtonCollection.AdjustContainerHeight">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#ad691c42ac2a8b707d3b33199d0f7ed6b" title="Adds the given Nav Bar Button to the collection. " alt="" coords="273,73,474,117"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#aadaf0eb07b192654e31c99829b5b10d6" title="Remove the specified button from the collection. " alt="" coords="273,141,474,185"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#ab17d35eb52aeeb2bfa35cdba4639bd74" title="Removes the button at the given location from the collection. " alt="" coords="273,209,474,253"/>
+<area shape="rect" id="node8" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#af2582ddc5df1a46a436072a9c0d51666" title="Removes all buttons from the collection. " alt="" coords="273,277,474,321"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a4fff4f1b48ef739c44a9392d5772de24" title="Adds a view with the given image and auto dispose state. " alt="" coords="524,5,724,49"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a700601d404ad3db173c072ebded85dda" title="Adds a tool to the bar with the given image " alt="" coords="524,73,724,117"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#ae4b7e761e57014add88fe6c3514c7a20" title="Adds a selection to the given group with the given image " alt="" coords="524,141,724,185"/>
+</map>

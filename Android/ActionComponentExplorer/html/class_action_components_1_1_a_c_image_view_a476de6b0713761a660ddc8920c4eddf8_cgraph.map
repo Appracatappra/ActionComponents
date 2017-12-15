@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACImageView.OnTouchEvent" name="ActionComponents.ACImageView.OnTouchEvent">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_image_view.html#a3bb31ad8878e558ef027ca78331aeba7" title="Moves this ActionComponents.ACImageView to the given point and honors any ActionComponents.ACViewDragConstraints applied to the X or Y axis " alt="" coords="273,5,466,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image_view.html#a8d2a38712eaa891ef75fab1658a52139" title="Occurs when this ActionComponents.ACImageView is touched " alt="" coords="249,73,490,117"/>
+</map>

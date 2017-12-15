@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACTray.OpenTray" name="ActionComponents.ACTray.OpenTray">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tray.html#aec5ee349049d831a0b82119a9c3b02b1" title="Handles the ActionComponents.ACTray being double tapped " alt="" coords="241,5,426,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tray.html#a3b7a4328d3baf29ebe60985b21f93db8" title="Sent when one or more fingers touches the screen. " alt="" coords="241,73,426,117"/>
+</map>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B6A1ED3-1EC0-4125-AE9D-66D2D50B08D3}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ActionComponents</RootNamespace>
+    <AssemblyName>ActionComponents</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;DEBUG;TRIAL;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>54000</IOSDebuggerPort>
+    <DeviceSpecificBuild>false</DeviceSpecificBuild>
+    <MtouchVerbosity></MtouchVerbosity>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;TRIAL;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\ActionComponents.xml</DocumentationFile>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchVerbosity></MtouchVerbosity>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="ActionNavBar\" />
+    <Folder Include="ActionNavBar\Classes\" />
+    <Folder Include="ActionNavBar\Delegates\" />
+    <Folder Include="ActionToast\" />
+    <Folder Include="Device\" />
+    <Folder Include="ActionOval\" />
+    <Folder Include="ActionView\" />
+    <Folder Include="Markdown\" />
+    <Folder Include="ActionTable\" />
+    <Folder Include="ActionTray\" />
+    <Folder Include="DownloadManager\" />
+    <Folder Include="ActionAlert\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ActionNavBar\Classes\ACNavBar.cs" />
+    <Compile Include="ActionNavBar\Classes\ACNavBarAppearance.cs" />
+    <Compile Include="ActionNavBar\Classes\ACNavBarButton.cs" />
+    <Compile Include="ActionNavBar\Classes\ACNavBarButtonAppearance.cs" />
+    <Compile Include="ActionNavBar\Classes\ACNavBarButtonCollection.cs" />
+    <Compile Include="ActionNavBar\Classes\ACNavBarButtonState.cs" />
+    <Compile Include="ActionNavBar\Classes\ACNavBarButtonType.cs" />
+    <Compile Include="ActionNavBar\Classes\ACNavBarPointer.cs" />
+    <Compile Include="ActionNavBar\Delegates\ACNavBarAppearanceModifiedDelegate.cs" />
+    <Compile Include="ActionNavBar\Delegates\ACNavBarButtonActionDelegate.cs" />
+    <Compile Include="ActionNavBar\Delegates\ACNavBarCollectionModifiedDelegate.cs" />
+    <Compile Include="ActionNavBar\Delegates\ACNavBarPointerPositionDelegate.cs" />
+    <Compile Include="ActionNavBar\Delegates\ACNavBarViewDelegate.cs" />
+    <Compile Include="ActionToast\ACToast.cs" />
+    <Compile Include="ActionToast\ACToastAppearance.cs" />
+    <Compile Include="ActionToast\ACToastGravity.cs" />
+    <Compile Include="ActionToast\ACToastLength.cs" />
+    <Compile Include="Device\iOSDevice.cs" />
+    <Compile Include="ActionOval\ACOval.cs" />
+    <Compile Include="ActionOval\ACOvalAppearance.cs" />
+    <Compile Include="ActionOval\ACOvalImagePlacement.cs" />
+    <Compile Include="ActionView\ACImage.cs" />
+    <Compile Include="ActionView\ACImageView.cs" />
+    <Compile Include="ActionView\ACLabel.cs" />
+    <Compile Include="ActionView\ACView.cs" />
+    <Compile Include="ActionView\ACViewDragConstraint.cs" />
+    <Compile Include="ActionView\UIActionViewDragConstraintType.cs" />
+    <Compile Include="ActionView\UIActionWebView.cs" />
+    <Compile Include="Markdown\Markdown.cs" />
+    <Compile Include="ActionTable\ACTableItem.cs" />
+    <Compile Include="ActionTable\ACTableItemImageSource.cs" />
+    <Compile Include="ActionTable\ACTableSection.cs" />
+    <Compile Include="ActionTable\ACTableViewController.cs" />
+    <Compile Include="ActionTable\ACTableViewDataSource.cs" />
+    <Compile Include="ActionTable\ACTableViewDelegate.cs" />
+    <Compile Include="ActionTray\ACTray.cs" />
+    <Compile Include="ActionTray\ACTrayAppearance.cs" />
+    <Compile Include="ActionTray\ACTrayFrameType.cs" />
+    <Compile Include="ActionTray\ACTrayManager.cs" />
+    <Compile Include="ActionTray\ACTrayOrientation.cs" />
+    <Compile Include="ActionTray\ACTrayTabLocation.cs" />
+    <Compile Include="ActionTray\ACTrayTabType.cs" />
+    <Compile Include="ActionTray\ACTrayType.cs" />
+    <Compile Include="DownloadManager\ACDownloadItem.cs" />
+    <Compile Include="DownloadManager\ACDownloadManager.cs" />
+    <Compile Include="ActionAlert\ACAlert.cs" />
+    <Compile Include="ActionAlert\ACAlertAppearance.cs" />
+    <Compile Include="ActionAlert\ACAlertButton.cs" />
+    <Compile Include="ActionAlert\ACAlertButtonAppearance.cs" />
+    <Compile Include="ActionAlert\ACAlertButtonApperanceType.cs" />
+    <Compile Include="ActionAlert\ACAlertDragConstraint.cs" />
+    <Compile Include="ActionAlert\ACAlertDragConstraintType.cs" />
+    <Compile Include="ActionAlert\ACAlertLocation.cs" />
+    <Compile Include="ActionAlert\ACAlertOverlay.cs" />
+    <Compile Include="ActionAlert\ACAlertType.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

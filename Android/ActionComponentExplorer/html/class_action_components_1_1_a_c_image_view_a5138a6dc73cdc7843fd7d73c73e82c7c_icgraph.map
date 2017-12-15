@@ -1,0 +1,5 @@
+<map id="ActionComponents.ACImageView.DisposeImage" name="ActionComponents.ACImageView.DisposeImage">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_image_view.html#a5afc67b5c36f10629d65452c7f61200b" title="Loads the image displayed in this ActionComponents.ACImageView from the given Bitmap ..." alt="" coords="249,5,442,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image_view.html#aa1cd3a22fe4f696b5748bf76471df3c8" title="Loads the image displayed in this ActionComponents.ACImageView from the given filename ..." alt="" coords="249,73,442,117"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_image_view.html#a5d239a38172a9c53eba37741b7f36cd6" title="Loads the image being displayed by this ActionComponents.ACImageView from the given resources and res..." alt="" coords="249,141,442,185"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ActionComponents.ACTableItem.AddAccessoryTextField" name="ActionComponents.ACTableItem.AddAccessoryTextField">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_table_item.html#a204bed025b60a5f1f658a0cd498e41fa" title="Occurrs when this ActionComponents.ACTableItem has an attached UISwitch accessory and the value is ch..." alt="" coords="243,5,498,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_table_item.html#a2977040599f7e8f113ee209b1f199102" title="Occurrs when this ActionComponents.ACTableItem has an attached UIStepper accessory and the value is c..." alt="" coords="266,73,475,133"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_table_item.html#a3bd4342c8543db1abdb9ba0f12645680" title="Occurrs when this ActionComponents.ACTableItem has an attached UISlider accessory and the value is ch..." alt="" coords="246,157,496,201"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_table_item.html#ac912a47b2a26d43c1f20e72f98ae9eb9" title="Occurrs when this ActionComponents.ACTableItem has an attached UIButton accessory and the button is t..." alt="" coords="243,225,498,269"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_table_item.html#a4a3ca680bd01e4a4875bc81c248bce99" title="Occurrs when this ActionComponents.ACTableItem has an attached UITextField accessory and the value is..." alt="" coords="250,293,491,337"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_table_item.html#ad124613bcd47550c1bcb91497f7b6d6e" title="Occurs when this ActionComponents.ACTableItem has been selected by the user " alt="" coords="254,361,487,405"/>
+</map>

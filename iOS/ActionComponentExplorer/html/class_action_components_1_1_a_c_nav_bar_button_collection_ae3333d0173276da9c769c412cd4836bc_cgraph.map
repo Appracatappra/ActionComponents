@@ -1,0 +1,5 @@
+<map id="ActionComponents.ACNavBarButtonCollection.AddTool" name="ActionComponents.ACNavBarButtonCollection.AddTool">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#ad691c42ac2a8b707d3b33199d0f7ed6b" title="Adds the given Nav Bar Button to the collection. " alt="" coords="257,43,458,87"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#aeb328221f7a9c281cd14ca45ee5f2dca" title="Returns the button currently selected in a group of buttons. " alt="" coords="507,5,738,49"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a08358f0fcf518d73cdd24ec6755b4b7e" title="Adjusts the height of the container. " alt="" coords="514,73,731,133"/>
+</map>
