@@ -39,7 +39,8 @@ var hierarchy =
       [ "ActionComponents.ACTableCell", "class_action_components_1_1_a_c_table_cell.html", null ],
       [ "ActionComponents.ACTray", "class_action_components_1_1_a_c_tray.html", null ],
       [ "ActionComponents.ACView", "class_action_components_1_1_a_c_view.html", [
-        [ "ActionComponents.ACOval", "class_action_components_1_1_a_c_oval.html", null ]
+        [ "ActionComponents.ACOval", "class_action_components_1_1_a_c_oval.html", null ],
+        [ "ActionComponents.ACSlider", "class_action_components_1_1_a_c_slider.html", null ]
       ] ]
     ] ],
     [ "ActionComponents.Resource", "class_action_components_1_1_resource.html", null ],

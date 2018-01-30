@@ -575,7 +575,7 @@ namespace ActionComponents
 			RaiseOpened ();
 
 			#if TRIAL
-			Android.Widget.Toast.MakeText(this.Context, "ActionTray", Android.Widget.ToastLength.Short).Show();
+			Android.Widget.Toast.MakeText(this.Context, "ACTray by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
 			#endif
 		}
 
@@ -672,7 +672,7 @@ namespace ActionComponents
 			RaiseClosed ();
 
 			#if TRIAL
-			Android.Widget.Toast.MakeText(this.Context, "ActionImageView", Android.Widget.ToastLength.Short).Show();
+			Android.Widget.Toast.MakeText(this.Context, "ACTray by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
 			#endif
 		}
 

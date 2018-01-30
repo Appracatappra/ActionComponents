@@ -20,6 +20,7 @@ var namespace_action_components =
     [ "ACNavBarPointer", "class_action_components_1_1_a_c_nav_bar_pointer.html", "class_action_components_1_1_a_c_nav_bar_pointer" ],
     [ "ACOval", "class_action_components_1_1_a_c_oval.html", "class_action_components_1_1_a_c_oval" ],
     [ "ACOvalAppearance", "class_action_components_1_1_a_c_oval_appearance.html", "class_action_components_1_1_a_c_oval_appearance" ],
+    [ "ACSlider", "class_action_components_1_1_a_c_slider.html", "class_action_components_1_1_a_c_slider" ],
     [ "ACTableCell", "class_action_components_1_1_a_c_table_cell.html", "class_action_components_1_1_a_c_table_cell" ],
     [ "ACTableIndex", "class_action_components_1_1_a_c_table_index.html", "class_action_components_1_1_a_c_table_index" ],
     [ "ACTableItem", "class_action_components_1_1_a_c_table_item.html", "class_action_components_1_1_a_c_table_item" ],

@@ -1,5 +1,8 @@
 var hierarchy =
 [
+    [ "ActionComponents.ACAlertAppearance", "class_action_components_1_1_a_c_alert_appearance.html", null ],
+    [ "ActionComponents.ACAlertButtonAppearance", "class_action_components_1_1_a_c_alert_button_appearance.html", null ],
+    [ "ActionComponents.ACAlertDragConstraint", "class_action_components_1_1_a_c_alert_drag_constraint.html", null ],
     [ "ActionComponents.ACDownloadItem", "class_action_components_1_1_a_c_download_item.html", null ],
     [ "ActionComponents.ACDownloadManager", "class_action_components_1_1_a_c_download_manager.html", null ],
     [ "ActionComponents.ACImage", "class_action_components_1_1_a_c_image.html", null ],
@@ -40,10 +43,14 @@ var hierarchy =
       [ "ActionComponents.ACTableViewDelegate", "class_action_components_1_1_a_c_table_view_delegate.html", null ]
     ] ],
     [ "UIView", null, [
+      [ "ActionComponents.ACAlert", "class_action_components_1_1_a_c_alert.html", null ],
+      [ "ActionComponents.ACAlertButton", "class_action_components_1_1_a_c_alert_button.html", null ],
+      [ "ActionComponents.ACAlertOverlay", "class_action_components_1_1_a_c_alert_overlay.html", null ],
       [ "ActionComponents.ACNavBar", "class_action_components_1_1_a_c_nav_bar.html", null ],
       [ "ActionComponents.ACNavBarButton", "class_action_components_1_1_a_c_nav_bar_button.html", null ],
       [ "ActionComponents.ACNavBarButtonCollection", "class_action_components_1_1_a_c_nav_bar_button_collection.html", null ],
       [ "ActionComponents.ACNavBarPointer", "class_action_components_1_1_a_c_nav_bar_pointer.html", null ],
+      [ "ActionComponents.ACSlider", "class_action_components_1_1_a_c_slider.html", null ],
       [ "ActionComponents.ACTray", "class_action_components_1_1_a_c_tray.html", null ],
       [ "ActionComponents.ACView", "class_action_components_1_1_a_c_view.html", [
         [ "ActionComponents.ACOval", "class_action_components_1_1_a_c_oval.html", null ]

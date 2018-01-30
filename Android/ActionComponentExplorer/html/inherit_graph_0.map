@@ -6,5 +6,6 @@
 <area shape="rect" id="node6" href="$class_action_components_1_1_a_c_table_cell.html" title="The ActionComponents.ACTableCell is used by the ActionComponents.ACTableViewController to display Act..." alt="" coords="162,245,374,273"/>
 <area shape="rect" id="node7" href="$class_action_components_1_1_a_c_tray.html" title="The ActionComponents.ACTray is a dockable, customizable, slide&#45;out View controller with a dragTab tha..." alt="" coords="177,297,359,325"/>
 <area shape="rect" id="node8" href="$class_action_components_1_1_a_c_view.html" title="The ActionComponents.ACView is a custom RelativeLayout with built&#45;in helper routines to automatically..." alt="" coords="176,349,360,377"/>
-<area shape="rect" id="node9" href="$class_action_components_1_1_a_c_oval.html" title="ActionComponents.ACOval" alt="" coords="422,349,605,377"/>
+<area shape="rect" id="node9" href="$class_action_components_1_1_a_c_oval.html" title="ActionComponents.ACOval" alt="" coords="426,322,609,350"/>
+<area shape="rect" id="node10" href="$class_action_components_1_1_a_c_slider.html" title="ActionComponents.ACSlider is a custom slider control designed to operate like the brightness and cont..." alt="" coords="422,374,612,402"/>
 </map>

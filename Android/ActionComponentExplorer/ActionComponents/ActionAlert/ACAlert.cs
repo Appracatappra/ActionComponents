@@ -2051,7 +2051,7 @@ namespace ActionComponents
 			AdjustAlertPosition ();
 
 			#if TRIAL
-			Android.Widget.Toast.MakeText(this.Context, "ActionAlert by Appracatappra", Android.Widget.ToastLength.Short).Show();
+			Android.Widget.Toast.MakeText(this.Context, "ACAlert by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
 			#endif
 		}
 		#endregion 

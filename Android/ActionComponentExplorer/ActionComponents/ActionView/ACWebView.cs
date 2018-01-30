@@ -522,7 +522,7 @@ namespace ActionComponents
 				RaiseReleased ();
 
 				#if TRIAL
-				Android.Widget.Toast.MakeText(this.Context, "ActionWebView", Android.Widget.ToastLength.Short).Show();
+					Android.Widget.Toast.MakeText(this.Context, "ACWebView by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
 				#endif
 
 				//Inform system that we've handled this event 

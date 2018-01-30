@@ -17,6 +17,19 @@ namespace ActionComponentExplorer
 			// Perform any additional setup after loading the view, typically from a nib.
 		}
 
+		public override void ViewWillAppear(bool animated)
+		{
+			base.ViewWillAppear(animated);
+
+			// Set icon
+			brightnessSlider.Icon = UIImage.FromBundle("Brightness");
+
+			// Respond to slider change
+			brightnessSlider.ValueChanged += (percent) => {
+				fillPercent.Text = $"{percent}%";
+			};
+		}
+
 		public override void DidReceiveMemoryWarning()
 		{
 			base.DidReceiveMemoryWarning();

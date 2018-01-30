@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "ActionComponents", "index.html", [
+    [ "About Action Alert", "md_ActionComponentExplorer_ActionComponents_ActionAlert_ReadMe.html", null ],
     [ "Packages", null, [
       [ "Packages", "namespaces.html", "namespaces" ],
       [ "Package Functions", "namespacemembers.html", [
@@ -27,9 +28,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_action_components_1_1_a_c_oval.html#af50251595aa42388dae9380938179b16",
-"class_action_components_1_1_a_c_toast.html#afcf25720ec34c34fd6e6e6588a74e70f",
-"functions_prop.html"
+"class_action_components_1_1_a_c_image_view.html#ac86676f2e18b3bbcd7f9d9afd04f3b68",
+"class_action_components_1_1_a_c_table_item.html#a676be8cd53f176b872f4b33b13ee2d19",
+"class_action_components_1_1_a_c_tray.html#a90a9d2aab3328ccc1662d06b7e6efac2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

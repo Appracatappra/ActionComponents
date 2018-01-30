@@ -554,6 +554,10 @@ namespace ActionComponents
 			//Adjust location
 			_pointer.MoveTo(y, animated);
 
+			#if TRIAL
+			Android.Widget.Toast.MakeText(this.Context, "AVNavBar by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
+			#endif
+
 		}
 
 		/// <summary>

@@ -549,7 +549,7 @@ namespace ActionComponents
 				this.RequestData (this);
 
 			#if TRIAL
-			Android.Widget.Toast.MakeText(_controller.Context, "ActionTable by Appracatappra", Android.Widget.ToastLength.Long).Show();
+			Android.Widget.Toast.MakeText(_controller.Context, "ACTable by Appracatappra, LLC.", Android.Widget.ToastLength.Long).Show();
 			#endif
 		}
 		#endregion 

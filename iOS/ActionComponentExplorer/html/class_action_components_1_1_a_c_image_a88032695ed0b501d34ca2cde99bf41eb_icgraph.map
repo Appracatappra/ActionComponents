@@ -1,8 +1,9 @@
 <map id="ActionComponents.ACImage.DegreesToRadians" name="ActionComponents.ACImage.DegreesToRadians">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_image.html#af096e31c679215dfbd321df7c2b8f456" title="Given a source UIImage, return a new UIImage containing the source image rotated to the given radian ..." alt="" coords="260,5,457,49"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_image_view.html#a0f129b4bf1fc0ed32274808f25563373" title="Rotates this ActionComponents.ACImageView to the given degrees " alt="" coords="262,73,455,117"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_label.html#a40ac854db5d2fc0226c236d64db00be7" title="Rotates this ActionComponents.ACLabel to the given degrees " alt="" coords="262,141,455,185"/>
-<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_view.html#a838db5230ddabac8d06284302e56106c" title="Rotates this ActionComponents.ACView to the given degrees " alt="" coords="265,209,453,253"/>
-<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_web_view.html#a88ec56c70fbdf90bfd496ec6c763588a" title="Rotates this ActionComponents.ACWebView to the given degrees " alt="" coords="251,277,466,321"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image_view.html#aae355d9ae09523dd9314b78733742036" title="Rotates the Image attached to this ActionComponents.ACImageView to the given degrees without rotating..." alt="" coords="515,5,709,49"/>
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_alert.html#ae799d2b90e46588aa4788b7eaa0ba2af" title="Rotates this ActionComponents.ACAlert to the given degrees " alt="" coords="265,5,452,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image.html#af096e31c679215dfbd321df7c2b8f456" title="Given a source UIImage, return a new UIImage containing the source image rotated to the given radian ..." alt="" coords="260,73,457,117"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_image_view.html#a0f129b4bf1fc0ed32274808f25563373" title="Rotates this ActionComponents.ACImageView to the given degrees " alt="" coords="262,141,455,185"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_label.html#a40ac854db5d2fc0226c236d64db00be7" title="Rotates this ActionComponents.ACLabel to the given degrees " alt="" coords="262,209,455,253"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_view.html#a838db5230ddabac8d06284302e56106c" title="Rotates this ActionComponents.ACView to the given degrees " alt="" coords="265,277,453,321"/>
+<area shape="rect" id="node8" href="$class_action_components_1_1_a_c_web_view.html#a88ec56c70fbdf90bfd496ec6c763588a" title="Rotates this ActionComponents.ACWebView to the given degrees " alt="" coords="251,345,466,389"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_image_view.html#aae355d9ae09523dd9314b78733742036" title="Rotates the Image attached to this ActionComponents.ACImageView to the given degrees without rotating..." alt="" coords="515,73,709,117"/>
 </map>

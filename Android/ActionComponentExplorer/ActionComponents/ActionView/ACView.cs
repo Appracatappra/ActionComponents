@@ -1181,8 +1181,8 @@ namespace ActionComponents
 				//Inform caller of event
 				RaiseReleased ();
 
-				#if TRIAL && !EMBED
-				Android.Widget.Toast.MakeText(this.Context, "ActionView", Android.Widget.ToastLength.Short).Show();
+				#if TRIAL
+					Android.Widget.Toast.MakeText(this.Context, "ACView by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
 				#endif
 
 				//Inform system that we've handled this event 

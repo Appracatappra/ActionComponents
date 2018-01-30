@@ -241,7 +241,7 @@ namespace ActionComponents
 		/// Start downloading all files currently in the queue
 		/// </summary>
 		public void StartDownloading(){
-			
+
 			//Anything to do?
 			if (!_downloadItems.Any()) return;
 			
@@ -254,6 +254,7 @@ namespace ActionComponents
 			
 			//Kickoff the download process
 			DownloadNextFileInQueue();
+
 		}
 		
 		/// <summary>

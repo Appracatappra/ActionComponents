@@ -1,5 +1,11 @@
 var namespace_action_components =
 [
+    [ "ACAlert", "class_action_components_1_1_a_c_alert.html", "class_action_components_1_1_a_c_alert" ],
+    [ "ACAlertAppearance", "class_action_components_1_1_a_c_alert_appearance.html", "class_action_components_1_1_a_c_alert_appearance" ],
+    [ "ACAlertButton", "class_action_components_1_1_a_c_alert_button.html", "class_action_components_1_1_a_c_alert_button" ],
+    [ "ACAlertButtonAppearance", "class_action_components_1_1_a_c_alert_button_appearance.html", "class_action_components_1_1_a_c_alert_button_appearance" ],
+    [ "ACAlertDragConstraint", "class_action_components_1_1_a_c_alert_drag_constraint.html", "class_action_components_1_1_a_c_alert_drag_constraint" ],
+    [ "ACAlertOverlay", "class_action_components_1_1_a_c_alert_overlay.html", "class_action_components_1_1_a_c_alert_overlay" ],
     [ "ACDownloadItem", "class_action_components_1_1_a_c_download_item.html", "class_action_components_1_1_a_c_download_item" ],
     [ "ACDownloadManager", "class_action_components_1_1_a_c_download_manager.html", "class_action_components_1_1_a_c_download_manager" ],
     [ "ACImage", "class_action_components_1_1_a_c_image.html", "class_action_components_1_1_a_c_image" ],
@@ -13,6 +19,7 @@ var namespace_action_components =
     [ "ACNavBarPointer", "class_action_components_1_1_a_c_nav_bar_pointer.html", "class_action_components_1_1_a_c_nav_bar_pointer" ],
     [ "ACOval", "class_action_components_1_1_a_c_oval.html", "class_action_components_1_1_a_c_oval" ],
     [ "ACOvalAppearance", "class_action_components_1_1_a_c_oval_appearance.html", "class_action_components_1_1_a_c_oval_appearance" ],
+    [ "ACSlider", "class_action_components_1_1_a_c_slider.html", "class_action_components_1_1_a_c_slider" ],
     [ "ACTableItem", "class_action_components_1_1_a_c_table_item.html", "class_action_components_1_1_a_c_table_item" ],
     [ "ACTableSection", "class_action_components_1_1_a_c_table_section.html", "class_action_components_1_1_a_c_table_section" ],
     [ "ACTableViewController", "class_action_components_1_1_a_c_table_view_controller.html", "class_action_components_1_1_a_c_table_view_controller" ],

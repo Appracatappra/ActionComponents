@@ -85,9 +85,13 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Brightness.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Brightness.imageset\61-brightness.png" />
+    <ImageAsset Include="Assets.xcassets\Brightness.imageset\61-brightness%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\Brightness.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />

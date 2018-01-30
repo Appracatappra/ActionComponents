@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACAlertButton.Redraw" name="ActionComponents.ACAlertButton.Redraw">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_alert_button.html#a3bea0cd66f87465bd2bd1cf3c5654086" title="Sent when one or more fingers touches the screen. " alt="" coords="238,5,421,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_alert_button.html#a092a4709aa2b634965b25ae8377cf908" title="Send when one or more fingers are lifted from the screen. " alt="" coords="238,73,421,117"/>
+</map>

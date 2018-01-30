@@ -265,7 +265,7 @@ namespace ActionComponents
 				Redraw();
 
 				#if TRIAL 
-				Android.Widget.Toast.MakeText(this.Context, "ActionOval by Appracatappra", Android.Widget.ToastLength.Short).Show();
+				Android.Widget.Toast.MakeText(this.Context, "ACOval by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
 				#endif
 			};
 

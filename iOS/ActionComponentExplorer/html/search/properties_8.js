@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['icon',['icon',['../class_action_components_1_1_a_c_tray.html#aeec73247da4a0888d13a225e8004dbba',1,'ActionComponents::ACTray']]],
-  ['image',['image',['../class_action_components_1_1_a_c_table_item.html#ac4cc7fdb5627c1464358ee8a18bc2fff',1,'ActionComponents.ACTableItem.image()'],['../class_action_components_1_1_a_c_nav_bar_button_appearance.html#ab8baadd64ccef81ecec518a509c2c299',1,'ActionComponents.ACNavBarButtonAppearance.Image()'],['../class_action_components_1_1_a_c_oval.html#a0af7eb9b28318b456f0f26d28c3f83ec',1,'ActionComponents.ACOval.Image()'],['../class_action_components_1_1_a_c_oval_appearance.html#a151493cfb9071e9dd2074c64440aec0c',1,'ActionComponents.ACOvalAppearance.Image()']]],
+  ['icon',['icon',['../class_action_components_1_1_a_c_alert.html#a0bc05e1df30288fca96d662f236afd2e',1,'ActionComponents.ACAlert.icon()'],['../class_action_components_1_1_a_c_tray.html#aeec73247da4a0888d13a225e8004dbba',1,'ActionComponents.ACTray.icon()'],['../class_action_components_1_1_a_c_slider.html#a670cc9608e460c43f363b3cc20459601',1,'ActionComponents.ACSlider.Icon()']]],
+  ['image',['Image',['../class_action_components_1_1_a_c_nav_bar_button_appearance.html#ab8baadd64ccef81ecec518a509c2c299',1,'ActionComponents.ACNavBarButtonAppearance.Image()'],['../class_action_components_1_1_a_c_oval.html#a0af7eb9b28318b456f0f26d28c3f83ec',1,'ActionComponents.ACOval.Image()'],['../class_action_components_1_1_a_c_oval_appearance.html#a151493cfb9071e9dd2074c64440aec0c',1,'ActionComponents.ACOvalAppearance.Image()'],['../class_action_components_1_1_a_c_table_item.html#ac4cc7fdb5627c1464358ee8a18bc2fff',1,'ActionComponents.ACTableItem.image()']]],
   ['imagefile',['imageFile',['../class_action_components_1_1_a_c_table_item.html#a4d1f15bdb3a2d9870a95dd59e54dd7a6',1,'ActionComponents::ACTableItem']]],
   ['imageheight',['ImageHeight',['../class_action_components_1_1_a_c_oval.html#af4abf0b9ceded0ee1e27630b7b3c4c2f',1,'ActionComponents.ACOval.ImageHeight()'],['../class_action_components_1_1_a_c_oval_appearance.html#ac1191104e0a95d17e931a147d907494e',1,'ActionComponents.ACOvalAppearance.ImageHeight()']]],
   ['imageplacement',['ImagePlacement',['../class_action_components_1_1_a_c_oval.html#ab1fc71cad33bb78468b0e5c1b97f1e76',1,'ActionComponents.ACOval.ImagePlacement()'],['../class_action_components_1_1_a_c_oval_appearance.html#a93b7920b040a7407be86541bdcf4e30c',1,'ActionComponents.ACOvalAppearance.ImagePlacement()']]],
@@ -22,7 +22,9 @@ var searchData=
   ['isopened',['isOpened',['../class_action_components_1_1_a_c_tray.html#a5ae6ff22f569eb218e3066bfe8f602fd',1,'ActionComponents::ACTray']]],
   ['ispad',['isPad',['../class_action_components_1_1i_o_s_device.html#afae3ded890474a70217149c7020a402e',1,'ActionComponents::iOSDevice']]],
   ['isphone',['isPhone',['../class_action_components_1_1i_o_s_device.html#a5981a6dc287f7d99589e23b1202f37d5',1,'ActionComponents::iOSDevice']]],
+  ['isrect',['isRect',['../class_action_components_1_1_a_c_alert_appearance.html#aca3fcbfe54bde0bb81414d359bac5f4d',1,'ActionComponents::ACAlertAppearance']]],
   ['isretina',['isRetina',['../class_action_components_1_1i_o_s_device.html#a495c1984dc0f41cf2135bd1a168d86b6',1,'ActionComponents::iOSDevice']]],
+  ['isroundrect',['isRoundRect',['../class_action_components_1_1_a_c_alert_appearance.html#ae835f1f350574b24f481cf7452d08fac',1,'ActionComponents::ACAlertAppearance']]],
   ['issuspended',['isSuspended',['../class_action_components_1_1_a_c_download_manager.html#aef05ea0a39020c1c8f46395bc40ab844',1,'ActionComponents::ACDownloadManager']]],
   ['items',['items',['../class_action_components_1_1_a_c_table_section.html#a2b399e1a4cacd12b886eb852f0ddf873',1,'ActionComponents::ACTableSection']]]
 ];

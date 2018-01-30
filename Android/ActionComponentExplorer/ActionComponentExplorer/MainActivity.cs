@@ -1,6 +1,8 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using ActionComponents;
+using Android.Graphics;
 
 namespace ActionComponentExplorer
 {
@@ -18,9 +20,21 @@ namespace ActionComponentExplorer
 
 			// Get our button from the layout resource,
 			// and attach an event to it
-			Button button = FindViewById<Button>(Resource.Id.myButton);
+			//Button button = FindViewById<Button>(Resource.Id.myButton);
 
-			button.Click += delegate { button.Text = $"{count++} clicks!"; };
+			//button.Click += delegate { button.Text = $"{count++} clicks!"; };
+
+			// Access the slider
+			var slider = FindViewById<ACSlider>(Resource.Id.brightnessSlider);
+			slider.Icon = BitmapFactory.DecodeResource(Resources, Resource.Drawable.iconBrightness);
+
+			// Access text
+			var brightnessLevel = FindViewById<TextView>(Resource.Id.brightnessLevel);
+
+			// Wire-up changes
+			slider.ValueChanged += (fillPercent) => {
+				brightnessLevel.Text = $"{fillPercent}%";
+			};
 		}
 	}
 }

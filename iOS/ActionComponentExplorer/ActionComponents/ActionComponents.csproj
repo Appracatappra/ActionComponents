@@ -62,6 +62,7 @@
     <Folder Include="ActionTray\" />
     <Folder Include="DownloadManager\" />
     <Folder Include="ActionAlert\" />
+    <Folder Include="ActionSlider\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="ActionAlert\ACAlertLocation.cs" />
     <Compile Include="ActionAlert\ACAlertOverlay.cs" />
     <Compile Include="ActionAlert\ACAlertType.cs" />
+    <Compile Include="ActionSlider\ACSlider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
