@@ -5,20 +5,22 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-    <ActionComponents.ACSlider
-        android:minHeight="200px"
-        android:layout_width="100dp"
-        android:layout_height="200dp"
-        android:id="@+id/brightnessSlider"
-        android:layout_gravity="center_horizontal"
-        android:minWidth="100px"
-        android:paddingTop="10dp" />
-    <TextView
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/brightnessLevel"
-        android:text="50%"
-        android:gravity="center_horizontal"
-        android:paddingTop="10dp" />
+    <ActionComponents.ACHueBar
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:id="@+id/hueBar"
+        android:minWidth="256px"
+        android:minHeight="50px" />
+    <ActionComponents.ACColorCube
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:id="@+id/colorCube" />
+    <ActionComponents.ACColorWell
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:id="@+id/colorWell" />
 </LinearLayout>

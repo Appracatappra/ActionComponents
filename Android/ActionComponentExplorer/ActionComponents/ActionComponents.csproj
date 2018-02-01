@@ -105,6 +105,14 @@
     <Compile Include="ActionNavBar\ACNavBarPointer.cs" />
     <Compile Include="ActionNavBar\ACVerticalTextView.cs" />
     <Compile Include="ActionSlider\ACSlider.cs" />
+    <Compile Include="ActionColorPicker\HSVColor.cs" />
+    <Compile Include="ActionColorPicker\RGBColor.cs" />
+    <Compile Include="ActionColorPicker\ACHueBarComponentIndex.cs" />
+    <Compile Include="ActionColorPicker\HSVImage.cs" />
+    <Compile Include="ActionColorPicker\ACColorIndicator.cs" />
+    <Compile Include="ActionColorPicker\ACColorWell.cs" />
+    <Compile Include="ActionColorPicker\ACHueBar.cs" />
+    <Compile Include="ActionColorPicker\ACColorCube.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -123,6 +131,7 @@
     <Folder Include="DownloadManager\" />
     <Folder Include="ActionNavBar\" />
     <Folder Include="ActionSlider\" />
+    <Folder Include="ActionColorPicker\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

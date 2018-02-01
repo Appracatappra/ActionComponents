@@ -26,7 +26,6 @@ namespace ActionComponentExplorer
 		
 		public static void UpdateIdValues()
 		{
-			global::ActionComponents.Resource.String.library_name = global::ActionComponentExplorer.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -62,10 +61,13 @@ namespace ActionComponentExplorer
 		{
 			
 			// aapt resource value: 0x7f060001
-			public const int brightnessLevel = 2131099649;
+			public const int colorCube = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int colorWell = 2131099650;
 			
 			// aapt resource value: 0x7f060000
-			public const int brightnessSlider = 2131099648;
+			public const int hueBar = 2131099648;
 			
 			static Id()
 			{
@@ -112,14 +114,11 @@ namespace ActionComponentExplorer
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int app_name = 2131034114;
-			
 			// aapt resource value: 0x7f050001
-			public const int hello = 2131034113;
+			public const int app_name = 2131034113;
 			
 			// aapt resource value: 0x7f050000
-			public const int library_name = 2131034112;
+			public const int hello = 2131034112;
 			
 			static String()
 			{

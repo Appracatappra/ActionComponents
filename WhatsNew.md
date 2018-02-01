@@ -1,3 +1,15 @@
+###Version 04.02###
+
+The following features and bug fixes have been added to `ActionComponents` in version 04.02:
+
+* **Action Color Picker** - Added the Action Color Picker control.
+
+###Version 04.01###
+
+The following features and bug fixes have been added to `ActionComponents` in version 04.01:
+
+* **Action Slider** - Added the Action Slider control.
+
 ###Version 04.00###
 
 The following features and bug fixes have been added to `ActionComponents` in version 04.00:

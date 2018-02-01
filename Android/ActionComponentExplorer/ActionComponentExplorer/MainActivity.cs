@@ -23,17 +23,22 @@ namespace ActionComponentExplorer
 			//Button button = FindViewById<Button>(Resource.Id.myButton);
 
 			//button.Click += delegate { button.Text = $"{count++} clicks!"; };
+			// RunOnUiThread(() => colorTest.SetImageBitmap(image));
 
-			// Access the slider
-			var slider = FindViewById<ACSlider>(Resource.Id.brightnessSlider);
-			slider.Icon = BitmapFactory.DecodeResource(Resources, Resource.Drawable.iconBrightness);
+			// Testing
+			var hueBar = FindViewById<ACHueBar>(Resource.Id.hueBar);
+			var colorCube = FindViewById<ACColorCube>(Resource.Id.colorCube);
+			var colorWell = FindViewById<ACColorWell>(Resource.Id.colorWell);
 
-			// Access text
-			var brightnessLevel = FindViewById<TextView>(Resource.Id.brightnessLevel);
+			// Wireup the color bar
+			hueBar.HueChanged += (hue) => {
+				// Set new cube hue
+				colorCube.Hue = hue;
+			};
 
-			// Wire-up changes
-			slider.ValueChanged += (fillPercent) => {
-				brightnessLevel.Text = $"{fillPercent}%";
+			// Wireup color cube
+			colorCube.ColorChanged += (color) => {
+				colorWell.CurrentColor = color;
 			};
 		}
 	}
