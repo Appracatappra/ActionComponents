@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['saturationbrightnesssquareimage',['SaturationBrightnessSquareImage',['../class_action_components_1_1_h_s_v_image.html#a31e9cc5016853c70eaa4ac3a8d302798',1,'ActionComponents::HSVImage']]],
   ['sectionatindex',['SectionAtIndex',['../class_action_components_1_1_a_c_table_view_data_source.html#a0390f4fafcce3cc7f7edcbead3d760ff',1,'ActionComponents.ACTableViewDataSource.SectionAtIndex(ACTableIndex index)'],['../class_action_components_1_1_a_c_table_view_data_source.html#a3ea227faf02fd5b4b7ccab1db92e2c47',1,'ActionComponents.ACTableViewDataSource.SectionAtIndex(int position)']]],
   ['sectionfootertoucheddelegate',['SectionFooterTouchedDelegate',['../class_action_components_1_1_a_c_table_section.html#a4f6cfb3d57dee03d26a957d57842bd02',1,'ActionComponents::ACTableSection']]],
   ['sectionheadertoucheddelegate',['SectionHeaderTouchedDelegate',['../class_action_components_1_1_a_c_table_section.html#a3c23eb7f3f3caec3c789499af77546f5',1,'ActionComponents::ACTableSection']]],

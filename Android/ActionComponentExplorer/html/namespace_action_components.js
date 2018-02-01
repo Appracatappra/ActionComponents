@@ -6,8 +6,12 @@ var namespace_action_components =
     [ "ACAlertButtonAppearance", "class_action_components_1_1_a_c_alert_button_appearance.html", "class_action_components_1_1_a_c_alert_button_appearance" ],
     [ "ACAlertDragConstraint", "class_action_components_1_1_a_c_alert_drag_constraint.html", "class_action_components_1_1_a_c_alert_drag_constraint" ],
     [ "ACAlertOverlay", "class_action_components_1_1_a_c_alert_overlay.html", "class_action_components_1_1_a_c_alert_overlay" ],
+    [ "ACColorCube", "class_action_components_1_1_a_c_color_cube.html", "class_action_components_1_1_a_c_color_cube" ],
+    [ "ACColorIndicator", "class_action_components_1_1_a_c_color_indicator.html", "class_action_components_1_1_a_c_color_indicator" ],
+    [ "ACColorWell", "class_action_components_1_1_a_c_color_well.html", "class_action_components_1_1_a_c_color_well" ],
     [ "ACDownloadItem", "class_action_components_1_1_a_c_download_item.html", "class_action_components_1_1_a_c_download_item" ],
     [ "ACDownloadManager", "class_action_components_1_1_a_c_download_manager.html", "class_action_components_1_1_a_c_download_manager" ],
+    [ "ACHueBar", "class_action_components_1_1_a_c_hue_bar.html", "class_action_components_1_1_a_c_hue_bar" ],
     [ "ACImage", "class_action_components_1_1_a_c_image.html", "class_action_components_1_1_a_c_image" ],
     [ "ACImageInfo", "class_action_components_1_1_a_c_image_info.html", "class_action_components_1_1_a_c_image_info" ],
     [ "ACImageView", "class_action_components_1_1_a_c_image_view.html", "class_action_components_1_1_a_c_image_view" ],
@@ -36,5 +40,8 @@ var namespace_action_components =
     [ "ACViewController", "class_action_components_1_1_a_c_view_controller.html", "class_action_components_1_1_a_c_view_controller" ],
     [ "ACViewDragConstraint", "class_action_components_1_1_a_c_view_drag_constraint.html", "class_action_components_1_1_a_c_view_drag_constraint" ],
     [ "ACWebView", "class_action_components_1_1_a_c_web_view.html", "class_action_components_1_1_a_c_web_view" ],
-    [ "Resource", "class_action_components_1_1_resource.html", "class_action_components_1_1_resource" ]
+    [ "HSVColor", "class_action_components_1_1_h_s_v_color.html", "class_action_components_1_1_h_s_v_color" ],
+    [ "HSVImage", "class_action_components_1_1_h_s_v_image.html", "class_action_components_1_1_h_s_v_image" ],
+    [ "Resource", "class_action_components_1_1_resource.html", "class_action_components_1_1_resource" ],
+    [ "RGBColor", "class_action_components_1_1_r_g_b_color.html", "class_action_components_1_1_r_g_b_color" ]
 ];

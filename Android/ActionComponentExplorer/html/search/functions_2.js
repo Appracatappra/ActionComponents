@@ -8,6 +8,7 @@ var searchData=
   ['clone',['Clone',['../class_action_components_1_1_a_c_nav_bar_button_appearance.html#a9d89d4bb786473bbfb8c9317abb28755',1,'ActionComponents::ACNavBarButtonAppearance']]],
   ['closealltrays',['CloseAllTrays',['../class_action_components_1_1_a_c_tray_manager.html#a556d9ea4fca4954ccb4d41370b86d110',1,'ActionComponents::ACTrayManager']]],
   ['closetray',['CloseTray',['../class_action_components_1_1_a_c_tray.html#a81588bb8494487fffa78627456ea3590',1,'ActionComponents::ACTray']]],
+  ['colorchangeddelegate',['ColorChangedDelegate',['../class_action_components_1_1_a_c_color_cube.html#a446e1e27bc131586a46cc7da1aed6b8a',1,'ActionComponents::ACColorCube']]],
   ['constraintchangeddelegate',['ConstraintChangedDelegate',['../class_action_components_1_1_a_c_alert_drag_constraint.html#a69b961f8a3f73a34e313452f90ea8e02',1,'ActionComponents.ACAlertDragConstraint.ConstraintChangedDelegate()'],['../class_action_components_1_1_a_c_view_drag_constraint.html#a9d6cd82f941511bc353baf069bd915ca',1,'ActionComponents.ACViewDragConstraint.ConstraintChangedDelegate()']]],
   ['customdrawdragtabdelegate',['CustomDrawDragTabDelegate',['../class_action_components_1_1_a_c_tray.html#aeb06af51a4d7cb85898d37b4c10ba502',1,'ActionComponents::ACTray']]]
 ];

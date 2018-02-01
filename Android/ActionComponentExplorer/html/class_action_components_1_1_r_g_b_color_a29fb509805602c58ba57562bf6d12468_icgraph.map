@@ -1,0 +1,4 @@
+<map id="ActionComponents.RGBColor.ToHSV" name="ActionComponents.RGBColor.ToHSV">
+<area shape="rect" id="node2" href="$class_action_components_1_1_h_s_v_color.html#a0c3401c5b984ec4427468ef5056c417c" title="Sets the value of this HSV color from the given RGB color " alt="" coords="256,5,456,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_h_s_v_color.html#a975832f874f7d4687e3a196d03fa0bbf" title="Initializes a new instance of the T:ActionComponents.HSVColor class. " alt="" coords="504,5,704,49"/>
+</map>

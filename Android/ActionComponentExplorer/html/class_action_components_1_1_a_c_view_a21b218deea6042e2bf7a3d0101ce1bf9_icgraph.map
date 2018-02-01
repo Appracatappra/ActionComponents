@@ -1,3 +1,5 @@
 <map id="ActionComponents.ACView.MoveToPoint" name="ActionComponents.ACView.MoveToPoint">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_view.html#afd2d770ca671a721c8a71f063cbdb249" title="Raises the touch event event. " alt="" coords="243,5,431,49"/>
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color_cube.html#aa2fcb52667629ff825f0058d42331d2c" title="Redraw this ActionComponents.ACOval. " alt="" coords="251,5,439,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_hue_bar.html#ac7240b2cac573c1492fae4cd27dab09f" title="Redraw this ActionComponents.ACOval. " alt="" coords="243,73,448,117"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_view.html#afd2d770ca671a721c8a71f063cbdb249" title="Raises the touch event event. " alt="" coords="251,141,439,185"/>
 </map>

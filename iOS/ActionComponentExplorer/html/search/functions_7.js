@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['layoutsubviews',['LayoutSubviews',['../class_action_components_1_1_a_c_nav_bar.html#a0ba739333f5c14b26dcb9bfc81ba0bd8',1,'ActionComponents.ACNavBar.LayoutSubviews()'],['../class_action_components_1_1_a_c_tray.html#aa46a1e69090368c896d47fd92b6e3084',1,'ActionComponents.ACTray.LayoutSubviews()']]],
-  ['loaddata',['LoadData',['../class_action_components_1_1_a_c_table_view_controller.html#a68db3cabd9ac223edf1a11113cb48a06',1,'ActionComponents.ACTableViewController.LoadData()'],['../class_action_components_1_1_a_c_table_view_data_source.html#ab101b68869ca1f836225863839f982d4',1,'ActionComponents.ACTableViewDataSource.LoadData()']]],
-  ['loadfile',['LoadFile',['../class_action_components_1_1_a_c_web_view.html#ac5c11fe86166fc8646e65b71e236f7d1',1,'ActionComponents::ACWebView']]],
-  ['loadmarkdown',['LoadMarkdown',['../class_action_components_1_1_a_c_web_view.html#aac99ca7a03f8f2ef809f45468829e993',1,'ActionComponents::ACWebView']]],
-  ['loadurl',['LoadURL',['../class_action_components_1_1_a_c_web_view.html#a68b3f5f3d63d4a0976a543e4eaa30538',1,'ActionComponents.ACWebView.LoadURL(string url)'],['../class_action_components_1_1_a_c_web_view.html#ab08f28f1ba4e791f19ab98a58efc2d40',1,'ActionComponents.ACWebView.LoadURL(NSUrl url)']]]
+  ['hide',['Hide',['../class_action_components_1_1_a_c_alert.html#a39190984ed21c28b8a64d49de68aaef3',1,'ActionComponents::ACAlert']]],
+  ['hidetoast',['HideToast',['../class_action_components_1_1_a_c_toast.html#aac02447ee45d628c713b82652d15603b',1,'ActionComponents::ACToast']]],
+  ['hittest',['HitTest',['../class_action_components_1_1_a_c_tray.html#a367f3b8f8f5cee82c93f7329594f1e9d',1,'ActionComponents::ACTray']]],
+  ['hsvcolor',['HSVColor',['../class_action_components_1_1_h_s_v_color.html#ae82e4c3618fe67eacf132ca82349eaf4',1,'ActionComponents.HSVColor.HSVColor()'],['../class_action_components_1_1_h_s_v_color.html#a43dc37a776f8a74a5ce77621cab7008b',1,'ActionComponents.HSVColor.HSVColor(nfloat hue, nfloat saturation, nfloat value)'],['../class_action_components_1_1_h_s_v_color.html#a975832f874f7d4687e3a196d03fa0bbf',1,'ActionComponents.HSVColor.HSVColor(RGBColor color)'],['../class_action_components_1_1_h_s_v_color.html#a360d7b7dac149d3df05403444a3a8b70',1,'ActionComponents.HSVColor.HSVColor(UIColor color)']]],
+  ['hsvimage',['HSVImage',['../class_action_components_1_1_h_s_v_image.html#a17728e1c3ae1f747bb4a230f1f4ef42a',1,'ActionComponents::HSVImage']]],
+  ['huebarimage',['HueBarImage',['../class_action_components_1_1_h_s_v_image.html#a29fc8477a1c79bd5fffe8afcde3dbe6c',1,'ActionComponents::HSVImage']]],
+  ['huechangeddelegate',['HueChangedDelegate',['../class_action_components_1_1_a_c_hue_bar.html#a92f66d5a68988a061241992dab0cd250',1,'ActionComponents::ACHueBar']]],
+  ['huetorgb',['HueToRGB',['../class_action_components_1_1_h_s_v_color.html#a0bd45510065be28103ad0793cb48be5a',1,'ActionComponents::HSVColor']]]
 ];

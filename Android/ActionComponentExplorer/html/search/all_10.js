@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['saturation',['Saturation',['../class_action_components_1_1_a_c_color_cube.html#a538cc3004fcc099272ee6a119d07c7b8',1,'ActionComponents.ACColorCube.Saturation()'],['../class_action_components_1_1_h_s_v_color.html#aff0bc2c6d4eb72765655cf8a699dbe7f',1,'ActionComponents.HSVColor.Saturation()']]],
+  ['saturationbrightnesssquareimage',['SaturationBrightnessSquareImage',['../class_action_components_1_1_h_s_v_image.html#a31e9cc5016853c70eaa4ac3a8d302798',1,'ActionComponents::HSVImage']]],
   ['savestate',['SaveState',['../class_action_components_1_1_a_c_tray.html#ac6925d307f65df8b07588bf1980a7440',1,'ActionComponents::ACTray']]],
   ['scaletofit',['ScaleToFit',['../namespace_action_components.html#a7824fd30370037c629e0b16fafa570c0a1f0f871b0e02aff8c13b52838c98b3b4',1,'ActionComponents']]],
   ['section',['section',['../class_action_components_1_1_a_c_table_cell.html#a6296400a95bd5ddd66bb29bc19dbc35b',1,'ActionComponents::ACTableCell']]],

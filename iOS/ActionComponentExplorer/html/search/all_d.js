@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['parentviewcontroller',['ParentViewController',['../class_action_components_1_1_a_c_color_well.html#a292ebcf0723be5503ffcafb9248f4dfc',1,'ActionComponents::ACColorWell']]],
+  ['pin',['Pin',['../class_action_components_1_1_h_s_v_image.html#a72b1f08a5382b44f1d3a17adf91122ab',1,'ActionComponents::HSVImage']]],
   ['plain',['Plain',['../namespace_action_components.html#ae5a301965be44c241e9acc69e54e0e2ca4cd8413207629a963225f4314b53adcd',1,'ActionComponents']]],
   ['pointer',['Pointer',['../class_action_components_1_1_a_c_nav_bar.html#a20d6139b8bf742687b18e9b56b910d15',1,'ActionComponents::ACNavBar']]],
   ['pointerhidden',['PointerHidden',['../class_action_components_1_1_a_c_nav_bar.html#a8981ede4d4ffd1d5cbe0f5758f9a45eb',1,'ActionComponents::ACNavBar']]],

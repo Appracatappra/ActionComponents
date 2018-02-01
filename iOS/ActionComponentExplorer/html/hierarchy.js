@@ -15,6 +15,8 @@ var hierarchy =
     [ "ActionComponents.ACTrayAppearance", "class_action_components_1_1_a_c_tray_appearance.html", null ],
     [ "ActionComponents.ACTrayManager", "class_action_components_1_1_a_c_tray_manager.html", null ],
     [ "ActionComponents.ACViewDragConstraint", "class_action_components_1_1_a_c_view_drag_constraint.html", null ],
+    [ "ActionComponents.HSVColor", "class_action_components_1_1_h_s_v_color.html", null ],
+    [ "ActionComponents.HSVImage", "class_action_components_1_1_h_s_v_image.html", null ],
     [ "IEnumerable", null, [
       [ "ActionComponents.ACNavBarButtonCollection", "class_action_components_1_1_a_c_nav_bar_button_collection.html", null ]
     ] ],
@@ -27,7 +29,10 @@ var hierarchy =
     [ "NSObject", null, [
       [ "ActionComponents.ACToast", "class_action_components_1_1_a_c_toast.html", null ]
     ] ],
+    [ "ActionComponents.RGBColor", "class_action_components_1_1_r_g_b_color.html", null ],
     [ "UIImageView", null, [
+      [ "ActionComponents.ACColorCube", "class_action_components_1_1_a_c_color_cube.html", null ],
+      [ "ActionComponents.ACHueBar", "class_action_components_1_1_a_c_hue_bar.html", null ],
       [ "ActionComponents.ACImageView", "class_action_components_1_1_a_c_image_view.html", null ]
     ] ],
     [ "UILabel", null, [
@@ -46,6 +51,9 @@ var hierarchy =
       [ "ActionComponents.ACAlert", "class_action_components_1_1_a_c_alert.html", null ],
       [ "ActionComponents.ACAlertButton", "class_action_components_1_1_a_c_alert_button.html", null ],
       [ "ActionComponents.ACAlertOverlay", "class_action_components_1_1_a_c_alert_overlay.html", null ],
+      [ "ActionComponents.ACColorIndicator", "class_action_components_1_1_a_c_color_indicator.html", null ],
+      [ "ActionComponents.ACColorPickerView", "class_action_components_1_1_a_c_color_picker_view.html", null ],
+      [ "ActionComponents.ACColorWell", "class_action_components_1_1_a_c_color_well.html", null ],
       [ "ActionComponents.ACNavBar", "class_action_components_1_1_a_c_nav_bar.html", null ],
       [ "ActionComponents.ACNavBarButton", "class_action_components_1_1_a_c_nav_bar_button.html", null ],
       [ "ActionComponents.ACNavBarButtonCollection", "class_action_components_1_1_a_c_nav_bar_button_collection.html", null ],
@@ -55,6 +63,9 @@ var hierarchy =
       [ "ActionComponents.ACView", "class_action_components_1_1_a_c_view.html", [
         [ "ActionComponents.ACOval", "class_action_components_1_1_a_c_oval.html", null ]
       ] ]
+    ] ],
+    [ "UIViewController", null, [
+      [ "ActionComponents.ACColorPickerViewController", "class_action_components_1_1_a_c_color_picker_view_controller.html", null ]
     ] ],
     [ "UIWebView", null, [
       [ "ActionComponents.ACWebView", "class_action_components_1_1_a_c_web_view.html", null ]

@@ -1,0 +1,5 @@
+<map id="ActionComponents.RGBColor.RGBColor" name="ActionComponents.RGBColor.RGBColor">
+<area shape="rect" id="node2" href="$class_action_components_1_1_r_g_b_color.html#ae12c4b30555cf2f747428544b2682b7f" title="Sets the value of this RGB color from the give HSV color " alt="" coords="257,5,458,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_h_s_v_color.html#a1805b0778173eadbd04d8ffbde4de020" title="Converts the current HSV color to an RGB color. " alt="" coords="507,5,707,49"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_h_s_v_color.html#a0cb7bafd327952d00a8c44d01b869381" title="Converts a given hue value into its Red, Green, Blue component factors " alt="" coords="755,5,955,49"/>
+</map>

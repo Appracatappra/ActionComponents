@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['iosdevice',['iOSDevice',['../class_action_components_1_1i_o_s_device.html',1,'ActionComponents']]]
+  ['hsvcolor',['HSVColor',['../class_action_components_1_1_h_s_v_color.html',1,'ActionComponents']]],
+  ['hsvimage',['HSVImage',['../class_action_components_1_1_h_s_v_image.html',1,'ActionComponents']]]
 ];

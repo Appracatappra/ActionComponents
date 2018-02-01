@@ -1,0 +1,5 @@
+<map id="ActionComponents.HSVColor.HueToRGB" name="ActionComponents.HSVColor.HueToRGB">
+<area shape="rect" id="node2" href="$class_action_components_1_1_h_s_v_color.html#a1805b0778173eadbd04d8ffbde4de020" title="Converts the current HSV color to an RGB color. " alt="" coords="253,5,453,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_r_g_b_color.html#ae12c4b30555cf2f747428544b2682b7f" title="Sets the value of this RGB color from the give HSV color " alt="" coords="502,5,703,49"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_r_g_b_color.html#a7a5ede5330816f1a7422e52dc4d4aea3" title="Initializes a new instance of the ActionHSBColorPicker.RGBColor class. " alt="" coords="753,5,954,49"/>
+</map>

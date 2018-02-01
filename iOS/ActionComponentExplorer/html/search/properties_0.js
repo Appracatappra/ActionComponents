@@ -20,5 +20,6 @@ var searchData=
   ['attachedviewcontroller',['AttachedViewController',['../class_action_components_1_1_a_c_nav_bar_button.html#a1ac4ec99eee706377202935007187c5d',1,'ActionComponents::ACNavBarButton']]],
   ['autohyperlink',['AutoHyperlink',['../class_markdown_sharp_1_1_markdown_options.html#a1f699b7b1103345554dd417d42b3a181',1,'MarkdownSharp.MarkdownOptions.AutoHyperlink()'],['../class_markdown_sharp_1_1_markdown.html#ad5fb7c2eff5e82b18ce17b511dbec7bb',1,'MarkdownSharp.Markdown.AutoHyperlink()']]],
   ['autonewlines',['AutoNewlines',['../class_markdown_sharp_1_1_markdown_options.html#a2be42a4e2abb4317bf84196e3ba71c59',1,'MarkdownSharp.MarkdownOptions.AutoNewlines()'],['../class_markdown_sharp_1_1_markdown.html#a02a648c35571acee5b3b0568683bc8e3',1,'MarkdownSharp.Markdown.AutoNewLines()']]],
+  ['autopresenthsbcolorpicker',['AutoPresentHSBColorPicker',['../class_action_components_1_1_a_c_color_well.html#afdd778ea90fddf6f8a663477fcc95b58',1,'ActionComponents::ACColorWell']]],
   ['availablescreenbounds',['AvailableScreenBounds',['../class_action_components_1_1i_o_s_device.html#a93ab53c1cc0bea6415a733a6c06b99c1',1,'ActionComponents::iOSDevice']]]
 ];

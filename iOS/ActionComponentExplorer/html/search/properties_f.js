@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['saturation',['Saturation',['../class_action_components_1_1_a_c_color_cube.html#a23203727d29fa57d53aea9788a82d5cb',1,'ActionComponents.ACColorCube.Saturation()'],['../class_action_components_1_1_h_s_v_color.html#a10593c2d13d5219788bc7c299074d54d',1,'ActionComponents.HSVColor.Saturation()']]],
   ['sectioncellid',['sectionCellID',['../class_action_components_1_1_a_c_table_section.html#a5a88e880d0dfd899d81e27e7b4a8dce6',1,'ActionComponents::ACTableSection']]],
   ['sections',['sections',['../class_action_components_1_1_a_c_table_view_data_source.html#a99fb778e0d6d037e151d95c11b481138',1,'ActionComponents::ACTableViewDataSource']]],
   ['selectedbutton',['SelectedButton',['../class_action_components_1_1_a_c_nav_bar.html#a55ff056c033499c2e7d603c455d6a1c8',1,'ActionComponents::ACNavBar']]],

@@ -6,8 +6,14 @@ var namespace_action_components =
     [ "ACAlertButtonAppearance", "class_action_components_1_1_a_c_alert_button_appearance.html", "class_action_components_1_1_a_c_alert_button_appearance" ],
     [ "ACAlertDragConstraint", "class_action_components_1_1_a_c_alert_drag_constraint.html", "class_action_components_1_1_a_c_alert_drag_constraint" ],
     [ "ACAlertOverlay", "class_action_components_1_1_a_c_alert_overlay.html", "class_action_components_1_1_a_c_alert_overlay" ],
+    [ "ACColorCube", "class_action_components_1_1_a_c_color_cube.html", "class_action_components_1_1_a_c_color_cube" ],
+    [ "ACColorIndicator", "class_action_components_1_1_a_c_color_indicator.html", "class_action_components_1_1_a_c_color_indicator" ],
+    [ "ACColorPickerView", "class_action_components_1_1_a_c_color_picker_view.html", "class_action_components_1_1_a_c_color_picker_view" ],
+    [ "ACColorPickerViewController", "class_action_components_1_1_a_c_color_picker_view_controller.html", "class_action_components_1_1_a_c_color_picker_view_controller" ],
+    [ "ACColorWell", "class_action_components_1_1_a_c_color_well.html", "class_action_components_1_1_a_c_color_well" ],
     [ "ACDownloadItem", "class_action_components_1_1_a_c_download_item.html", "class_action_components_1_1_a_c_download_item" ],
     [ "ACDownloadManager", "class_action_components_1_1_a_c_download_manager.html", "class_action_components_1_1_a_c_download_manager" ],
+    [ "ACHueBar", "class_action_components_1_1_a_c_hue_bar.html", "class_action_components_1_1_a_c_hue_bar" ],
     [ "ACImage", "class_action_components_1_1_a_c_image.html", "class_action_components_1_1_a_c_image" ],
     [ "ACImageView", "class_action_components_1_1_a_c_image_view.html", "class_action_components_1_1_a_c_image_view" ],
     [ "ACLabel", "class_action_components_1_1_a_c_label.html", "class_action_components_1_1_a_c_label" ],
@@ -33,5 +39,8 @@ var namespace_action_components =
     [ "ACView", "class_action_components_1_1_a_c_view.html", "class_action_components_1_1_a_c_view" ],
     [ "ACViewDragConstraint", "class_action_components_1_1_a_c_view_drag_constraint.html", "class_action_components_1_1_a_c_view_drag_constraint" ],
     [ "ACWebView", "class_action_components_1_1_a_c_web_view.html", "class_action_components_1_1_a_c_web_view" ],
-    [ "iOSDevice", "class_action_components_1_1i_o_s_device.html", "class_action_components_1_1i_o_s_device" ]
+    [ "HSVColor", "class_action_components_1_1_h_s_v_color.html", "class_action_components_1_1_h_s_v_color" ],
+    [ "HSVImage", "class_action_components_1_1_h_s_v_image.html", "class_action_components_1_1_h_s_v_image" ],
+    [ "iOSDevice", "class_action_components_1_1i_o_s_device.html", "class_action_components_1_1i_o_s_device" ],
+    [ "RGBColor", "class_action_components_1_1_r_g_b_color.html", "class_action_components_1_1_r_g_b_color" ]
 ];

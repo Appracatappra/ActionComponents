@@ -25,6 +25,8 @@ var hierarchy =
     [ "BaseAdapter", null, [
       [ "ActionComponents.ACTableViewDataSource", "class_action_components_1_1_a_c_table_view_data_source.html", null ]
     ] ],
+    [ "ActionComponents.HSVColor", "class_action_components_1_1_h_s_v_color.html", null ],
+    [ "ActionComponents.HSVImage", "class_action_components_1_1_h_s_v_image.html", null ],
     [ "ImageView", null, [
       [ "ActionComponents.ACImageView", "class_action_components_1_1_a_c_image_view.html", null ]
     ] ],
@@ -39,11 +41,16 @@ var hierarchy =
       [ "ActionComponents.ACTableCell", "class_action_components_1_1_a_c_table_cell.html", null ],
       [ "ActionComponents.ACTray", "class_action_components_1_1_a_c_tray.html", null ],
       [ "ActionComponents.ACView", "class_action_components_1_1_a_c_view.html", [
+        [ "ActionComponents.ACColorCube", "class_action_components_1_1_a_c_color_cube.html", null ],
+        [ "ActionComponents.ACColorIndicator", "class_action_components_1_1_a_c_color_indicator.html", null ],
+        [ "ActionComponents.ACColorWell", "class_action_components_1_1_a_c_color_well.html", null ],
+        [ "ActionComponents.ACHueBar", "class_action_components_1_1_a_c_hue_bar.html", null ],
         [ "ActionComponents.ACOval", "class_action_components_1_1_a_c_oval.html", null ],
         [ "ActionComponents.ACSlider", "class_action_components_1_1_a_c_slider.html", null ]
       ] ]
     ] ],
     [ "ActionComponents.Resource", "class_action_components_1_1_resource.html", null ],
+    [ "ActionComponents.RGBColor", "class_action_components_1_1_r_g_b_color.html", null ],
     [ "ScrollView", null, [
       [ "ActionComponents.ACTableViewController", "class_action_components_1_1_a_c_table_view_controller.html", null ]
     ] ],

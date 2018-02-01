@@ -21,5 +21,8 @@ var searchData=
   ['frametype',['frameType',['../class_action_components_1_1_a_c_tray.html#a0bf60777387dafbb634b1da3836b6172',1,'ActionComponents::ACTray']]],
   ['freeform',['FreeForm',['../namespace_action_components.html#a7824fd30370037c629e0b16fafa570c0a36f62feadbbed599f3a9db1db0e6070c',1,'ActionComponents']]],
   ['fromfile',['FromFile',['../class_action_components_1_1_a_c_image.html#a0c6cf7b696b227cf59e2dae1d2a6d757',1,'ActionComponents.ACImage.FromFile()'],['../class_action_components_1_1_a_c_image_view.html#aa1cd3a22fe4f696b5748bf76471df3c8',1,'ActionComponents.ACImageView.FromFile()'],['../namespace_action_components.html#ac796ba128af79f1fbef6545c1d52b39da34fdc781f6a322fcd6c512fea9164952',1,'ActionComponents.FromFile()']]],
+  ['fromhsv',['FromHSV',['../class_action_components_1_1_r_g_b_color.html#ae12c4b30555cf2f747428544b2682b7f',1,'ActionComponents::RGBColor']]],
+  ['fromrgb',['FromRGB',['../class_action_components_1_1_h_s_v_color.html#a0c3401c5b984ec4427468ef5056c417c',1,'ActionComponents::HSVColor']]],
+  ['fromuicolor',['FromUIColor',['../class_action_components_1_1_h_s_v_color.html#ad94506c71f8a73d6c485373fa7f1a491',1,'ActionComponents.HSVColor.FromUIColor()'],['../class_action_components_1_1_r_g_b_color.html#a397e785319f1cff45697cb77c7910011',1,'ActionComponents.RGBColor.FromUIColor()']]],
   ['fullframe',['FullFrame',['../namespace_action_components.html#ad51876bec895ec330283743162108fc8a6814ed67de676a111c5e346f98fdb6b9',1,'ActionComponents']]]
 ];

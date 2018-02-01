@@ -1,4 +1,8 @@
 <map id="ActionComponents.ACView" name="ActionComponents.ACView">
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_oval.html" title="ActionComponents.ACOval" alt="" coords="4,161,187,189"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_slider.html" title="ActionComponents.ACSlider is a custom slider control designed to operate like the brightness and cont..." alt="" coords="212,161,401,189"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color_cube.html" title="The Action Color Cube displays a color selection cube in the app&#39;s user interface that allows the use..." alt="" coords="398,5,618,33"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_color_indicator.html" title="Represents a color selection indicator inside of an ActionColorCube or ActionHueBar. The uses can drag the indicator around to select a color. " alt="" coords="414,57,602,101"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_color_well.html" title="The Action Color Well displays a framed color well that shows the currently selected color and allows..." alt="" coords="401,125,615,153"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_hue_bar.html" title="The Action Color Hue Bar presents a hue selection bar to the user that they can interact with to sele..." alt="" coords="407,177,609,205"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_oval.html" title="ActionComponents.ACOval" alt="" coords="416,229,600,257"/>
+<area shape="rect" id="node8" href="$class_action_components_1_1_a_c_slider.html" title="ActionComponents.ACSlider is a custom slider control designed to operate like the brightness and cont..." alt="" coords="413,281,603,309"/>
 </map>

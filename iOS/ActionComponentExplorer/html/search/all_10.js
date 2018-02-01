@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['saturation',['Saturation',['../class_action_components_1_1_a_c_color_cube.html#a23203727d29fa57d53aea9788a82d5cb',1,'ActionComponents.ACColorCube.Saturation()'],['../class_action_components_1_1_h_s_v_color.html#a10593c2d13d5219788bc7c299074d54d',1,'ActionComponents.HSVColor.Saturation()']]],
+  ['saturationbrightnesssquareimage',['SaturationBrightnessSquareImage',['../class_action_components_1_1_h_s_v_image.html#a309adcd43ca85e1adbd32a398ad5c8c2',1,'ActionComponents::HSVImage']]],
   ['scaletofit',['ScaleToFit',['../namespace_action_components.html#a7824fd30370037c629e0b16fafa570c0a1f0f871b0e02aff8c13b52838c98b3b4',1,'ActionComponents']]],
   ['sectioncellid',['sectionCellID',['../class_action_components_1_1_a_c_table_section.html#a5a88e880d0dfd899d81e27e7b4a8dce6',1,'ActionComponents::ACTableSection']]],
   ['sections',['sections',['../class_action_components_1_1_a_c_table_view_data_source.html#a99fb778e0d6d037e151d95c11b481138',1,'ActionComponents::ACTableViewDataSource']]],
@@ -7,6 +9,8 @@ var searchData=
   ['selectedbutton',['SelectedButton',['../class_action_components_1_1_a_c_nav_bar.html#a55ff056c033499c2e7d603c455d6a1c8',1,'ActionComponents::ACNavBar']]],
   ['selectedforgroup',['SelectedForGroup',['../class_action_components_1_1_a_c_nav_bar_button_collection.html#aeb328221f7a9c281cd14ca45ee5f2dca',1,'ActionComponents::ACNavBarButtonCollection']]],
   ['selection',['Selection',['../namespace_action_components.html#adf98f339f123d3d8cf84d6a044202d61a6ff9dd0d34f65181173c1e4bc39939de',1,'ActionComponents']]],
+  ['selectionfinished',['SelectionFinished',['../class_action_components_1_1_a_c_color_picker_view.html#adb28c77ffcc995730e2a9bd35b10bfb4',1,'ActionComponents.ACColorPickerView.SelectionFinished()'],['../class_action_components_1_1_a_c_color_picker_view_controller.html#adec5c0ce3300c7266a729ab3ac94a174',1,'ActionComponents.ACColorPickerViewController.SelectionFinished()']]],
+  ['selectionfinisheddelegate',['SelectionFinishedDelegate',['../class_action_components_1_1_a_c_color_picker_view.html#a6d7ad1bb436fa5e18dbad10694910052',1,'ActionComponents.ACColorPickerView.SelectionFinishedDelegate()'],['../class_action_components_1_1_a_c_color_picker_view_controller.html#aa787f21b705c5755fb0ffb9642580d6d',1,'ActionComponents.ACColorPickerViewController.SelectionFinishedDelegate()']]],
   ['setimage',['SetImage',['../class_action_components_1_1_a_c_nav_bar_button_appearance.html#a2ff72c731c6fdaf9d9dcfbb72070fd8e',1,'ActionComponents::ACNavBarButtonAppearance']]],
   ['shadow',['Shadow',['../class_action_components_1_1_a_c_nav_bar_appearance.html#a34dc61eff1639115d80cdc292c2e5c01',1,'ActionComponents.ACNavBarAppearance.Shadow()'],['../class_action_components_1_1_a_c_alert_appearance.html#aeb3ec1d4a1f4b35d6a5c37390dfb76a3',1,'ActionComponents.ACAlertAppearance.shadow()'],['../class_action_components_1_1_a_c_tray.html#a64dddcb8c551d49ecf4b5a2ac0b742e6',1,'ActionComponents.ACTray.shadow()'],['../class_action_components_1_1_a_c_tray_appearance.html#a0c537954c0d903b937cef18b7c9988b8',1,'ActionComponents.ACTrayAppearance.shadow()']]],
   ['short',['Short',['../namespace_action_components.html#a45bed7aa3162e2a257313716e998bec4a30bb747c98bccdd11b3f89e644c4d0ad',1,'ActionComponents']]],
