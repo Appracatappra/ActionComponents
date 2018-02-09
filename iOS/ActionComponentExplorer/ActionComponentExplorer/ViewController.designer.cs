@@ -13,21 +13,13 @@ namespace ActionComponentExplorer
 	partial class ViewController
 	{
 		[Outlet]
-		ActionComponents.ACSlider brightnessSlider { get; set; }
-
-		[Outlet]
-		UIKit.UILabel fillPercent { get; set; }
+		ActionComponents.ACTileController tileController { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (brightnessSlider != null) {
-				brightnessSlider.Dispose ();
-				brightnessSlider = null;
-			}
-
-			if (fillPercent != null) {
-				fillPercent.Dispose ();
-				fillPercent = null;
+			if (tileController != null) {
+				tileController.Dispose ();
+				tileController = null;
 			}
 		}
 	}

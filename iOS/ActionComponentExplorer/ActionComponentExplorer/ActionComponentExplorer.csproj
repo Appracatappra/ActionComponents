@@ -21,7 +21,7 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
-    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFastDev>false</MtouchFastDev>
     <IOSDebuggerPort>65166</IOSDebuggerPort>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
@@ -88,10 +88,49 @@
     <ImageAsset Include="Assets.xcassets\Brightness.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Brightness.imageset\61-brightness.png" />
     <ImageAsset Include="Assets.xcassets\Brightness.imageset\61-brightness%402x.png" />
+    <ImageAsset Include="Assets.xcassets\CalendarDay.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\CalendarDay.imageset\30x-Calendar-Day.png" />
+    <ImageAsset Include="Assets.xcassets\Crop.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Crop.imageset\30x-Crop.png" />
+    <ImageAsset Include="Assets.xcassets\OpenMail.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\OpenMail.imageset\30x-Open-Mail.png" />
+    <ImageAsset Include="Assets.xcassets\Marker.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Marker.imageset\30x-Marker.png" />
+    <ImageAsset Include="Assets.xcassets\Lock.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Lock.imageset\30x-Lock.png" />
+    <ImageAsset Include="Assets.xcassets\FilmRoll.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\FilmRoll.imageset\30x-Film-Roll.png" />
+    <ImageAsset Include="Assets.xcassets\PasteBoard.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\PasteBoard.imageset\30x-Paste.png" />
+    <ImageAsset Include="Assets.xcassets\Arrow.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Arrow.imageset\Arrow.jpg" />
+    <ImageAsset Include="Assets.xcassets\Agreement.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Agreement.imageset\agreement-2365811_1920.jpg" />
+    <ImageAsset Include="Assets.xcassets\Home.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Home.imageset\53-house.png" />
+    <ImageAsset Include="Assets.xcassets\Home.imageset\53-house%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Light.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Light.imageset\84-lightbulb.png" />
+    <ImageAsset Include="Assets.xcassets\Light.imageset\84-lightbulb%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Add.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Add.imageset\31-circle-plus.png" />
+    <ImageAsset Include="Assets.xcassets\Add.imageset\31-circle-plus%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Assets.xcassets\Brightness.imageset\" />
+    <Folder Include="Assets.xcassets\CalendarDay.imageset\" />
+    <Folder Include="Assets.xcassets\Crop.imageset\" />
+    <Folder Include="Assets.xcassets\OpenMail.imageset\" />
+    <Folder Include="Assets.xcassets\Marker.imageset\" />
+    <Folder Include="Assets.xcassets\Lock.imageset\" />
+    <Folder Include="Assets.xcassets\FilmRoll.imageset\" />
+    <Folder Include="Assets.xcassets\PasteBoard.imageset\" />
+    <Folder Include="Assets.xcassets\Arrow.imageset\" />
+    <Folder Include="Assets.xcassets\Agreement.imageset\" />
+    <Folder Include="Assets.xcassets\Home.imageset\" />
+    <Folder Include="Assets.xcassets\Light.imageset\" />
+    <Folder Include="Assets.xcassets\Add.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />

@@ -64,6 +64,8 @@
     <Folder Include="ActionAlert\" />
     <Folder Include="ActionSlider\" />
     <Folder Include="ActionColorPicker\" />
+    <Folder Include="ActionTiles\" />
+    <Folder Include="ActionTiles\LiveUpdateActions\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -133,6 +135,33 @@
     <Compile Include="ActionColorPicker\HSVColor.cs" />
     <Compile Include="ActionColorPicker\HSVImage.cs" />
     <Compile Include="ActionColorPicker\RGBColor.cs" />
+    <Compile Include="ActionView\ACColor.cs" />
+    <Compile Include="ActionView\ACFont.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdate.cs" />
+    <Compile Include="ActionTiles\ACTileSize.cs" />
+    <Compile Include="ActionTiles\ACTileStyle.cs" />
+    <Compile Include="ActionTiles\ACTileControllerAppearance.cs" />
+    <Compile Include="ActionTiles\ACTileNavigationBarAppearance.cs" />
+    <Compile Include="ActionTiles\ACTileController.cs" />
+    <Compile Include="ActionTiles\ACTileControllerScrollDirection.cs" />
+    <Compile Include="ActionTiles\ACTileNavigationBar.cs" />
+    <Compile Include="Device\AppleHardwareType.cs" />
+    <Compile Include="ActionTiles\ACTileAppearance.cs" />
+    <Compile Include="ActionTiles\ACTile.cs" />
+    <Compile Include="ActionTiles\ACTileGroup.cs" />
+    <Compile Include="ActionTiles\ACTileGroupAppearance.cs" />
+    <Compile Include="ActionTiles\ACTileGroupType.cs" />
+    <Compile Include="ActionTiles\ACTileGroupCellConstraint.cs" />
+    <Compile Include="ActionTiles\ACTileGroupCellConstraintType.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateControllerChromaKey.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateGroupChromaKey.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateGroupColor.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateGroupColorRandom.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileChromaKey.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileColor.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileImages.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileSequence.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileText.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

@@ -1,3 +1,9 @@
+###Version 04.03###
+
+The following features and bug fixes have been added to `ActionComponents` in version 04.03:
+
+* **Action Tiles** - Added the Action Tiles control.
+
 ###Version 04.02###
 
 The following features and bug fixes have been added to `ActionComponents` in version 04.02:
