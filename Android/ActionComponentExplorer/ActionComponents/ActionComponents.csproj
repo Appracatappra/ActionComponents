@@ -113,6 +113,52 @@
     <Compile Include="ActionColorPicker\ACColorWell.cs" />
     <Compile Include="ActionColorPicker\ACHueBar.cs" />
     <Compile Include="ActionColorPicker\ACColorCube.cs" />
+    <Compile Include="ActionView\ACColor.cs" />
+    <Compile Include="ActionTiles\ACTileAppearance.cs" />
+    <Compile Include="ActionTiles\ACTileControllerAppearance.cs" />
+    <Compile Include="ActionTiles\ACTileControllerScrollDirection.cs" />
+    <Compile Include="ActionTiles\ACTileGroupAppearance.cs" />
+    <Compile Include="ActionTiles\ACTileGroupCellConstraint.cs" />
+    <Compile Include="ActionTiles\ACTileGroupCellConstraintType.cs" />
+    <Compile Include="ActionTiles\ACTileGroupType.cs" />
+    <Compile Include="ActionTiles\ACTileSize.cs" />
+    <Compile Include="ActionTiles\ACTileStyle.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdate.cs" />
+    <Compile Include="ActionTiles\ACTileNavigationBarAppearance.cs" />
+    <Compile Include="CoreGraphics\CGRect.cs" />
+    <Compile Include="CoreGraphics\CGPoint.cs" />
+    <Compile Include="CoreGraphics\CGSize.cs" />
+    <Compile Include="UIKit\UIView.cs" />
+    <Compile Include="UIKit\UITouch.cs" />
+    <Compile Include="Foundation\NSSet.cs" />
+    <Compile Include="UIKit\UIEvent.cs" />
+    <Compile Include="ActionTiles\ACTileNavigationBar.cs" />
+    <Compile Include="ActionTiles\ACTile.cs" />
+    <Compile Include="UIKit\UIGraphics.cs" />
+    <Compile Include="CoreGraphics\CGContext.cs" />
+    <Compile Include="UIKit\UIImage.cs" />
+    <Compile Include="UIKit\UILineBreakMode.cs" />
+    <Compile Include="UIKit\UIFont.cs" />
+    <Compile Include="Foundation\NSString.cs" />
+    <Compile Include="UIKit\UITextAlignment.cs" />
+    <Compile Include="UIKit\UIBezierPath.cs" />
+    <Compile Include="ActionTiles\ACTileGroup.cs" />
+    <Compile Include="Foundation\NSMutableParagraphStyle.cs" />
+    <Compile Include="Foundation\NSWritingDirection.cs" />
+    <Compile Include="UIKit\UIStringAttributes.cs" />
+    <Compile Include="Foundation\NSStringDrawingOptions.cs" />
+    <Compile Include="ActionTiles\ACTileController.cs" />
+    <Compile Include="UIKit\UIScrollView.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateControllerChromaKey.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateGroupChromaKey.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateGroupColor.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateGroupColorRandom.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileChromaKey.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileColor.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileImages.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileSequence.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileStyle.cs" />
+    <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileText.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -132,6 +178,11 @@
     <Folder Include="ActionNavBar\" />
     <Folder Include="ActionSlider\" />
     <Folder Include="ActionColorPicker\" />
+    <Folder Include="ActionTiles\" />
+    <Folder Include="ActionTiles\LiveUpdateActions\" />
+    <Folder Include="CoreGraphics\" />
+    <Folder Include="UIKit\" />
+    <Folder Include="Foundation\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

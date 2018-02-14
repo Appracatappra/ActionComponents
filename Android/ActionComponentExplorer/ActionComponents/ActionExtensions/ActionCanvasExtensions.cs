@@ -5,6 +5,7 @@ using Android.Graphics;
 using Android.Graphics.Drawables;
 using Android.Graphics.Drawables.Shapes;
 using Android.Runtime;
+using CoreGraphics;
 
 
 namespace ActionComponents
@@ -26,10 +27,11 @@ namespace ActionComponents
 		/// <param name="maxlines">Maxlines.</param>
 		/// <param name="textPaint">Text paint.</param>
 		/// <remarks>This routines breaks on character not words</remarks>
-		public static int TextHeight(string text, int width, int maxlines, Paint textPaint) {
+		public static int TextHeight(string text, int width, int maxlines, Paint textPaint)
+		{
 
 			//Get the font metrix information and calculate line height
-			var metrics = textPaint.GetFontMetricsInt ();
+			var metrics = textPaint.GetFontMetricsInt();
 			var lineHeight = -metrics.Ascent + metrics.Descent;
 
 			//Set starting points
@@ -39,38 +41,43 @@ namespace ActionComponents
 			var n = 0;
 
 			//Process all characters in the incoming string
-			for (int i=0; i<text.Length; ++i) {
+			for (int i = 0; i < text.Length; ++i)
+			{
 				//Take action based on the current character
-				switch (text [i]) {
-				case '\n':
-				case '\r':
-				case '\t':
-					//Move to next line
-					height += lineHeight;
-					lineWidth = 0;
-
-					//Have we reached the maximum number of lines?
-					if (++lines > maxlines)
-						return height;
-					break;
-				default:
-					//Get the width of the current character
-					n = (int)textPaint.MeasureText (text [i].ToString ());
-
-					//Will this character fit on this line?
-					if ((lineWidth + n) > width) {
+				switch (text[i])
+				{
+					case '\n':
+					case '\r':
+					case '\t':
 						//Move to next line
 						height += lineHeight;
-						lineWidth = n;
+						lineWidth = 0;
 
 						//Have we reached the maximum number of lines?
 						if (++lines > maxlines)
 							return height;
-					} else {
-						//Add to currrent line width
-						lineWidth += n;
-					}
-					break;
+						break;
+					default:
+						//Get the width of the current character
+						n = (int)textPaint.MeasureText(text[i].ToString());
+
+						//Will this character fit on this line?
+						if ((lineWidth + n) > width)
+						{
+							//Move to next line
+							height += lineHeight;
+							lineWidth = n;
+
+							//Have we reached the maximum number of lines?
+							if (++lines > maxlines)
+								return height;
+						}
+						else
+						{
+							//Add to currrent line width
+							lineWidth += n;
+						}
+						break;
 				}
 			}
 
@@ -90,73 +97,80 @@ namespace ActionComponents
 		/// <param name="maxlines">Maxlines.</param>
 		/// <param name="textPaint">Text paint.</param>
 		/// <remarks>This routine breaks on character not words</remarks>
-		public static void DrawTextBoxInCanvas(Canvas canvas, string text, int x, int y, int width, int maxlines, Paint textPaint){
+		public static void DrawTextBoxInCanvas(Canvas canvas, string text, int x, int y, int width, int maxlines, Paint textPaint)
+		{
 
 			//Get the font metrix information and calculate line height
-			var metrics = textPaint.GetFontMetricsInt ();
+			var metrics = textPaint.GetFontMetricsInt();
 			var lineHeight = -metrics.Ascent + metrics.Descent;
 
 			//Set starting points
-			StringBuilder sb = new StringBuilder ();
+			StringBuilder sb = new StringBuilder();
 			var ty = y + lineHeight;
 			var lines = 0;
 			var lineWidth = 0;
 			var n = 0;
 
 			//Process all characters in the incoming string
-			for (int i=0; i<text.Length; ++i) {
+			for (int i = 0; i < text.Length; ++i)
+			{
 				//Take action based on the current character
-				switch (text [i]) {
-				case '\n':
-				case '\r':
-				case '\t':
-					//Draw out current line
-					canvas.DrawText (sb.ToString (), x, ty, textPaint);
-
-					//Move to next line
-					ty += lineHeight;
-					lineWidth = 0;
-					sb.Clear ();
-
-					//Have we reached the maximum number of lines?
-					if (++lines > maxlines)
-						return;
-					break;
-				default:
-					//Get the width of the current character
-					n = (int)textPaint.MeasureText (text [i].ToString ());
-
-					//Will this character fit on this line?
-					if ((lineWidth + n) > width) {
+				switch (text[i])
+				{
+					case '\n':
+					case '\r':
+					case '\t':
 						//Draw out current line
-						canvas.DrawText (sb.ToString (), x, ty, textPaint);
+						canvas.DrawText(sb.ToString(), x, ty, textPaint);
 
 						//Move to next line
 						ty += lineHeight;
-						lineWidth = n;
-
-						//Reset string builder
-						sb.Clear ();
-						sb.Append (text [i]);
+						lineWidth = 0;
+						sb.Clear();
 
 						//Have we reached the maximum number of lines?
 						if (++lines > maxlines)
 							return;
-					} else {
-						//Add to currrent line width
-						lineWidth += n;
+						break;
+					default:
+						//Get the width of the current character
+						n = (int)textPaint.MeasureText(text[i].ToString());
 
-						//Add character to output string
-						sb.Append (text [i]);
-					}
-					break;
+						//Will this character fit on this line?
+						if ((lineWidth + n) > width)
+						{
+							//Draw out current line
+							canvas.DrawText(sb.ToString(), x, ty, textPaint);
+
+							//Move to next line
+							ty += lineHeight;
+							lineWidth = n;
+
+							//Reset string builder
+							sb.Clear();
+							sb.Append(text[i]);
+
+							//Have we reached the maximum number of lines?
+							if (++lines > maxlines)
+								return;
+						}
+						else
+						{
+							//Add to currrent line width
+							lineWidth += n;
+
+							//Add character to output string
+							sb.Append(text[i]);
+						}
+						break;
 				}
 			}
 
 			//Any remaining text?
-			if (sb.Length != 0) {
+			if (sb.Length != 0)
+			{
 				//Draw out the remaining text
-				canvas.DrawText (sb.ToString (), x, ty, textPaint);
+				canvas.DrawText(sb.ToString(), x, ty, textPaint);
 			}
 
 		}
@@ -171,19 +185,20 @@ namespace ActionComponents
 		/// <param name="maxlines">Maxlines.</param>
 		/// <param name="textPaint">Text paint.</param>
 		/// <remarks>This routine breaks on words</remarks>
-		public static int MeasureTextBlock(string text, int width, int maxlines, Paint textPaint){
+		public static int MeasureTextBlock(string text, int width, int maxlines, Paint textPaint)
+		{
 
 			//Preprocess newline and carriage returns
-			text = text.Replace ("\n", "\n ");
-			text = text.Replace ("\r", "\r ");
+			text = text.Replace("\n", "\n ");
+			text = text.Replace("\r", "\r ");
 
 			//Fracture text into words
-			char[] delimiterChars = {' '};
+			char[] delimiterChars = { ' ' };
 			string[] words = text.Split(delimiterChars);
 			string word = "";
 
 			//Get the font metrix information and calculate line height
-			var metrics = textPaint.GetFontMetricsInt ();
+			var metrics = textPaint.GetFontMetricsInt();
 			var lineHeight = -metrics.Ascent + metrics.Descent;
 
 			//Set starting points
@@ -194,14 +209,16 @@ namespace ActionComponents
 
 
 			//Process all words in text block
-			foreach(string w in words) {
+			foreach (string w in words)
+			{
 				//Add space back to word
 				word = w + " ";
 
 				//Does the word contain a newlline?
-				if (word.Contains ("\n ")) {
+				if (word.Contains("\n "))
+				{
 					//Yes, strip newline
-					word.Replace("\n ","");
+					word.Replace("\n ", "");
 
 					//Move to next line
 					height += lineHeight;
@@ -213,9 +230,10 @@ namespace ActionComponents
 				}
 
 				//Does the word contain a carriage return?
-				if (word.Contains ("\r ")) {
+				if (word.Contains("\r "))
+				{
 					//Yes, strip newline
-					word.Replace("\r ","");
+					word.Replace("\r ", "");
 
 					//Move to next line
 					height += lineHeight;
@@ -227,10 +245,11 @@ namespace ActionComponents
 				}
 
 				//Get the width of the current word
-				n = (int)textPaint.MeasureText (word);
+				n = (int)textPaint.MeasureText(word);
 
 				//Will the word fit on this line?
-				if ((lineWidth + n) > width) {
+				if ((lineWidth + n) > width)
+				{
 					//No, move to next line
 					height += lineHeight;
 					lineWidth = n;
@@ -238,7 +257,9 @@ namespace ActionComponents
 					//Have we reached the maximum number of lines?
 					if (++lines > maxlines)
 						return height;
-				} else {
+				}
+				else
+				{
 					//Add to word width to line width
 					lineWidth += n;
 				}
@@ -261,8 +282,32 @@ namespace ActionComponents
 		/// <param name="maxlines">Maxlines.</param>
 		/// <param name="textPaint">Text paint.</param>
 		/// <remarks>This routine breaks on words</remarks>
-		public static void DrawTextBlockInCanvas(Canvas canvas, string text, int x, int y, int width, int maxlines, Paint textPaint){
-			DrawTextBlockInCanvas (canvas, text, x, y, width, maxlines, textPaint, TextBlockAlignment.Left);
+		public static void DrawTextBlockInCanvas(Canvas canvas, string text, int x, int y, int width, int maxlines, Paint textPaint)
+		{
+			DrawTextBlockInCanvas(canvas, text, x, y, width, maxlines, textPaint, TextBlockAlignment.Left);
+		}
+
+		/// <summary>
+		/// Draws the given text at the given x,y coordinates in the given style in the given canvas. The text will be wrapping at the given width
+		/// and will not exceed the given number of lines. The lines of text will be broken on word bounderies and newline or carriage returns can
+		/// be included to force a line break.
+		/// </summary>
+		/// <param name="canvas">Canvas.</param>
+		/// <param name="text">Text.</param>
+		/// <param name="rect">Rect.</param>
+		/// <param name="textPaint">Text paint.</param>
+		/// <param name="align">Align.</param>
+		public static void DrawTextBlockInCanvas(Canvas canvas, string text, CGRect rect, Paint textPaint, TextBlockAlignment align) {
+			//Get the font metrix information and calculate line height
+			var metrics = textPaint.GetFontMetricsInt();
+			var lineHeight = -metrics.Ascent + metrics.Descent;
+			var maxLines = rect.Height / lineHeight;
+
+			// Valid number of lines?
+			if (maxLines < 1) maxLines = 1;
+
+			// Draw requested text
+			DrawTextBlockInCanvas(canvas, text, (int)rect.X, (int)rect.Y, (int)rect.Width, (int)maxLines, textPaint, align);
 		}
 
 		/// <summary>
@@ -448,7 +493,7 @@ namespace ActionComponents
 			// Take action based on the text alignment specified
 			switch (alignVertical) {
 			case TextBlockAlignment.Top:
-				y = lineHeight;
+				y += lineHeight;
 				break;
 			case TextBlockAlignment.Center:
 				y = ((height / 2) + (lineHeight/2)) - (y/2);
@@ -464,7 +509,21 @@ namespace ActionComponents
 		}
 
 		/// <summary>
-		/// Draws a single line of text aligned horizontally inside the rectangle specified by the x, y and the given width
+		/// Draws a single line of text aligned horizontaly and vertically inside the rectangle specified by the x,y and given width, height.
+		/// </summary>
+		/// <param name="canvas">Canvas.</param>
+		/// <param name="text">Text.</param>
+		/// <param name="rect">Rect.</param>
+		/// <param name="textPaint">Text paint.</param>
+		/// <param name="alignHorizontal">Align horizontal.</param>
+		/// <param name="alignVertical">Align vertical.</param>
+		public static void DrawTextAligned(Canvas canvas, string text, CGRect rect, Paint textPaint, TextBlockAlignment alignHorizontal, TextBlockAlignment alignVertical)
+		{
+			DrawTextAligned(canvas, text, (int)rect.X, (int)rect.Y, (int)rect.Width, (int)rect.Height, textPaint, alignHorizontal, alignVertical);
+		}
+
+		/// <summary>
+		/// Draws a single line of text aligned horizontally inside the rectangle specified by the x, y and the given width.
 		/// </summary>
 		/// <param name="canvas">Canvas.</param>
 		/// <param name="text">Text.</param>
@@ -495,6 +554,19 @@ namespace ActionComponents
 			//Draw text at the desired location
 			canvas.DrawText (text, x, y, textPaint);
 
+		}
+
+		/// <summary>
+		/// Draws a single line of text aligned horizontally inside the rectangle specified by the x, y and the given width.
+		/// </summary>
+		/// <param name="canvas">Canvas.</param>
+		/// <param name="text">Text.</param>
+		/// <param name="rect">Rect.</param>
+		/// <param name="textPaint">Text paint.</param>
+		/// <param name="alignHorizontal">Align horizontal.</param>
+		public static void DrawTextAligned(Canvas canvas, string text, CGRect rect, Paint textPaint, TextBlockAlignment alignHorizontal)
+		{
+			DrawTextAligned(canvas, text, (int)rect.X, (int)rect.Y, (int)rect.Width, (int)rect.Height, textPaint, alignHorizontal);
 		}
 		#endregion 
 

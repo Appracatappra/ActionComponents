@@ -27,6 +27,107 @@ namespace ActionComponents
 	{
 		#region Public Static Methods
 		/// <summary>
+		/// Gets the default display for the given view
+		/// </summary>
+		/// <returns>The default display.</returns>
+		/// <param name="view">View.</param>
+		public static Display DefaultDisplay(View view) {
+			IWindowManager windowManager = view.Context.GetSystemService(Context.WindowService).JavaCast<IWindowManager>();
+			return windowManager.DefaultDisplay;
+		}
+
+		/// <summary>
+		/// Gets the window visible display frame for the given view.
+		/// </summary>
+		/// <returns>The visible display frame.</returns>
+		/// <param name="view">View.</param>
+		public static Rect WindowVisibleDisplayFrame(View view) {
+			Rect outRect = new Rect();
+			view.GetWindowVisibleDisplayFrame(outRect);
+			return outRect;
+		}
+
+		/// <summary>
+		/// Gets the status bar height for the given view.
+		/// </summary>
+		/// <returns>The bar height.</returns>
+		/// <param name="view">View.</param>
+		public static int StatusBarHeight(View view) {
+			// Get the activity
+			var activity = (Activity)view.Context;
+
+			int statusBarHeight = 0;
+			int resourceID = activity.Resources.GetIdentifier("status_bar_height", "dimen", "android");
+			if (resourceID > 0)
+			{
+				statusBarHeight = activity.Resources.GetDimensionPixelSize(resourceID);
+			}
+
+			return statusBarHeight;
+		}
+
+		/// <summary>
+		/// Gets the height of the action bar for a view.
+		/// </summary>
+		/// <returns>The bar height.</returns>
+		/// <param name="view">View.</param>
+		public static int ActionBarHeight(View view) {
+			// Get the activity
+			var activity = (Activity)view.Context;
+
+			int actionBarHeight = 0;
+			var styledAttributes = activity.Theme.ObtainStyledAttributes(new int[] { Android.Resource.Attribute.ActionBarSize });
+			actionBarHeight = (int)styledAttributes.GetDimension(0, 0);
+			styledAttributes.Recycle();
+
+			return actionBarHeight;
+		}
+
+		/// <summary>
+		/// Gets the navigation bar height for the given view.
+		/// </summary>
+		/// <returns>The bar height.</returns>
+		/// <param name="view">View.</param>
+		public static int NavigationBarHeight(View view) {
+			// Get the activity
+			var activity = (Activity)view.Context;
+
+			int navigationBarHeight = 0;
+			int resourceID = activity.Resources.GetIdentifier("navigation_bar_height", "dimen", "android");
+			if (resourceID > 0)
+			{
+				navigationBarHeight = activity.Resources.GetDimensionPixelSize(resourceID);
+			}
+
+			return navigationBarHeight;
+		}
+
+		/// <summary>
+		/// Returns the height of the default display for the given view.
+		/// </summary>
+		/// <returns>The display height.</returns>
+		/// <param name="view">View.</param>
+		public static int DefaultDisplayHeight(View view) {
+			var display = DefaultDisplay(view);
+			var met = new DisplayMetrics();
+			display.GetMetrics(met);
+			return met.HeightPixels;
+		}
+
+		/// <summary>
+		/// Returns the width for the default display for the given view.
+		/// </summary>
+		/// <returns>The display width.</returns>
+		/// <param name="view">View.</param>
+		public static int DefaultDisplayWidth(View view)
+		{
+			var display = DefaultDisplay(view);
+			var met = new DisplayMetrics();
+			display.GetMetrics(met);
+			return met.WidthPixels;
+		}
+
+		/// <summary>
 		/// Decodes the <c>LayoutParameters</c> for the given <c>View</c> and returns the <c>Height</c> property
 		/// </summary>
 		/// <returns>The view height.</returns>
@@ -71,6 +172,16 @@ namespace ActionComponents
 
 				//Read property
 				height = tableRow.Height;
+			}
+
+			// Special handling?
+			switch(height) {
+				case -1:
+					height = DefaultDisplayHeight(view) - StatusBarHeight(view);
+					break;
+				case -2:
+					height = view.MinimumHeight;
+					break;
 			}
 
 			//Return height
@@ -187,6 +298,17 @@ namespace ActionComponents
 
 				//Read property
 				Width = tableRow.Width;
+			}
+
+			// Special handling?
+			switch (Width)
+			{
+				case -1:
+					Width = DefaultDisplayWidth(view);
+					break;
+				case -2:
+					Width = view.MinimumWidth;
+					break;
 			}
 
 			//Return value

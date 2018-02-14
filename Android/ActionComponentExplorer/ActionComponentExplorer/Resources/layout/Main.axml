@@ -5,22 +5,10 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-    <ActionComponents.ACHueBar
-        android:layout_width="256dp"
-        android:layout_height="50dp"
-        android:id="@+id/hueBar"
-        android:minWidth="256px"
-        android:minHeight="50px" />
-    <ActionComponents.ACColorCube
+    <ActionComponents.ACTileController
         android:minWidth="25px"
         android:minHeight="25px"
-        android:layout_width="256dp"
-        android:layout_height="256dp"
-        android:id="@+id/colorCube" />
-    <ActionComponents.ACColorWell
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="256dp"
-        android:layout_height="50dp"
-        android:id="@+id/colorWell" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tileController" />
 </LinearLayout>
