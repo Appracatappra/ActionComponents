@@ -1,0 +1,6 @@
+<map id="ActionComponents.ACColor.FromHexString" name="ActionComponents.ACColor.FromHexString">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color.html#a342603556a04fb6eed9df00b8f811e0b" title="Creates a new color from the given red, green and blue values " alt="" coords="246,23,437,67"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_color.html#a1d3309905a15c9a52e23cb0b79301472" title="Creates a new color from the given red, green and blue values with the given alpha value ..." alt="" coords="246,93,437,137"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#a6622b253316b43b05035890bc834839d" title="Return a color from red, green, blue components. These component values should be [0..." alt="" coords="487,29,702,57"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_color.html#a0df3e259f24e52ae6080f5d9d2372470" title="Return a color from alpha, red, green, blue components. These component values should be [0..." alt="" coords="485,105,704,133"/>
+</map>

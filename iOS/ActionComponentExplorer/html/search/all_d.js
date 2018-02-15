@@ -1,15 +1,21 @@
 var searchData=
 [
-  ['parentviewcontroller',['ParentViewController',['../class_action_components_1_1_a_c_color_well.html#a292ebcf0723be5503ffcafb9248f4dfc',1,'ActionComponents::ACColorWell']]],
-  ['pin',['Pin',['../class_action_components_1_1_h_s_v_image.html#a72b1f08a5382b44f1d3a17adf91122ab',1,'ActionComponents::HSVImage']]],
-  ['plain',['Plain',['../namespace_action_components.html#ae5a301965be44c241e9acc69e54e0e2ca4cd8413207629a963225f4314b53adcd',1,'ActionComponents']]],
-  ['pointer',['Pointer',['../class_action_components_1_1_a_c_nav_bar.html#a20d6139b8bf742687b18e9b56b910d15',1,'ActionComponents::ACNavBar']]],
-  ['pointerhidden',['PointerHidden',['../class_action_components_1_1_a_c_nav_bar.html#a8981ede4d4ffd1d5cbe0f5758f9a45eb',1,'ActionComponents::ACNavBar']]],
-  ['pointerpositionchanged',['PointerPositionChanged',['../class_action_components_1_1_a_c_nav_bar_button_collection.html#a3ff11bba6b0b8c92d2164be5e085ebd0',1,'ActionComponents::ACNavBarButtonCollection']]],
-  ['pointinside',['PointInside',['../class_action_components_1_1_a_c_alert.html#a442199e35dde983b827c127adcdcef47',1,'ActionComponents.ACAlert.PointInside(nfloat x, nfloat y)'],['../class_action_components_1_1_a_c_alert.html#a002569655e5991a57e748fe51b397735',1,'ActionComponents.ACAlert.PointInside(CGPoint pt)'],['../class_action_components_1_1_a_c_alert_button.html#ab02df7feaf5cd475a63ad49a905a16eb',1,'ActionComponents.ACAlertButton.PointInside(nfloat x, nfloat y)'],['../class_action_components_1_1_a_c_alert_button.html#ab52c5e1bcc73dbf3b1689c62a8d60738',1,'ActionComponents.ACAlertButton.PointInside(CGPoint pt)'],['../class_action_components_1_1_a_c_tray.html#afeb1251b4168681e8932c9f6cb571555',1,'ActionComponents.ACTray.PointInside()'],['../class_action_components_1_1_a_c_image_view.html#af624ca48fc457049dfedb2385bd5c83e',1,'ActionComponents.ACImageView.PointInside(nfloat x, nfloat y)'],['../class_action_components_1_1_a_c_image_view.html#a46aa2d82f4079a70e9df0f5f375723ee',1,'ActionComponents.ACImageView.PointInside(CGPoint pt)'],['../class_action_components_1_1_a_c_view.html#a60c09c464bdf2ab69547a1105fe83522',1,'ActionComponents.ACView.PointInside(nfloat x, nfloat y)'],['../class_action_components_1_1_a_c_view.html#a93d65dd7e7e41b53cbd8c1b21ae25e32',1,'ActionComponents.ACView.PointInside(CGPoint pt)'],['../class_action_components_1_1_a_c_web_view.html#a8262fd4fec0df70039cae455bfb2a227',1,'ActionComponents.ACWebView.PointInside(nfloat x, nfloat y)'],['../class_action_components_1_1_a_c_web_view.html#a21c2b6678d530a7d1bdb589954e83edd',1,'ActionComponents.ACWebView.PointInside(CGPoint pt)']]],
-  ['popup',['Popup',['../namespace_action_components.html#aff6db584bd8c87c185a8ea9d7a3a1c31a0d4c14a20b4d98a5de54e1480bf99a25',1,'ActionComponents']]],
-  ['position',['position',['../class_action_components_1_1_a_c_toast.html#a2796dc0b70eae12f5d6d13f64ade87e6',1,'ActionComponents::ACToast']]],
-  ['progressalert',['ProgressAlert',['../namespace_action_components.html#af8c2872dc4f02ce5000eb3e1c2ba11f5a7eb2eca86be2925b48aca3fca24421b4',1,'ActionComponents']]],
-  ['progressview',['progressView',['../class_action_components_1_1_a_c_alert.html#a43774d4671c40a6036b515be2f7de396',1,'ActionComponents::ACAlert']]],
-  ['purge',['Purge',['../class_action_components_1_1_a_c_image_view.html#af9bcd5f87aa59283297e91dd89781a78',1,'ActionComponents.ACImageView.Purge()'],['../class_action_components_1_1_a_c_view.html#acc64834bc06450fc28a2a3ddff12fd66',1,'ActionComponents.ACView.Purge()']]]
+  ['offset',['offset',['../class_action_components_1_1_a_c_toast.html#a106167dc8bf69c4722f76439c10e1915',1,'ActionComponents::ACToast']]],
+  ['oldlace',['OldLace',['../class_action_components_1_1_a_c_color.html#ae9d790f9cca7299bbdd23bc7a0d34b81',1,'ActionComponents::ACColor']]],
+  ['olive',['Olive',['../class_action_components_1_1_a_c_color.html#a09e78b3002284a1d75a182055500c6ff',1,'ActionComponents::ACColor']]],
+  ['olivedrab',['OliveDrab',['../class_action_components_1_1_a_c_color.html#a5720303f090a62b3fb5ea302d262b025',1,'ActionComponents::ACColor']]],
+  ['ondoubletap',['OnDoubleTap',['../class_action_components_1_1_a_c_tray.html#aec5ee349049d831a0b82119a9c3b02b1',1,'ActionComponents::ACTray']]],
+  ['opened',['Opened',['../class_action_components_1_1_a_c_tray.html#aa338924ebb3d246169a0534a803d47b3',1,'ActionComponents::ACTray']]],
+  ['opentray',['OpenTray',['../class_action_components_1_1_a_c_tray.html#a509e69f8eb8e9e80fd79c3cde5c82a95',1,'ActionComponents::ACTray']]],
+  ['operator_20accolor',['operator ACColor',['../class_action_components_1_1_a_c_color.html#af6560bc54d303e8960e82c57d9297862',1,'ActionComponents::ACColor']]],
+  ['operator_20uicolor',['operator UIColor',['../class_action_components_1_1_a_c_color.html#a4c4bb619e0f96546fa6d20e0eb419b97',1,'ActionComponents::ACColor']]],
+  ['orange',['Orange',['../class_action_components_1_1_a_c_color.html#a65d4209fe5244c976f9f8065ab7ccbd8',1,'ActionComponents::ACColor']]],
+  ['orangered',['OrangeRed',['../class_action_components_1_1_a_c_color.html#a1dbf2870abc5053651b31c61c517f27e',1,'ActionComponents::ACColor']]],
+  ['orchid',['Orchid',['../class_action_components_1_1_a_c_color.html#a3ab7a7bdc6f9fe4b048529a8d2b7f769',1,'ActionComponents::ACColor']]],
+  ['orientation',['orientation',['../class_action_components_1_1_a_c_tray.html#a8cbac527d2e59bf24afa09c70b725e6f',1,'ActionComponents::ACTray']]],
+  ['overalldownloadprogresspercent',['OverallDownloadProgressPercent',['../class_action_components_1_1_a_c_download_manager.html#acedd2f7d636da0e19a0a9ebf4df1c8ec',1,'ActionComponents::ACDownloadManager']]],
+  ['overalldownloadprogresspercentdelegate',['OverallDownloadProgressPercentDelegate',['../class_action_components_1_1_a_c_download_manager.html#ad678f126885376d106031c755261f70e',1,'ActionComponents::ACDownloadManager']]],
+  ['overlay',['Overlay',['../class_action_components_1_1_a_c_alert.html#a5af951ad11bd37fdda0e7919bee729e5',1,'ActionComponents.ACAlert.Overlay()'],['../class_action_components_1_1_a_c_alert_appearance.html#a13a8183525b0dd44509c71eea605431d',1,'ActionComponents.ACAlertAppearance.overlay()']]],
+  ['overlayalpha',['overlayAlpha',['../class_action_components_1_1_a_c_alert_appearance.html#a3d9a12d2988fd6f0cc016e035557b296',1,'ActionComponents::ACAlertAppearance']]],
+  ['overlaytouched',['OverlayTouched',['../class_action_components_1_1_a_c_alert.html#aa750014fda3a99a0a012b6586de4986d',1,'ActionComponents::ACAlert']]]
 ];

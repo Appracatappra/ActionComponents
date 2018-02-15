@@ -9,6 +9,10 @@ using ObjCRuntime;
 
 namespace ActionComponents
 {
+	/// <summary>
+	/// Handles the Navigation Bar that can be shown at the top of a <c>ACTileController</c>. The developer can include
+	/// <c>Buttons</c> on the left and right hand sides of the bar.
+	/// </summary>
 	[Register("ACTileNavigationBar")]
 	public class ACTileNavigationBar : UIView
 	{

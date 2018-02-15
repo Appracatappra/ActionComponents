@@ -3,7 +3,7 @@ namespace ActionComponents
 {
 	/// <summary>
 	/// Used to convert an Apple device model name (in the form "iPhone10,3") to a human readable form (such as 
-	/// "iPhoneX"). This enum works with the `HardwareInformation` class to get the type of device the app is running 
+	/// "iPhoneX"). This enum works with the `iOSDevice` class to get the type of device the app is running 
 	/// on.
 	/// </summary>
 	public enum AppleHardwareType

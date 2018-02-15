@@ -1,0 +1,11 @@
+<map id="UIKit.UIView.LayoutSubviews" name="UIKit.UIView.LayoutSubviews">
+<area shape="rect" id="node2" href="$class_u_i_kit_1_1_u_i_view.html#aade48c5271819c9d10d0fb6f75dd6088" title="Sets the needs layout. " alt="" coords="251,217,448,245"/>
+<area shape="rect" id="node10" href="$class_u_i_kit_1_1_u_i_view.html#ab5890cc29f5eed0d4d3e056055b5072a" title="Called when the view is being laid out. " alt="" coords="271,269,428,297"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_group.html#ac3ca05f58d68c99ca93578611d8bf15f" title="Adds the tile to the group&#39;s collection of tiles. " alt="" coords="507,5,725,49"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_group.html#a7566615839362fb7505f3f390f953770" title="Removes the ACTile at index. " alt="" coords="507,73,725,117"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_group.html#a542c38ae82e59ce77c9ef2fb28313f00" title="Removes all ACTile from this ACTile " alt="" coords="507,141,725,185"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_tile_navigation_bar.html#ae96402bfa2fac3e6c01f5930115f6b00" title="Adds a new button to the left side of the navigation bar. " alt="" coords="496,209,736,253"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_tile_navigation_bar.html#ae647a1b149c8f3f7c0512e8d32f51720" title="Removes the requested button from the left side of the navigation bar. " alt="" coords="496,277,736,321"/>
+<area shape="rect" id="node8" href="$class_action_components_1_1_a_c_tile_navigation_bar.html#a444db4bfa08de801a91ad41d81ef553c" title="Adds a button to the right side of the navigation bar. " alt="" coords="496,345,736,389"/>
+<area shape="rect" id="node9" href="$class_action_components_1_1_a_c_tile_navigation_bar.html#aa02aa3f79c3ace3992f07881e1db7b00" title="Removes a button from the right side of the navigation bar. " alt="" coords="496,413,736,457"/>
+</map>

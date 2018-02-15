@@ -16,7 +16,8 @@ using System;
 namespace CoreGraphics
 {
 	/// <summary>
-	/// Structure defining a 2D point.
+	/// Represents a simulated iOS <c>CGPoint</c> used to ease the porting of UI code from iOS to Android. A <c>CGPoint</c>
+	/// can be implicitly converted to and from a base Android <c>Point</c> or <c>PointF</c>.
 	/// </summary>
 	public class CGPoint
 	{

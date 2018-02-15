@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_action_components_1_1_a_c_nav_bar_button_appearance.html" title="Defines the appearance of a ActionComponents.ACNavBarButton " alt="" coords="6,5,207,49"/>
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_nav_bar_button.html" title="Defines a button that can be added to a ActionComponents.ACNavBar of a given ActionComponents.ACNavBarButtonType and ActionComponents.ACNavBarButtonState. Three ActionComponents.ACNavBarButtonAppearance properties controll the look and feel of the button when it is Enabled, Disabled or Selected. " alt="" coords="105,5,306,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_nav_bar_pointer.html" title="The arrow pointer that is optionally displayed by the selected ActionComponents.ACNavBarButton of a A..." alt="" coords="105,73,306,117"/>
 </map>

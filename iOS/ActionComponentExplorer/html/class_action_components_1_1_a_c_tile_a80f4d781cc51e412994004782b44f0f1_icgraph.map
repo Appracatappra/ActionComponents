@@ -1,0 +1,6 @@
+<map id="ActionComponents.ACTile.ChromaKeyTile" name="ActionComponents.ACTile.ChromaKeyTile">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_group.html#a76a6d7e02a2104deda8de670c1dafcc3" title="Changes the background color of every ACTile in this ACTileGroup by creating a random brightness off ..." alt="" coords="251,50,469,94"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_live_update_tile_chroma_key.html#aba34f4d26c0f275f5bff43bb4c1b1261" title="Performs the update. " alt="" coords="236,118,484,162"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_live_update_controller_chroma_key.html#a9fe1a551cdac94c5238a513efbe40f43" title="Performs the update. " alt="" coords="545,5,788,65"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_live_update_group_chroma_key.html#ac94cc78bde3c1295f9a1f43d6c499926" title="Performs the update. " alt="" coords="534,89,799,133"/>
+</map>

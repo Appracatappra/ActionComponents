@@ -25,7 +25,8 @@ namespace UIKit
 {
 	/// <summary>
 	/// Simulates several features of an iOS <c>UIImage</c> to make porting UI code from iOS to Android
-	/// easier. 
+	/// easier. A <c>UIImage</c> can be implicitly converted to or from an Android <c>Bitmap</c>. NOTE: Only a small
+	/// percentage of <c>UIImage</c> has ported to support the Action Components.
 	/// </summary>
 	public class UIImage
 	{

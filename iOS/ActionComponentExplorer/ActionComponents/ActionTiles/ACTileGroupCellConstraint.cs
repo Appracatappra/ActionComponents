@@ -3,7 +3,7 @@ using System;
 namespace ActionComponents
 {
 	/// <summary>
-	/// Controls the number of <c>rows</c> or <c>columns</c> that will appear inside a given <c>ACTileGroup</c> 
+	/// Controls the number of <c>rows</c> or <c>columns</c> that will appear inside a given <c>ACTileGroup</c>. 
 	/// </summary>
 	public class ACTileGroupCellConstraint
 	{

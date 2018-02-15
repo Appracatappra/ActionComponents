@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACTileController.MoveToPoint" name="ActionComponents.ACTileController.MoveToPoint">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_controller.html#acb9e682f862c974a29020b598efae91a" title="Sent when the ACTile is being dragged " alt="" coords="290,5,528,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_controller.html#a0680ba55888c52927eca577b3aa180b6" title="Send when one or more fingers are lifted from the screen. " alt="" coords="290,73,528,117"/>
+</map>

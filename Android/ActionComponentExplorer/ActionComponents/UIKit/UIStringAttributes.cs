@@ -24,7 +24,8 @@ using nuint = global::System.UInt32;
 namespace UIKit
 {
 	/// <summary>
-	/// Simulates the iOS <c>UIStringAttributes</c> to ease the porting of UI code from iOS to Android.
+	/// Simulates the iOS <c>UIStringAttributes</c> to ease the porting of UI code from iOS to Android. Note: Only a
+	/// small percentage of <c>UIStringAttributes</c> has been ported to support Action Components.
 	/// </summary>
 	public class UIStringAttributes
 	{

@@ -8,7 +8,12 @@ using CoreGraphics;
 
 namespace ActionComponents
 {
-	public class ACTileGroup : UIView
+	/// <summary>
+	/// Maintains a collection of <c>ACTile</c> objects that are contained within a <c>ACTileController</c>. The
+	/// <c>ACTileGroup</c> handles the creation and layout of the <c>ACTile</c> objects and can control a collection
+	/// of different sized and shaped tiles.
+	/// </summary>
+	public class ACTileGroup : UIView, IEnumerator, IEnumerable
 	{
 		#region Private Variables
 		private bool _bringToFrontOnTouched;
@@ -217,6 +222,45 @@ namespace ActionComponents
 		{
 			get { return UserInteractionEnabled; }
 			set { UserInteractionEnabled = value; }
+		}
+		#endregion
+
+		#region Enumerable Routines
+		private int _position = -1;
+
+		//IEnumerator and IEnumerable require these methods.
+		public IEnumerator GetEnumerator()
+		{
+			_position = -1;
+			return (IEnumerator)this;
+		}
+
+		//IEnumerator
+		public bool MoveNext()
+		{
+			_position++;
+			return (_position < Count);
+		}
+
+		//IEnumerator
+		public void Reset()
+		{ _position = -1; }
+
+		//IEnumerator
+		public object Current
+		{
+			get
+			{
+				try
+				{
+					return _tiles[_position];
+				}
+
+				catch (IndexOutOfRangeException)
+				{
+					throw new InvalidOperationException();
+				}
+			}
 		}
 		#endregion
 

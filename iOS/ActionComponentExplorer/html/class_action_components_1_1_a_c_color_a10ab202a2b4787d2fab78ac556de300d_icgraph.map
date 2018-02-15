@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACColor.ToUIColor" name="ActionComponents.ACColor.ToUIColor">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_group.html#ac483cbcecdc95e8521be31a227f24fb4" title="Draw the specified rect. " alt="" coords="246,5,495,33"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#a4c4bb619e0f96546fa6d20e0eb419b97" title="Converts a ACColor to an iOS UIColor " alt="" coords="250,57,491,101"/>
+</map>

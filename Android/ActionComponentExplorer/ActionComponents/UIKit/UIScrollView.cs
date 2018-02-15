@@ -24,7 +24,8 @@ using nuint = global::System.UInt32;
 namespace UIKit
 {
 	/// <summary>
-	/// Simulates the iOS <c>UIScrollView</c> to ease porting UI code from iOS to Android.
+	/// Simulates the iOS <c>UIScrollView</c> to ease porting UI code from iOS to Android. NOTE: Only a small percentage
+	/// of <c>UIScrollView</c> has been ported to support the Action Components.
 	/// </summary>
 	public class UIScrollView : UIView
 	{

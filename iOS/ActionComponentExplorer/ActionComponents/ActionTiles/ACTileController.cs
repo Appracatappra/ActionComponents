@@ -8,6 +8,10 @@ using CoreGraphics;
 
 namespace ActionComponents
 {
+	/// <summary>
+	/// Creates, maintains and controls a scrollable collection of <c>ACTile</c> object that can be organized into
+	/// <c>ACTileGroups</c>. Provides routines to automatically "live update" the contents or styling of the tiles
+	/// and routines to handle user interaction with the tile selection.
 	[Register("ACTileController")]
 	public class ACTileController : UIView
 	{

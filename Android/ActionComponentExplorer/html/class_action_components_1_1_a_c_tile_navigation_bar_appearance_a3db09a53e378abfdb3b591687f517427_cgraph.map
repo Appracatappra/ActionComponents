@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACTileNavigationBarAppearance.ACTileNavigationBarAppearance" name="ActionComponents.ACTileNavigationBarAppearance.ACTileNavigationBarAppearance">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color.html#a1d3309905a15c9a52e23cb0b79301472" title="Creates a new color from the given red, green and blue values with the given alpha value ..." alt="" coords="368,21,560,65"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#a0df3e259f24e52ae6080f5d9d2372470" title="Return a color from alpha, red, green, blue components. These component values should be [0..." alt="" coords="608,29,827,57"/>
+</map>

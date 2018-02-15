@@ -9,7 +9,14 @@ namespace ActionComponents
 	public class ACTileLiveUpdateTileStyle : ACTileLiveUpdate 
 	{
 		#region Private Variables
+		/// <summary>
+		/// The Parent tile.
+		/// </summary>
 		private ACTile _tile;
+
+		/// <summary>
+		/// The index for the current tile.
+		/// </summary>
 		private int _index;
 		#endregion 
 

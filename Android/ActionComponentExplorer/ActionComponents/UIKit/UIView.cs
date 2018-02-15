@@ -24,7 +24,10 @@ using nuint = global::System.UInt32;
 namespace UIKit
 {
 	/// <summary>
-	/// Base class used for components that want to render themselves and respond to events.
+	/// Represents a simulated iOS <c>UIView</c> used to ease the porting of UI code from iOS to Android. The <c>UIView</c>
+	/// is a customized version of an Android <c>View</c> using a <c>RelativeLayout</c> with features its features mapped
+	/// to the iOS <c>UIView</c> names and callin structures. NOTE: Only a small percentage of <c>UIView</c> has been
+	/// ported to support Action Components.
 	/// </summary>
 	public class UIView : RelativeLayout
 	{

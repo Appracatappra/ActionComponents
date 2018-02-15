@@ -20,14 +20,10 @@ namespace ActionComponents
 {
 	/// <summary>
 	/// The <c>ACTile</c> is a custom <c>UIView</c> that defines several helper properties and methods that
-	/// make it a great basis for any custom user interface controls. It has built in <c>Dragable</c> support that can be limited in movement by
-	/// a <c>ACTileDragConstraint</c> applied to the <c>X</c> and/or <c>Y</c> axis. It defines helper events for
+	/// make it a great basis for any custom user interface controls. It defines helper events for
 	/// being <c>Touched</c>, <c>Moved</c>, and/or <c>Released</c> and can be set to automatically become the front view when it is touched. And provides methods
 	/// to make moving, rotating, and resizing the <c>ACTile</c> easier with less code.
 	/// </summary>
-	/// <remarks>The <c>ACTile</c> contains a special <c>Purge</c> command to force the release of any
-	/// subview that are attached to it. This can be especially useful when dealing with tight memory situations or views that contain several large graphics.
-	/// Available in ActionPack Business or Enterprise only.</remarks>
 	public class ACTile : UIView
 	{
 		#region Private Variables
@@ -905,7 +901,7 @@ namespace ActionComponents
 			RaiseReleased ();
 
 			#if TRIAL
-			ACToast.MakeText("ACTile by Appracatappra",2f).Show();
+			Android.Widget.Toast.MakeText(this.Context, "ACTile by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
 			#endif
 
 			//Pass call to base object

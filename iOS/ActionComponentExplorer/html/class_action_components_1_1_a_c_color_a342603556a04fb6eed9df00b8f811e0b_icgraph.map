@@ -1,0 +1,6 @@
+<map id="ActionComponents.ACColor.FromRGB" name="ActionComponents.ACColor.FromRGB">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_appearance.html#a9186b3d1eba34c9cded4eb36ccd1cb7d" title="Initializes a new instance of the ACTrayAppearance class with the specified user defined appearance p..." alt="" coords="246,5,498,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#a570602396a870d39a4dbf56c923acea8" title="Returns a gray color for the value given where 255 equals Pure White and 0 equals Pure Black ..." alt="" coords="276,73,468,117"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_color.html#a6622b253316b43b05035890bc834839d" title="Return a color from red, green, blue components. These component values should be [0..." alt="" coords="264,141,480,169"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_color.html#aac0baf997e1b2071a1e72742e574cb57" title="Converts a CSS/Web Color string specification in the form #RGB, #RRGGBB or #AARRGGBB to a ACColor ..." alt="" coords="276,193,468,237"/>
+</map>

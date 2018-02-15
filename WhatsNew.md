@@ -2,7 +2,21 @@
 
 The following features and bug fixes have been added to `ActionComponents` in version 04.03:
 
-* **Action Tiles** - Added the Action Tiles control.
+* **Action Tiles** - Added the Action Tiles control for both iOS and Android.
+* **Action Color** - Added the `ACColor` class to both iOS and Android to support cross-platform color manipulation. `ACColor` can be implicitly converted to and from an iOS `UIColor` or Android `Color.
+
+iOS specific changes:
+
+* **AppleHardwareType** - Added the `AppleHardwareType` enum Used to convert an Apple device model name (in the form "iPhone10,3") to a human readable form (such as "iPhoneX"). This enum works with the `iOSDevice` class to get the type of device the app is running on.
+* **iOSDevice** - Added features to get the current device `ModelName` and the `DeviceType` of the iOS device an app is running on.
+
+Android specific changes:
+
+* **ACView** - `ACView` was enhanced with new features to correctly calculate the height and width of `View` and `Layout` instances. New features were also added to get the current default display and the size of several UI features such as Status and Navigation bar height.
+* **CoreGraphics** - Ported parts of the following elements to support ease of porting UI code from iOS to Android: `CGContext`, `CGPoint`, `CGRect`, `CGSize`.
+* **Foundation** - Ported parts of the following elements to support ease of porting UI code from iOS to Android: `NSMutableParagraphStyle`, `NSSet`, `NSString`, `NSStringDrawingOptions`, `NSWritingDirection`.
+* **UIKit** - Ported parts of the following elements to support ease of porting UI code from iOS to Android: `UIBezierPath`, `UIEvent`, `UIFont`, `UIGraphics`, `UIImage`, `UILineBreakMode`, `UIScrollView`, `UIStringAttributes`, `UITouch`, `UIView`.
+
 
 ###Version 04.02###
 

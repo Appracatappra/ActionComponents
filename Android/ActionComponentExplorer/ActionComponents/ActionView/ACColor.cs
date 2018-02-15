@@ -11,8 +11,6 @@ namespace ActionComponents
 	/// <c>ACColor</c> is fully compatible with <c>UIColor</c> and <c>Color</c> so it can be used anywhere those objects would be used and can be
 	/// cast to and from those types implicitly.  
 	/// </summary>
-	/// <remarks><c>ACColor</c> includes all of the color presets from iOS and from Android. It also defines several <c>iOS7</c> and <c>Action</c>
-	/// color presets designed to work well with the new iOS 7 design language.</remarks>
 	public class ACColor 
 	{
 		#region Static Action Color Presets

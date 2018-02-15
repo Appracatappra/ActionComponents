@@ -1,0 +1,9 @@
+<map id="ActionComponents.ACTileNavigationBar.Draw" name="ActionComponents.ACTileNavigationBar.Draw">
+<area shape="rect" id="node2" href="$class_u_i_kit_1_1_u_i_graphics.html#a5fb40b0a2e9846e2e1da6d911f423ed4" title="Gets the current context. NOTE: Unlike the iOS version, the developer needs to pass a reference to th..." alt="" coords="304,5,494,49"/>
+<area shape="rect" id="node3" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a89c7c56b2c624d3c787bf5306d7f45aa" title="Creates a new UIBezierPath from the given rect. " alt="" coords="301,73,496,101"/>
+<area shape="rect" id="node5" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a7d3ec6e13f8df2bbe6d22082612489fb" title="Draws a filled version of the path into the current graphics context. " alt="" coords="322,125,475,153"/>
+<area shape="rect" id="node6" href="$class_u_i_kit_1_1_u_i_font.html#a9667789d64e86328d3667a0a18ef58bb" title="Returns a system font of the given size. " alt="" coords="294,177,503,205"/>
+<area shape="rect" id="node8" href="$class_foundation_1_1_n_s_string.html#a54c0a85b968d28e2137f3d61a89a418c" title="Draws the string into the canvas from the current context of the UIGraphics class using the given pro..." alt="" coords="309,229,489,273"/>
+<area shape="rect" id="node4" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a2ba7d22501a5ba34049eacfdc40dd77a" title="Initializes a new instance of the T:UIKit.UIBezierPath class. " alt="" coords="553,73,767,101"/>
+<area shape="rect" id="node7" href="$class_u_i_kit_1_1_u_i_font.html#a7c5d198d2f408f63a6d14fcfc5a4a062" title="Initializes a new instance of the T:UIKit.UIFont class. " alt="" coords="591,177,729,205"/>
+</map>

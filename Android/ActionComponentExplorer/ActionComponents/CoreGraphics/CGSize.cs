@@ -16,7 +16,8 @@ using System;
 namespace CoreGraphics
 {
 	/// <summary>
-	/// Structure containing height and width values.
+	/// Represents a simulated iOS <c>CGSize</c> used to ease the porting of UI code from iOS to Android. A <c>CGSize</c>
+	/// can be implicitly converted to and from an Android <c>Size</c> or <c>SizeF</c>.
 	/// </summary>
 	public class CGSize
 	{

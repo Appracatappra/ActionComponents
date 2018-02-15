@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['string',['string',['../classactioncomponents_1_1actioncomponents_1_1_r_1_1string.html',1,'actioncomponents::actioncomponents::R']]],
-  ['string',['String',['../class_action_components_1_1_resource_1_1_string.html',1,'ActionComponents::Resource']]]
+  ['nsmutableparagraphstyle',['NSMutableParagraphStyle',['../class_foundation_1_1_n_s_mutable_paragraph_style.html',1,'Foundation']]],
+  ['nsset',['NSSet',['../class_foundation_1_1_n_s_set.html',1,'Foundation']]],
+  ['nsstring',['NSString',['../class_foundation_1_1_n_s_string.html',1,'Foundation']]]
 ];

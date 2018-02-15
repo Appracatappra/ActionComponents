@@ -26,10 +26,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_action_components_1_1_a_c_download_item.html#ac06aa4aa0c9f6c4acb859ceb7472971c",
-"class_action_components_1_1_a_c_nav_bar_pointer.html#a6504aa7aa4aede508e010a289a67b862",
-"class_action_components_1_1_a_c_table_view_data_source.html#a450f637c80c2dcccf31273468504cad6",
-"class_action_components_1_1_r_g_b_color.html#a7a5ede5330816f1a7422e52dc4d4aea3"
+"class_action_components_1_1_a_c_color.html#a3468760f1e785ff13f5057b97be56ac0",
+"class_action_components_1_1_a_c_hue_bar.html#ac7240b2cac573c1492fae4cd27dab09f",
+"class_action_components_1_1_a_c_oval_appearance.html#aa83eacaea05d74cdb64595826a529cff",
+"class_action_components_1_1_a_c_tile.html#a79c46aa43176f1e857b9fb92ab2b2a74",
+"class_action_components_1_1_a_c_tile_live_update_tile_style.html#ac54bdabd7de61d1061eb30225f351ffc",
+"class_action_components_1_1_action_canvas_extensions.html#a554d8f0ff58c1e6128319b7475f47e81",
+"class_u_i_kit_1_1_u_i_event.html#ae26f426aad7c0e68bfa9fdbc866e6240"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

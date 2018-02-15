@@ -1,0 +1,20 @@
+<map id="ActionComponents.ACTile.Draw" name="ActionComponents.ACTile.Draw">
+<area shape="rect" id="node2" href="$class_u_i_kit_1_1_u_i_graphics.html#a5fb40b0a2e9846e2e1da6d911f423ed4" title="Gets the current context. NOTE: Unlike the iOS version, the developer needs to pass a reference to th..." alt="" coords="578,5,768,49"/>
+<area shape="rect" id="node3" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a89c7c56b2c624d3c787bf5306d7f45aa" title="Creates a new UIBezierPath from the given rect. " alt="" coords="295,446,489,474"/>
+<area shape="rect" id="node5" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a4ab1fe9dee2a634d744245d0e8d12fd9" title="Creates a new UIBezierPath from the given round rect. " alt="" coords="268,394,516,422"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_color.html#ac00985e179c5f20da6eedcfee1fb3ca7" title="Sets the fill color in the current paint for the current canvas specified by the global UIGraphics cl..." alt="" coords="578,417,769,461"/>
+<area shape="rect" id="node7" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a7d3ec6e13f8df2bbe6d22082612489fb" title="Draws a filled version of the path into the current graphics context. " alt="" coords="315,498,469,526"/>
+<area shape="rect" id="node8" href="$class_action_components_1_1_a_c_color.html#a983f360de34dbef27e4573fef757b12f" title="Sets the stroke color in the current paint for the current canvas specified by the global UIGraphics ..." alt="" coords="296,550,488,594"/>
+<area shape="rect" id="node9" href="$class_u_i_kit_1_1_u_i_bezier_path.html#add761756cbc67fbb58f71849858c10b2" title="Draws an outline version of the path into the current graphics context. " alt="" coords="305,618,479,646"/>
+<area shape="rect" id="node10" href="$class_action_components_1_1_a_c_tile.html#a57acfc44ebae75d9e7f8183af9dcff6c" title="Draws a scene type tile. " alt="" coords="302,165,482,209"/>
+<area shape="rect" id="node17" href="$class_action_components_1_1_a_c_tile.html#a9c19e9b44cfc7dddf558b1ae135d31b5" title="Draws the accessory type tile. " alt="" coords="302,233,482,277"/>
+<area shape="rect" id="node4" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a2ba7d22501a5ba34049eacfdc40dd77a" title="Initializes a new instance of the T:UIKit.UIBezierPath class. " alt="" coords="566,485,781,513"/>
+<area shape="rect" id="node11" href="$class_u_i_kit_1_1_u_i_image.html#a3b2e002f4d8bdcf98b5ad8b587185df0" title="Draws the image into the currently active canvas as specified in the global UIGraphics class..." alt="" coords="604,125,743,153"/>
+<area shape="rect" id="node12" href="$class_u_i_kit_1_1_u_i_font.html#a117715dad70c86144dcb65cefb26e655" title="Measures the size of the current string for the given font, available size and line break mode..." alt="" coords="594,73,753,101"/>
+<area shape="rect" id="node14" href="$class_u_i_kit_1_1_u_i_font.html#a9667789d64e86328d3667a0a18ef58bb" title="Returns a system font of the given size. " alt="" coords="569,177,778,205"/>
+<area shape="rect" id="node16" href="$class_foundation_1_1_n_s_string.html#a54c0a85b968d28e2137f3d61a89a418c" title="Draws the string into the canvas from the current context of the UIGraphics class using the given pro..." alt="" coords="583,229,763,273"/>
+<area shape="rect" id="node13" href="$class_action_components_1_1_action_canvas_extensions.html#a0396d0ffa4c13feabe1e6f5307d1dfe0" title="Calculates the height of a block of text to be drawn in a canvas given the wrapping width and the max..." alt="" coords="830,65,1050,109"/>
+<area shape="rect" id="node15" href="$class_u_i_kit_1_1_u_i_font.html#a7c5d198d2f408f63a6d14fcfc5a4a062" title="Initializes a new instance of the T:UIKit.UIFont class. " alt="" coords="871,241,1009,269"/>
+<area shape="rect" id="node18" href="$class_u_i_kit_1_1_c_g_context.html#a0f51b885187b49ca3b682da310be543b" title="Saves the state. " alt="" coords="581,365,766,393"/>
+<area shape="rect" id="node19" href="$class_u_i_kit_1_1_u_i_font.html#afe3404670e746e70a8e2aae0e28631ed" title="Returns a bold system font of the given size. " alt="" coords="576,297,771,341"/>
+</map>

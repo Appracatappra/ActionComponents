@@ -1,0 +1,5 @@
+<map id="ActionComponents.ACColor.FromHSBA" name="ActionComponents.ACColor.FromHSBA">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color.html#a13a7ced8ebb92988552c0117d48af974" title="Creates a color from using the hue, saturation and brightness components. " alt="" coords="246,21,437,65"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#a342603556a04fb6eed9df00b8f811e0b" title="Creates a new color from the given red, green and blue values " alt="" coords="486,21,677,65"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_color.html#a6622b253316b43b05035890bc834839d" title="Return a color from red, green, blue components. These component values should be [0..." alt="" coords="726,29,941,57"/>
+</map>

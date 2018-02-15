@@ -6,6 +6,9 @@ using CoreGraphics;
 
 namespace ActionComponents
 {
+	/// <summary>
+	/// Defines the customizable properties of an <c>ACTile</c> that control it's look and feel.
+	/// </summary>
 	public class ACTileAppearance
 	{
 		#region Private Properties

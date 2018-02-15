@@ -1,0 +1,6 @@
+<map id="ActionComponents.ACTileController.AddGroup" name="ActionComponents.ACTileController.AddGroup">
+<area shape="rect" id="node2" href="$class_u_i_kit_1_1_u_i_scroll_view.html#abea02b8e8c06d689a4c9755301a885e3" title="Adds the subview. " alt="" coords="291,35,498,63"/>
+<area shape="rect" id="node3" href="$class_u_i_kit_1_1_u_i_view.html#ad16d66343d333c23a7885f3067f0852f" title="Adds the subview. " alt="" coords="547,5,720,33"/>
+<area shape="rect" id="node4" href="$class_u_i_kit_1_1_u_i_scroll_view.html#a49a3a4edb0e5e9fb18cb3a91b8865889" title="Layouts the subviews. " alt="" coords="547,57,719,101"/>
+<area shape="rect" id="node5" href="$class_u_i_kit_1_1_u_i_scroll_view.html#a9c8fabdf8d1fb960676e82d19b86cec1" title="Occurs when the scroll view is scrolled. " alt="" coords="768,57,962,101"/>
+</map>

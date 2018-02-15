@@ -1,0 +1,5 @@
+<map id="ActionComponents.ACTileNavigationBar.Redraw" name="ActionComponents.ACTileNavigationBar.Redraw">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_navigation_bar.html#aad6cbd3547285b9dfe6fdc74acb55fd4" title="Initializes a new instance of the ACTileNavigationBar class. " alt="" coords="293,5,533,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_navigation_bar.html#adf8179df2acc48d8aca463c0daf293c2" title="Resize to the specified width. " alt="" coords="293,73,533,117"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_controller.html#ad0c47e4256688df7621baf8ca8f42b23" title="Layouts the subviews. " alt="" coords="581,73,819,117"/>
+</map>

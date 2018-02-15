@@ -3,6 +3,9 @@ using Android.Graphics;
 
 namespace ActionComponents
 {
+	/// <summary>
+	/// Defines the customizable properties of an <c>ACTileGroup</c> that control it's look and feel.
+	/// </summary>
 	public class ACTileGroupAppearance
 	{
 		#region Private Properties

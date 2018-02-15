@@ -1,0 +1,4 @@
+<map id="ActionComponents.ACTileController.ACTileControllerTouchedDelegate" name="ActionComponents.ACTileController.ACTileControllerTouchedDelegate">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_controller.html#a1b54df19f5d135d38286a0da1bd47bd3" title="Draw the specified rect. " alt="" coords="291,5,560,33"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_controller.html#a0680ba55888c52927eca577b3aa180b6" title="Send when one or more fingers are lifted from the screen. " alt="" coords="306,57,544,101"/>
+</map>

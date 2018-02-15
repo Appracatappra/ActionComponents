@@ -24,7 +24,8 @@ using nuint = global::System.UInt32;
 namespace UIKit
 {
 	/// <summary>
-	/// Simulates a iOS <c>UIBezierPath</c> object for ease of porting UI code from iOS to Android.
+	/// Simulates a iOS <c>UIBezierPath</c> object for ease of porting UI code from iOS to Android. NOTE: Only a small
+	/// percentage of the <c>UIBezierPath</c> features have been ported to support the Action Components.
 	/// </summary>
 	public class UIBezierPath
 	{

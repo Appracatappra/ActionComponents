@@ -1,0 +1,5 @@
+<map id="ActionComponents.ACTileGroup.Draw" name="ActionComponents.ACTileGroup.Draw">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color.html#ac00985e179c5f20da6eedcfee1fb3ca7" title="Sets the fill color for drawing. " alt="" coords="304,5,496,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#a10ab202a2b4787d2fab78ac556de300d" title="Converts the ACColor to a default iOS UIColor and returns it " alt="" coords="304,73,496,117"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_color.html#a983f360de34dbef27e4573fef757b12f" title="Sets the stroke color for drawing. " alt="" coords="304,141,496,185"/>
+</map>

@@ -3,7 +3,7 @@ using System;
 namespace ActionComponents
 {
 	/// <summary>
-	/// Defines the base prototype for all <c>ACTileLiveUpdate</c> types
+	/// Defines the base prototype for all <c>ACTileLiveUpdate</c> types.
 	/// </summary>
 	public class ACTileLiveUpdate
 	{

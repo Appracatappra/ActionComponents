@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="ActionComponents.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ActionComponents
-   &#160;<span id="projectnumber">04.02.00</span>
+   &#160;<span id="projectnumber">04.03.00</span>
    </div>
    <div id="projectbrief">Customizable UI and time-saving tools for iOS development with Xamarin and Visual Studio.</div>
   </td>
@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('class_action_components_1_1i_o_s_devic
 
 <div class="header">
   <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_action_components_1_1i_o_s_device-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -119,6 +120,12 @@ $(document).ready(function(){initNavTree('class_action_components_1_1i_o_s_devic
 <p>Helper class that returns information about the iOS device that the Xamarin.iOS app is running on  
  <a href="class_action_components_1_1i_o_s_device.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1667481b89961783d482b90bb2d4960d"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1i_o_s_device.html#a1667481b89961783d482b90bb2d4960d">GetSystemProperty</a> (string property)</td></tr>
+<tr class="memdesc:a1667481b89961783d482b90bb2d4960d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value of the given system property. For example, "hw.machine" will return the model number of the iOS Device that the app is running on.  <a href="#a1667481b89961783d482b90bb2d4960d">More...</a><br /></td></tr>
+<tr class="separator:a1667481b89961783d482b90bb2d4960d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a5981a6dc287f7d99589e23b1202f37d5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1i_o_s_device.html#a5981a6dc287f7d99589e23b1202f37d5">isPhone</a><code> [get]</code></td></tr>
@@ -157,10 +164,50 @@ Properties</h2></td></tr>
 <tr class="memitem:a93ab53c1cc0bea6415a733a6c06b99c1"><td class="memItemLeft" align="right" valign="top">static CGRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1i_o_s_device.html#a93ab53c1cc0bea6415a733a6c06b99c1">AvailableScreenBounds</a><code> [get]</code></td></tr>
 <tr class="memdesc:a93ab53c1cc0bea6415a733a6c06b99c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounds for the device's <code>MainScreen</code> adjusted to fit the current <code>UIInterfaceOrientation</code> taking into account if the system status bar is being displayed  <a href="#a93ab53c1cc0bea6415a733a6c06b99c1">More...</a><br /></td></tr>
 <tr class="separator:a93ab53c1cc0bea6415a733a6c06b99c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf7e54bef8da03e39f7d150f0e74d0ef"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1i_o_s_device.html#abf7e54bef8da03e39f7d150f0e74d0ef">ModelName</a><code> [get]</code></td></tr>
+<tr class="memdesc:abf7e54bef8da03e39f7d150f0e74d0ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the model name of the iOS Device that the app is running on. For example, <code>iPhone10,3</code> or <code>iPhone10,6</code> for the <code>iPhone X</code>. When running in an iOS Simulator, the correct model name is returned instead of 'x86_64`.  <a href="#abf7e54bef8da03e39f7d150f0e74d0ef">More...</a><br /></td></tr>
+<tr class="separator:abf7e54bef8da03e39f7d150f0e74d0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3e772e202089b4b1de1a88e99cdb267"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_action_components.html#a524cbfa7b0f08ed093b28a84210674b1">AppleHardwareType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1i_o_s_device.html#ae3e772e202089b4b1de1a88e99cdb267">DeviceType</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae3e772e202089b4b1de1a88e99cdb267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of the device. For example, "iPhone10,3" will return an <code>AppleHardwareType</code> enum of the human readable counterpart "iPhoneX".  <a href="#ae3e772e202089b4b1de1a88e99cdb267">More...</a><br /></td></tr>
+<tr class="separator:ae3e772e202089b4b1de1a88e99cdb267"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class that returns information about the iOS device that the Xamarin.iOS app is running on </p>
-</div><h2 class="groupheader">Property Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a1667481b89961783d482b90bb2d4960d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string ActionComponents.iOSDevice.GetSystemProperty </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the value of the given system property. For example, "hw.machine" will return the model number of the iOS Device that the app is running on. </p>
+<dl class="section return"><dt>Returns</dt><dd>The system property value.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">property</td><td>Property to get the value for.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="a93ab53c1cc0bea6415a733a6c06b99c1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -204,6 +251,29 @@ Properties</h2></td></tr>
 
 <p>Gets the current device orientation. </p>
 <p>The current device orientation.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae3e772e202089b4b1de1a88e99cdb267"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_action_components.html#a524cbfa7b0f08ed093b28a84210674b1">AppleHardwareType</a> ActionComponents.iOSDevice.DeviceType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the type of the device. For example, "iPhone10,3" will return an <code>AppleHardwareType</code> enum of the human readable counterpart "iPhoneX". </p>
+<p>The type of the device or <code>unknown</code> if the type cannot be decided.</p>
 
 </div>
 </div>
@@ -414,6 +484,29 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abf7e54bef8da03e39f7d150f0e74d0ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ActionComponents.iOSDevice.ModelName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the model name of the iOS Device that the app is running on. For example, <code>iPhone10,3</code> or <code>iPhone10,6</code> for the <code>iPhone X</code>. When running in an iOS Simulator, the correct model name is returned instead of 'x86_64`. </p>
+<p>The name of the model.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae9cce32cdd25b55536ecaf2a5bfea1ca"></a>
 <div class="memitem">
 <div class="memproto">
@@ -443,7 +536,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_action_components.html">ActionComponents</a></li><li class="navelem"><a class="el" href="class_action_components_1_1i_o_s_device.html">iOSDevice</a></li>
-    <li class="footer">Generated on Thu Feb 1 2018 12:07:48 for ActionComponents by
+    <li class="footer">Generated on Thu Feb 15 2018 09:27:23 for ActionComponents by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

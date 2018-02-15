@@ -1,0 +1,5 @@
+<map id="ActionComponents.ACTileGroup.ChromaKeyTiles" name="ActionComponents.ACTileGroup.ChromaKeyTiles">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color.html#a800b838de74fdcfc6c46821d46d05b3b" title="Returns the hue, saturation, brightness and alpha components of the color. " alt="" coords="286,5,477,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#ad15a57136b5680217511bc198c8d0117" title="Creates a color from using the hue, saturation and brightness components with the given alpha value ..." alt="" coords="286,97,477,141"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_group.html#a41babfc73fbdc85c7505f4455500242f" title="Forces this ACTileGroup to fully redraw itself " alt="" coords="272,165,490,209"/>
+</map>

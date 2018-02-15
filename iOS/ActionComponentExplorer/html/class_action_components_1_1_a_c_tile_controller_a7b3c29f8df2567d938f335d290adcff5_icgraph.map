@@ -1,0 +1,11 @@
+<map id="ActionComponents.ACTileController.Redraw" name="ActionComponents.ACTileController.Redraw">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_controller.html#a250d80103cf2d97bf3ee583124c3b566" title="Initializes a new instance of the ACTileController class. " alt="" coords="290,5,528,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_controller.html#a5ef402c59baad99714841f2c4c207247" title="Adds a new group to the tile controller with the given properties. " alt="" coords="290,73,528,117"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_controller.html#ada9a0d62057e8112b0cb5dd20e373bd5" title="Removes the ACTilegGroup at index. " alt="" coords="290,141,528,185"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_controller.html#ac76c03b9a0cdce0e9bad0f9c9101d2c9" title="Removes all ACTileGroups " alt="" coords="290,209,528,253"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_tile_controller.html#ad0c47e4256688df7621baf8ca8f42b23" title="Layouts the subviews. " alt="" coords="290,277,528,321"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_tile_controller.html#ad1c3203e0f8c9a7e41a99781681a5860" title="For Horizontal ACTileControllerScrollDirection the ACTileGroup will fill the parent ACTileController ..." alt="" coords="290,345,528,389"/>
+<area shape="rect" id="node8" href="$class_action_components_1_1_a_c_tile_controller.html#aae0b7827f6d1edb2b333548be795e896" title="The ACTileGroup will be one &quot;page&quot; wide and high, filling the parent ACTileController both horizontal..." alt="" coords="290,413,528,457"/>
+<area shape="rect" id="node9" href="$class_action_components_1_1_a_c_tile_controller.html#a3ce785b2271fa36015ad6aca98aa93b6" title="For Horizontal ACTileControllerScrollDirection the ACTileGroup will fill the parent ACTileController ..." alt="" coords="290,481,528,525"/>
+<area shape="rect" id="node10" href="$class_action_components_1_1_a_c_tile_controller.html#aa59bc9be5493010736755eac0cdf9ec8" title="The ACTileGroup will have a fixed height and width based on the given number of rows and columns..." alt="" coords="290,549,528,593"/>
+</map>

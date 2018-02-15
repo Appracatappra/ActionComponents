@@ -8,6 +8,9 @@ using CoreGraphics;
 
 namespace ActionComponents
 {
+	/// <summary>
+	/// Mutates the image of a selected <c>ACTile</c> by cycling through a list of provided images.
+	/// </summary>
 	public class ACTileLiveUpdateTileImages : ACTileLiveUpdate 
 	{
 		#region Private Variables

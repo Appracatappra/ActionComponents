@@ -1,0 +1,5 @@
+<map id="UIKit.UIView.AddSubview" name="UIKit.UIView.AddSubview">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_group.html#ac3ca05f58d68c99ca93578611d8bf15f" title="Adds the tile to the group&#39;s collection of tiles. " alt="" coords="227,5,445,49"/>
+<area shape="rect" id="node3" href="$class_u_i_kit_1_1_u_i_scroll_view.html#abea02b8e8c06d689a4c9755301a885e3" title="Adds the subview. " alt="" coords="233,73,439,101"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_controller.html#a5ef402c59baad99714841f2c4c207247" title="Adds a new group to the tile controller with the given properties. " alt="" coords="493,65,731,109"/>
+</map>

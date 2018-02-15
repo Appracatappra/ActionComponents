@@ -81,9 +81,7 @@ namespace ActionComponents
 			if (++_index >= _colors.Count ) _index = 0;
 
 			//Change the color of every time in the group
-			foreach (ACTile tile in _group) {
-				tile.appearance.background = _colors [_index];
-			}
+			_group.SetTileColor(_colors[_index]);
 
 		}
 

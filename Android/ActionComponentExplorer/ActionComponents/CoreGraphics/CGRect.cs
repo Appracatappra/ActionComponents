@@ -17,7 +17,8 @@ using nuint = global::System.UInt32;
 namespace CoreGraphics
 {
 	/// <summary>
-	/// Structure defining a rectangle in terms of location and size.
+	/// Represents a simulated iOS <c>CGRect</c> used to ease the porting of UI code from iOS to Android. A <c>CGRect</c>
+	/// can be implicitly converted to and from an Android <c>Rect</c> or <c>RectF</c>.
 	/// </summary>
 	public class CGRect
 	{

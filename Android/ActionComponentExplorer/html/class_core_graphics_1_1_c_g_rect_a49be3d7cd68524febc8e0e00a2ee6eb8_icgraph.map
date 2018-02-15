@@ -1,0 +1,11 @@
+<map id="CoreGraphics.CGRect.CGRect" name="CoreGraphics.CGRect.CGRect">
+<area shape="rect" id="node2" href="$class_core_graphics_1_1_c_g_rect.html#ac5b73726157be8e8e749b5a33d28c785" title="Converts the Rect to a CGRect. " alt="" coords="267,5,475,49"/>
+<area shape="rect" id="node3" href="$class_core_graphics_1_1_c_g_rect.html#a8154414727b6097491d92876da275ab5" title="Adds a CoreGraphics.CGRect to a CoreGraphics.CGRect, yielding a new T:CoreGraphics.CGRect. " alt="" coords="263,73,479,101"/>
+<area shape="rect" id="node4" href="$class_core_graphics_1_1_c_g_rect.html#a9b0963fdc50072be02472f4181acabbe" title="Subtracts a CoreGraphics.CGRect from a CoreGraphics.CGRect, yielding a new T:CoreGraphics.CGRect. " alt="" coords="264,125,477,153"/>
+<area shape="rect" id="node5" href="$class_core_graphics_1_1_c_g_rect.html#a4e3ba0e8c03d4ff1eaeffd4dbdc8c9f6" title="Creates a CGRect structure with the specified edge locations. " alt="" coords="259,177,482,205"/>
+<area shape="rect" id="node6" href="$class_core_graphics_1_1_c_g_rect.html#ab2aa9491a31088fd4f2cca5018973365" title="Creates and returns an enlarged copy of the specified CGRect structure. The copy is enlarged by the s..." alt="" coords="273,229,468,257"/>
+<area shape="rect" id="node9" href="$class_core_graphics_1_1_c_g_rect.html#a5d2af84d1425cc586ba16989906dfe50" title="Returns a new CGRect representing the intersection of the two given rectangles. " alt="" coords="266,281,475,309"/>
+<area shape="rect" id="node10" href="$class_core_graphics_1_1_c_g_rect.html#a25746edd292b1404898c6884a5279a03" title="Returns the union of the two rectangles " alt="" coords="274,333,467,361"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_tile.html#a6302dfc04df7a81d9950c19400fc4461" title="Draws the top title bar. " alt="" coords="531,191,712,235"/>
+<area shape="rect" id="node8" href="$class_action_components_1_1_a_c_tile.html#a1ae7993c1fae0e730e1cec2964fd7b57" title="Draws the bottom title bar. " alt="" coords="760,222,941,266"/>
+</map>

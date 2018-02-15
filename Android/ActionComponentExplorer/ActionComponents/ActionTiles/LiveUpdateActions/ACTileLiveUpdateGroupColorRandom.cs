@@ -11,7 +11,14 @@ namespace ActionComponents
 	public class ACTileLiveUpdateGroupColorRandom : ACTileLiveUpdate 
 	{
 		#region Private Variables
+		/// <summary>
+		/// The parent group.
+		/// </summary>
 		private ACTileGroup _group;
+
+		/// <summary>
+		/// The colors to cycle through.
+		/// </summary>
 		private List<ACColor> _colors = new List<ACColor>();
 		#endregion 
 
@@ -78,11 +85,10 @@ namespace ActionComponents
 
 			Random rnd = new Random();
 
+
 			try {
-				//Change the color of every time in the group
-				foreach (ACTile tile in _group) {
-					tile.appearance.background = _colors [rnd.Next(0,_colors.Count)];
-				}
+				var color = _colors[rnd.Next(0, _colors.Count)];
+				_group.SetTileColor(color);
 			}
 			catch {
 				//Ignore errors

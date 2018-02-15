@@ -37,7 +37,8 @@ namespace Foundation
 		public UITextAlignment Alignment { get; set; } = UITextAlignment.Left;
 
 		/// <summary>
-		/// Gets or sets the vertical alignment.
+		/// Gets or sets the vertical alignment. This is an addition to the <c>iOS</c> version specific to working with
+		/// Android apps.
 		/// </summary>
 		/// <value>The vertical alignment.</value>
 		public TextBlockAlignment VerticalAlignment { get; set; } = TextBlockAlignment.Top;
@@ -135,6 +136,9 @@ namespace Foundation
 		#endregion
 
 		#region Constructors
+		/// <summary>
+		/// Initializes a new instance of the <see cref="T:Foundation.NSMutableParagraphStyle"/> class.
+		/// </summary>
 		public NSMutableParagraphStyle()
 		{
 		}

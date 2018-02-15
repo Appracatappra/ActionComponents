@@ -9,15 +9,35 @@ using CoreGraphics;
 namespace ActionComponents
 {
 	/// <summary>
-	/// Changes the title, subtitle and description for the given <c>ACTile</c> 
+	/// Changes the title, subtitle and description for the given <c>ACTile</c> by cycling through the list of
+	/// available entries. 
 	/// </summary>
 	public class ACTileLiveUpdateTileText : ACTileLiveUpdate 
 	{
 		#region Private Variables
+		/// <summary>
+		/// The parent tile.
+		/// </summary>
 		private ACTile _tile;
+
+		/// <summary>
+		/// The titles collection.
+		/// </summary>
 		private List<string> _titles;
+
+		/// <summary>
+		/// The subtitles collection.
+		/// </summary>
 		private List<string> _subtitles;
+
+		/// <summary>
+		/// The descriptions collection.
+		/// </summary>
 		private List<string> _descriptions;
+
+		/// <summary>
+		/// The current index.
+		/// </summary>
 		private int _index = 0;
 		#endregion
 

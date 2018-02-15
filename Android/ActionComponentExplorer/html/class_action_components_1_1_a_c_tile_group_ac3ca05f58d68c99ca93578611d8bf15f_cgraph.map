@@ -1,0 +1,5 @@
+<map id="ActionComponents.ACTileGroup.AddTile" name="ActionComponents.ACTileGroup.AddTile">
+<area shape="rect" id="node2" href="$class_u_i_kit_1_1_u_i_view.html#ad16d66343d333c23a7885f3067f0852f" title="Adds the subview. " alt="" coords="284,5,457,33"/>
+<area shape="rect" id="node3" href="$class_u_i_kit_1_1_u_i_view.html#aade48c5271819c9d10d0fb6f75dd6088" title="Sets the needs layout. " alt="" coords="272,57,469,85"/>
+<area shape="rect" id="node4" href="$class_u_i_kit_1_1_u_i_view.html#a0e18719a074a8fe655d31d394c7cf755" title="Lays out any sub view in the control. " alt="" coords="518,57,714,85"/>
+</map>

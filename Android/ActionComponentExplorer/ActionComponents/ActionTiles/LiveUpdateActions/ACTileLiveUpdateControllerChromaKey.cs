@@ -8,17 +8,34 @@ namespace ActionComponents
 {
 	/// <summary>
 	/// Mutates the color of the given <c>ACTile</c> attached to this <c>ACTileLiveUpdate</c>
-	/// with in the given brightness range for the given base color 
+	/// with in the given brightness range for the given base color. 
 	/// </summary>
 	public class ACTileLiveUpdateControllerChromaKey : ACTileLiveUpdate 
 	{
 		#region Private Variables
+		/// <summary>
+		/// The parent tile controller.
+		/// </summary>
 		private ACTileController _controller;
 		#endregion
 
 		#region Computed Properties
+		/// <summary>
+		/// Gets or sets the background color.
+		/// </summary>
+		/// <value>The background.</value>
 		public ACColor background { get; set;}
+
+		/// <summary>
+		/// Gets or sets the minimum hue variance.
+		/// </summary>
+		/// <value>The minimum.</value>
 		public int minimum { get; set;}
+
+		/// <summary>
+		/// Gets or sets the maximum hue variance.
+		/// </summary>
+		/// <value>The maximum.</value>
 		public int maximum { get; set;}
 		#endregion
 

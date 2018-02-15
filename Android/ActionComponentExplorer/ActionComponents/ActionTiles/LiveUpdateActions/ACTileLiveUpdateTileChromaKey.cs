@@ -13,12 +13,29 @@ namespace ActionComponents
 	public class ACTileLiveUpdateTileChromaKey : ACTileLiveUpdate 
 	{
 		#region Private Variables
+		/// <summary>
+		/// The parent tile.
+		/// </summary>
 		private ACTile _tile;
 		#endregion
 
 		#region Computed Properties
+		/// <summary>
+		/// Gets or sets the background color.
+		/// </summary>
+		/// <value>The background.</value>
 		public ACColor background { get; set;}
+
+		/// <summary>
+		/// Gets or sets the minimum hue variance.
+		/// </summary>
+		/// <value>The minimum.</value>
 		public int minimum { get; set;}
+
+		/// <summary>
+		/// Gets or sets the maximum hue variance.
+		/// </summary>
+		/// <value>The maximum.</value>
 		public int maximum { get; set;}
 		#endregion
 

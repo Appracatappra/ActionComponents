@@ -4,17 +4,34 @@ namespace ActionComponents
 {
 	/// <summary>
 	/// Causes a random color mutation within a given brightness range off the provided base color for every <c>ACTile</c> in the
-	/// <c>ACTileGroup</c> attached to this <c>ACTileLiveUpdate</c> 
+	/// <c>ACTileGroup</c> attached to this <c>ACTileLiveUpdate</c>. 
 	/// </summary>
 	public class ACTileLiveUpdateGroupChromaKey : ACTileLiveUpdate
 	{
 		#region Private Variables
+		/// <summary>
+		/// The parent group.
+		/// </summary>
 		private ACTileGroup _group;
 		#endregion
 
 		#region Computed Properties
+		/// <summary>
+		/// Gets or sets the background color.
+		/// </summary>
+		/// <value>The background.</value>
 		public ACColor background { get; set;}
+
+		/// <summary>
+		/// Gets or sets the minimum hue variance.
+		/// </summary>
+		/// <value>The minimum.</value>
 		public int minimum { get; set;}
+
+		/// <summary>
+		/// Gets or sets the maximum hue variance.
+		/// </summary>
+		/// <value>The maximum.</value>
 		public int maximum { get; set;}
 		#endregion
 

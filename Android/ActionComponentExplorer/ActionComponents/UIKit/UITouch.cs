@@ -4,7 +4,8 @@ using CoreGraphics;
 namespace UIKit
 {
 	/// <summary>
-	/// Represents a touch event on the screen.
+	/// Represents a simulated iOS <c>UITouch</c> used to ease the porting of UI code from iOS to Android. NOTE: Only a
+	/// small percentage of <c>UITouch</c> has been ported to support the Action Components.
 	/// </summary>
 	public class UITouch
 	{

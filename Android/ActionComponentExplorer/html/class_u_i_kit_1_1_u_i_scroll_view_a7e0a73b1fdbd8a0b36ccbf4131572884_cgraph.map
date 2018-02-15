@@ -1,0 +1,7 @@
+<map id="UIKit.UIScrollView.TouchesMoved" name="UIKit.UIScrollView.TouchesMoved">
+<area shape="rect" id="node2" href="$class_u_i_kit_1_1_u_i_scroll_view.html#a94bb8e817c609f8c06d0db8d36897a66" title="UIKit.UIScrollView.Redraw" alt="" coords="235,65,413,93"/>
+<area shape="rect" id="node3" href="$class_core_graphics_1_1_c_g_rect.html#a613d7b66ed564eaa6b10bb033d83b70e" title="Test to see if the given rectangle intersects with this rectangle. " alt="" coords="461,5,704,33"/>
+<area shape="rect" id="node4" href="$class_u_i_kit_1_1_u_i_view.html#a95bca38b7da6505c0a85e6b25973baf8" title="Invokes the given action on the main UI thread. " alt="" coords="490,57,675,101"/>
+<area shape="rect" id="node6" href="$class_u_i_kit_1_1_u_i_view.html#a363e100ee3dc9327a7df3f6f54e58536" title="Sets the needs display flag. " alt="" coords="482,125,683,153"/>
+<area shape="rect" id="node5" href="$class_u_i_kit_1_1_u_i_view.html#a337fcac0b89dacf9a8c75c7d5b410ed7" title="Draw the specified rect. " alt="" coords="752,65,882,93"/>
+</map>

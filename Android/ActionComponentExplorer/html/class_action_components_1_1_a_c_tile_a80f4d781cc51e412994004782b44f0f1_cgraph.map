@@ -1,0 +1,7 @@
+<map id="ActionComponents.ACTile.ChromaKeyTile" name="ActionComponents.ACTile.ChromaKeyTile">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color.html#aa3c217fc5c152d8aaeaa71bddec0f2e6" title="Returns the hue, saturation, brightness and alpha components of the color. " alt="" coords="235,5,426,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#ad15a57136b5680217511bc198c8d0117" title="Creates a color from using the hue, saturation and brightness components with the given alpha value ..." alt="" coords="235,73,426,117"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_color.html#a13a7ced8ebb92988552c0117d48af974" title="Creates a color from using the hue, saturation and brightness components. " alt="" coords="475,73,666,117"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_color.html#a342603556a04fb6eed9df00b8f811e0b" title="Creates a new color from the given red, green and blue values " alt="" coords="715,73,906,117"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_color.html#a6622b253316b43b05035890bc834839d" title="Return a color from red, green, blue components. These component values should be [0..." alt="" coords="955,81,1170,109"/>
+</map>

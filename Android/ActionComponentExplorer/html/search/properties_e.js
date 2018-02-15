@@ -1,13 +1,20 @@
 var searchData=
 [
-  ['raw',['Raw',['../class_action_components_1_1_r_g_b_color.html#aa23c7eb5db0478f6723d721b3b4aca71',1,'ActionComponents::RGBColor']]],
-  ['rawcolor',['RawColor',['../class_action_components_1_1_h_s_v_color.html#ab2d5d2608a31189b434a05e2d2c46837',1,'ActionComponents::HSVColor']]],
-  ['red',['Red',['../class_action_components_1_1_r_g_b_color.html#a694af7cd4a70210ea5c48a104aac6289',1,'ActionComponents::RGBColor']]],
-  ['rehydrationid',['rehydrationId',['../class_action_components_1_1_a_c_nav_bar.html#acfef04a4e2b4665a77d3f8fca75f3538',1,'ActionComponents.ACNavBar.rehydrationId()'],['../class_action_components_1_1_a_c_nav_bar_button_collection.html#a9eea25b270fb278ec40056a187e38076',1,'ActionComponents.ACNavBarButtonCollection.rehydrationId()']]],
-  ['rgb',['RGB',['../class_action_components_1_1_h_s_v_color.html#a9254a2d0c6aa5de048e435ba3dc6b298',1,'ActionComponents::HSVColor']]],
-  ['rightmargin',['RightMargin',['../class_action_components_1_1_a_c_alert.html#a1fef2ca2d7160c336490d5cfba9e5bbc',1,'ActionComponents.ACAlert.RightMargin()'],['../class_action_components_1_1_a_c_alert_button.html#a471ef85e8e814a33dff0fde63586ddec',1,'ActionComponents.ACAlertButton.RightMargin()'],['../class_action_components_1_1_a_c_nav_bar.html#ac83426b986ea46a703c5100ba943419c',1,'ActionComponents.ACNavBar.RightMargin()'],['../class_action_components_1_1_a_c_nav_bar_button.html#a63d28951fef09ddadde7bdb0925794af',1,'ActionComponents.ACNavBarButton.RightMargin()'],['../class_action_components_1_1_a_c_nav_bar_pointer.html#a0f04abc9faa4e3d5cc7c9f64919c41f5',1,'ActionComponents.ACNavBarPointer.RightMargin()'],['../class_action_components_1_1_a_c_table_cell.html#a1576d851a9ee252cae466d0caaf34f96',1,'ActionComponents.ACTableCell.RightMargin()'],['../class_action_components_1_1_a_c_table_view_controller.html#a9f0cf720ddeb0d9c89532973e6620999',1,'ActionComponents.ACTableViewController.RightMargin()'],['../class_action_components_1_1_a_c_tray.html#a6f42158f67455fec5c640101b1a9fb13',1,'ActionComponents.ACTray.RightMargin()'],['../class_action_components_1_1_a_c_image_view.html#ae2afc365e6cd55d08955accacc6edd67',1,'ActionComponents.ACImageView.RightMargin()'],['../class_action_components_1_1_a_c_label.html#a8344f1564aa634d56ecae93d4d11925c',1,'ActionComponents.ACLabel.RightMargin()'],['../class_action_components_1_1_a_c_view.html#a9ce3a65e4ee7c4e9f31e2156580d8164',1,'ActionComponents.ACView.RightMargin()'],['../class_action_components_1_1_a_c_web_view.html#a94d9784b068fbc76e93d6a1bce66dcd9',1,'ActionComponents.ACWebView.RightMargin()']]],
-  ['roundbottomleftcorner',['roundBottomLeftCorner',['../class_action_components_1_1_a_c_alert_appearance.html#a27f5466f726295d173f2471006fe0b3d',1,'ActionComponents::ACAlertAppearance']]],
-  ['roundbottomrightcorner',['roundBottomRightCorner',['../class_action_components_1_1_a_c_alert_appearance.html#a1ba790767511f6a2796a8dd55c624376',1,'ActionComponents::ACAlertAppearance']]],
-  ['roundtopleftcorner',['roundTopLeftCorner',['../class_action_components_1_1_a_c_alert_appearance.html#a89e5915cf45990fc0635b093a471759b',1,'ActionComponents::ACAlertAppearance']]],
-  ['roundtoprightcorner',['roundTopRightCorner',['../class_action_components_1_1_a_c_alert_appearance.html#a6f28ce94b6f1e950c6d9a8042b3fa859',1,'ActionComponents::ACAlertAppearance']]]
+  ['palegoldenrod',['PaleGoldenrod',['../class_action_components_1_1_a_c_color.html#ab18fce6268b4714e6343b1e77a118e77',1,'ActionComponents::ACColor']]],
+  ['palegreen',['PaleGreen',['../class_action_components_1_1_a_c_color.html#a9fdb234cc720fffc24d79f9e6f24daf5',1,'ActionComponents::ACColor']]],
+  ['paleturquoise',['PaleTurquoise',['../class_action_components_1_1_a_c_color.html#aa667a57d9c328570bef0415de60adf16',1,'ActionComponents::ACColor']]],
+  ['palevioletred',['PaleVioletRed',['../class_action_components_1_1_a_c_color.html#a3363760c2705c4d251813d33bff23f96',1,'ActionComponents::ACColor']]],
+  ['papayawhip',['PapayaWhip',['../class_action_components_1_1_a_c_color.html#ad36f6f1f1a4b73348a1ec018f8732b5e',1,'ActionComponents::ACColor']]],
+  ['paragraphspacing',['ParagraphSpacing',['../class_foundation_1_1_n_s_mutable_paragraph_style.html#aa77032d1f609de6052e0f77c3e3e91a5',1,'Foundation::NSMutableParagraphStyle']]],
+  ['paragraphspacingbefor',['ParagraphSpacingBefor',['../class_foundation_1_1_n_s_mutable_paragraph_style.html#a4f247ece7fe3e8810fb025fb09f58c1a',1,'Foundation::NSMutableParagraphStyle']]],
+  ['paragraphstyle',['ParagraphStyle',['../class_u_i_kit_1_1_u_i_string_attributes.html#acb27971bdc49d00156bf0b9df537c634',1,'UIKit::UIStringAttributes']]],
+  ['peachpuff',['PeachPuff',['../class_action_components_1_1_a_c_color.html#a313ab2941295db52509ad79e566feff0',1,'ActionComponents::ACColor']]],
+  ['peru',['Peru',['../class_action_components_1_1_a_c_color.html#ada945311de2099ff6063c7ffaa351358',1,'ActionComponents::ACColor']]],
+  ['pink',['Pink',['../class_action_components_1_1_a_c_color.html#adfdc03fc2ea98fc91097a6a5a21f9098',1,'ActionComponents::ACColor']]],
+  ['plum',['Plum',['../class_action_components_1_1_a_c_color.html#adc84852a1e7205425e81b314c9cdcc6c',1,'ActionComponents::ACColor']]],
+  ['pointerhidden',['pointerHidden',['../class_action_components_1_1_a_c_nav_bar.html#ad335d018cdaf75cee114c6555ac51955',1,'ActionComponents::ACNavBar']]],
+  ['powderblue',['PowderBlue',['../class_action_components_1_1_a_c_color.html#a3eb9756824a54095a082f242600eb62e',1,'ActionComponents::ACColor']]],
+  ['previouspaint',['PreviousPaint',['../class_u_i_kit_1_1_c_g_context.html#a95bcff0a47638f9eebde3cb57b7f517c',1,'UIKit::CGContext']]],
+  ['progressview',['progressView',['../class_action_components_1_1_a_c_alert.html#a66ea1da680854b68c3f3297f4b042e4b',1,'ActionComponents::ACAlert']]],
+  ['purple',['Purple',['../class_action_components_1_1_a_c_color.html#af2841e621e6d56bda9eb983702e78500',1,'ActionComponents::ACColor']]]
 ];

@@ -1,0 +1,8 @@
+<map id="UIKit.UIBezierPath.FromRect" name="UIKit.UIBezierPath.FromRect">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile.html#a6302dfc04df7a81d9950c19400fc4461" title="Draws the top title bar. " alt="" coords="292,5,473,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile.html#a1ae7993c1fae0e730e1cec2964fd7b57" title="Draws the bottom title bar. " alt="" coords="566,35,746,79"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile.html#ab7e04b0a9e16fa57bdde14b0c4f8a24e" title="Draw the specified rect. " alt="" coords="277,125,489,153"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_controller.html#a1b54df19f5d135d38286a0da1bd47bd3" title="Draw the specified rect. " alt="" coords="248,177,517,205"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_tile_group.html#ac483cbcecdc95e8521be31a227f24fb4" title="Draw the specified rect. " alt="" coords="258,229,507,257"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_tile_navigation_bar.html#a3828cdf81f4077ef936edf7ec0082b98" title="Draw the specified rect. " alt="" coords="263,281,503,325"/>
+</map>

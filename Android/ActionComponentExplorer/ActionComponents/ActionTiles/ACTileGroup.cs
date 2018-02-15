@@ -18,7 +18,11 @@ using nuint = global::System.UInt32;
 
 namespace ActionComponents
 {
-
+	/// <summary>
+	/// Maintains a collection of <c>ACTile</c> objects that are contained within a <c>ACTileController</c>. The
+	/// <c>ACTileGroup</c> handles the creation and layout of the <c>ACTile</c> objects and can controll a collection
+	/// of different sized and shaped tiles.
+	/// </summary>
 	public class ACTileGroup : UIView, IEnumerator, IEnumerable
 	{
 		#region Private Variables
@@ -574,6 +578,19 @@ namespace ActionComponents
 			foreach (ACTile tile in _tiles)
 			{
 				tile.ChromaKeyTile(background, minimum, maximum);
+			}
+		}
+
+		/// <summary>
+		/// Sets the color of the tiles in the group.
+		/// </summary>
+		/// <param name="color">Color.</param>
+		public void SetTileColor(ACColor color)
+		{
+			//Process all tiles
+			foreach (ACTile tile in _tiles)
+			{
+				tile.appearance.background = color;
 			}
 		}
 		#endregion

@@ -1,0 +1,7 @@
+<map id="CoreGraphics.CGSize.CGSize" name="CoreGraphics.CGSize.CGSize">
+<area shape="rect" id="node2" href="$class_core_graphics_1_1_c_g_size.html#a0dbd0a4f2c33a4c0bbf54f1460850288" title="Converts the Size to a CGSize. " alt="" coords="261,5,467,49"/>
+<area shape="rect" id="node3" href="$class_core_graphics_1_1_c_g_size.html#a3514151526c8c643e3b77d2b51f10872" title="Adds a CoreGraphics.CGSize to a CoreGraphics.CGSize, yielding a new T:CoreGraphics.CGSize. " alt="" coords="257,73,471,101"/>
+<area shape="rect" id="node4" href="$class_core_graphics_1_1_c_g_size.html#aeee21e12e4cc8e0bfc0c46995b178f58" title="Subtracts a CoreGraphics.CGSize from a CoreGraphics.CGSize, yielding a new T:CoreGraphics.CGSize. " alt="" coords="258,125,470,153"/>
+<area shape="rect" id="node5" href="$class_core_graphics_1_1_c_g_size.html#af519932e1c468cfb3c28ca4e4faac938" title="Computes the product of a and b, yielding a new T:CoreGraphics.CGSize. " alt="" coords="258,177,470,205"/>
+<area shape="rect" id="node6" href="$class_core_graphics_1_1_c_g_size.html#a0964a9512770313770198cb55668928c" title="Computes the division of a and b, yielding a new T:CoreGraphics.CGSize. " alt="" coords="259,229,469,257"/>
+</map>

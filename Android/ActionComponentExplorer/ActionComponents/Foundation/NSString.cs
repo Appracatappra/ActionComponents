@@ -25,7 +25,8 @@ using nuint = global::System.UInt32;
 namespace Foundation
 {
 	/// <summary>
-	/// Simulates an iOS <c>NSString</c> to ease the porting of UI code from iOS to Android.
+	/// Simulates an iOS <c>NSString</c> to ease the porting of UI code from iOS to Android. A <c>NSString</c> can be
+	/// implicitly converted to and from a standard C# <c>String</c>.
 	/// </summary>
 	public class NSString
 	{

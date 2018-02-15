@@ -11,7 +11,14 @@ namespace ActionComponents
 	public class ACTileLiveUpdateTileSequence : ACTileLiveUpdate 
 	{
 		#region Private Variables
+		/// <summary>
+		/// The parent tile.
+		/// </summary>
 		private ACTile _tile;
+
+		/// <summary>
+		/// A collection of live updates
+		/// </summary>
 		private List<ACTileLiveUpdate> _liveUpdateActions = new List<ACTileLiveUpdate>();
 		#endregion 
 

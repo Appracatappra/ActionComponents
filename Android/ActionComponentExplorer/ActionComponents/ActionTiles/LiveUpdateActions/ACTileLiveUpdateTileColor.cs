@@ -11,8 +11,19 @@ namespace ActionComponents
 	public class ACTileLiveUpdateTileColor : ACTileLiveUpdate 
 	{
 		#region Private Variables
+		/// <summary>
+		/// The parent tile.
+		/// </summary>
 		private ACTile _tile;
+
+		/// <summary>
+		/// The colors collection.
+		/// </summary>
 		private List<ACColor> _colors = new List<ACColor>();
+
+		/// <summary>
+		/// The current color index.
+		/// </summary>
 		private int _index;
 		#endregion 
 

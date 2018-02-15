@@ -1,0 +1,8 @@
+<map id="ActionComponents.ACColor.GetHSBA" name="ActionComponents.ACColor.GetHSBA">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile.html#a80f4d781cc51e412994004782b44f0f1" title="Changes the background color of this ACTile by creating a random brightness off the given base ACColo..." alt="" coords="282,5,462,49"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_tile_appearance.html#a6e7a60038e4009de5d13c4dc7d5d0805" title="Calculates the text colors for background. " alt="" coords="246,73,498,117"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_group.html#a76a6d7e02a2104deda8de670c1dafcc3" title="Changes the background color of every ACTile in this ACTileGroup by creating a random brightness off ..." alt="" coords="563,102,781,146"/>
+<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_tile_live_update_tile_chroma_key.html#aba34f4d26c0f275f5bff43bb4c1b1261" title="Performs the update. " alt="" coords="548,5,796,49"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_live_update_controller_chroma_key.html#a9fe1a551cdac94c5238a513efbe40f43" title="Performs the update. " alt="" coords="857,55,1100,115"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_live_update_group_chroma_key.html#ac94cc78bde3c1295f9a1f43d6c499926" title="Performs the update. " alt="" coords="846,139,1111,183"/>
+</map>

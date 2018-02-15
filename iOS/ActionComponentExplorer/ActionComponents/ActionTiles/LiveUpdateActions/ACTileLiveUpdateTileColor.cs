@@ -6,7 +6,7 @@ namespace ActionComponents
 {
 	/// <summary>
 	/// Changes the background color of the <c>ActionTile.ACTile</c> 
-	/// attached to this <c>ActionTile.ACTileLiveUpdate</c> action to one of the colors listed in sequence
+	/// attached to this <c>ActionTile.ACTileLiveUpdate</c> action to one of the colors listed in sequence.
 	/// </summary>
 	public class ACTileLiveUpdateTileColor : ACTileLiveUpdate 
 	{

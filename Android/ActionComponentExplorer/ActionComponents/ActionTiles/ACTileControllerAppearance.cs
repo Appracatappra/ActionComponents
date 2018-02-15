@@ -4,6 +4,9 @@ using UIKit;
 
 namespace ActionComponents
 {
+	/// <summary>
+	/// Defines the customizable properties of an <c>ACTileController</c> that control it's look and feel.
+	/// </summary>
 	public class ACTileControllerAppearance
 	{
 		#region Private Properties

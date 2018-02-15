@@ -1,0 +1,6 @@
+<map id="ActionComponents.ACTileGroup.AddTile" name="ActionComponents.ACTileGroup.AddTile">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_appearance.html#a9c635ce17960512ec9c01cfbca24d010" title="Clone this instance. " alt="" coords="539,29,792,73"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_group.html#aed56a6addd06b1c4c386b6260169ae98" title="Adds a new ACTile to this ACTileGroup. " alt="" coords="272,58,490,102"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_appearance.html#a10bf481e22197d7f8a899582ebc90b01" title="Initializes a new instance of the Appracatappra.ActionComponents.ActionTray.ACTrayAppearance class an..." alt="" coords="840,29,1093,73"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_color.html#a1d3309905a15c9a52e23cb0b79301472" title="Creates a new color from the given red, green and blue values with the given alpha value ..." alt="" coords="1142,29,1333,73"/>
+</map>

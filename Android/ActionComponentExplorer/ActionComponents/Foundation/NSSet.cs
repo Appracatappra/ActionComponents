@@ -5,7 +5,8 @@ using System.Collections.Generic;
 namespace Foundation
 {
 	/// <summary>
-	/// An unordered collection of distinct items.
+	/// Represents a simulated iOS <c>CGContext</c> used to ease the porting of UI code from iOS to Android. Use a <c>NSSet</c>
+	/// to maintain an unordered collection of objects.
 	/// </summary>
 	public class NSSet : IEnumerator, IEnumerable
 	{

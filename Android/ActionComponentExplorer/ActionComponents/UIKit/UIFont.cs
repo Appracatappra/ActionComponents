@@ -24,7 +24,10 @@ using nuint = global::System.UInt32;
 namespace UIKit
 {
 	/// <summary>
-	/// Simulates a iOS <c>UIFont</c> to ease the porting of UI code from iOS to Android.
+	/// Simulates a iOS <c>UIFont</c> to ease the porting of UI code from iOS to Android. A <c>UIFont</c> holds information
+	/// about the font selected for an upcoming draw operation and contains a <c>Paint</c> object that will be used in
+	/// the drawing process. NOTE: Only a small percentage of <c>UIFont</c> has been ported to support the Action
+	/// Components.
 	/// </summary>
 	public class UIFont
 	{

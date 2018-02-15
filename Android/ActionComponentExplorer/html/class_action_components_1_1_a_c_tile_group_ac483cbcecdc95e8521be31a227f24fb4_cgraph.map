@@ -1,0 +1,16 @@
+<map id="ActionComponents.ACTileGroup.Draw" name="ActionComponents.ACTileGroup.Draw">
+<area shape="rect" id="node2" href="$class_u_i_kit_1_1_u_i_graphics.html#a5fb40b0a2e9846e2e1da6d911f423ed4" title="Gets the current context. NOTE: Unlike the iOS version, the developer needs to pass a reference to th..." alt="" coords="337,5,527,49"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#ac00985e179c5f20da6eedcfee1fb3ca7" title="Sets the fill color in the current paint for the current canvas specified by the global UIGraphics cl..." alt="" coords="336,73,528,117"/>
+<area shape="rect" id="node4" href="$class_u_i_kit_1_1_u_i_font.html#a9667789d64e86328d3667a0a18ef58bb" title="Returns a system font of the given size. " alt="" coords="328,141,536,169"/>
+<area shape="rect" id="node6" href="$class_foundation_1_1_n_s_string.html#af53a3a93448822b025bd21b024e92377" title="Gets the bounding rect for the string. " alt="" coords="305,193,559,221"/>
+<area shape="rect" id="node9" href="$class_foundation_1_1_n_s_string.html#a54c0a85b968d28e2137f3d61a89a418c" title="Draws the string into the canvas from the current context of the UIGraphics class using the given pro..." alt="" coords="342,245,522,289"/>
+<area shape="rect" id="node10" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a89c7c56b2c624d3c787bf5306d7f45aa" title="Creates a new UIBezierPath from the given rect. " alt="" coords="335,313,529,341"/>
+<area shape="rect" id="node12" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a4ab1fe9dee2a634d744245d0e8d12fd9" title="Creates a new UIBezierPath from the given round rect. " alt="" coords="308,365,556,393"/>
+<area shape="rect" id="node13" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a7d3ec6e13f8df2bbe6d22082612489fb" title="Draws a filled version of the path into the current graphics context. " alt="" coords="355,417,509,445"/>
+<area shape="rect" id="node14" href="$class_action_components_1_1_a_c_color.html#a983f360de34dbef27e4573fef757b12f" title="Sets the stroke color in the current paint for the current canvas specified by the global UIGraphics ..." alt="" coords="336,469,528,513"/>
+<area shape="rect" id="node15" href="$class_u_i_kit_1_1_u_i_bezier_path.html#add761756cbc67fbb58f71849858c10b2" title="Draws an outline version of the path into the current graphics context. " alt="" coords="345,537,519,565"/>
+<area shape="rect" id="node5" href="$class_u_i_kit_1_1_u_i_font.html#a7c5d198d2f408f63a6d14fcfc5a4a062" title="Initializes a new instance of the T:UIKit.UIFont class. " alt="" coords="647,141,785,169"/>
+<area shape="rect" id="node7" href="$class_u_i_kit_1_1_u_i_font.html#a117715dad70c86144dcb65cefb26e655" title="Measures the size of the current string for the given font, available size and line break mode..." alt="" coords="637,193,795,221"/>
+<area shape="rect" id="node8" href="$class_action_components_1_1_action_canvas_extensions.html#a0396d0ffa4c13feabe1e6f5307d1dfe0" title="Calculates the height of a block of text to be drawn in a canvas given the wrapping width and the max..." alt="" coords="873,185,1093,229"/>
+<area shape="rect" id="node11" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a2ba7d22501a5ba34049eacfdc40dd77a" title="Initializes a new instance of the T:UIKit.UIBezierPath class. " alt="" coords="609,338,823,366"/>
+</map>
