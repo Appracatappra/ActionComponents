@@ -93,9 +93,11 @@ namespace ActionComponents
 			// Set initial properties
 			this.SetBackgroundColor(Color.Argb(0, 0, 0, 0));
 
-			#if TRIAL
-				Android.Widget.Toast.MakeText(this.Context, "ACColorWell by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
-			#endif
+#if TRIAL
+			Android.Widget.Toast.MakeText(this.Context, "ACColorWell by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
+#else
+			AppracatappraLicenseManager.ValidateLicense(this.Context);
+#endif
 
 		}
 		#endregion

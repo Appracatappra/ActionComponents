@@ -666,26 +666,29 @@ namespace ActionComponents
 			if (bringToFrontOnTouch) this.Superview.BringSubviewToFront(this);
 
 			//Animate opening the tray
-			if (animated) {
+			if (animated)
+			{
 				//Define Animation
 				UIView.BeginAnimations("MoveTray");
 				UIView.SetAnimationDuration(0.5f);
 
 				//Disable interaction during animation
-				_animating=true;
+				_animating = true;
 
 				//Set end of Animation handler
 				UIView.SetAnimationDelegate(this);
 				UIView.SetAnimationDidStopSelector(new Selector("AnimationCompleted"));
 
-				Frame=location;
-				
+				Frame = location;
+
 				//Execute Animation
 				UIView.CommitAnimations();
 
-				#if TRIAL 
-				ACToast.MakeText("ACTray by Appracatappra, LLC.",ACToastLength.Medium).Show();
-				#endif
+#if TRIAL
+				ACToast.MakeText("ACTray by Appracatappra, LLC.", ACToastLength.Medium).Show();
+#else
+				AppracatappraLicenseManager.ValidateLicense();
+#endif
 			} else {
 				Frame=location;
 
@@ -743,26 +746,29 @@ namespace ActionComponents
 			}
 
 			//Animate opening the tray
-			if (animated) {
+			if (animated)
+			{
 				//Define Animation
 				UIView.BeginAnimations("MoveTray");
 				UIView.SetAnimationDuration(0.5f);
 
 				//Disable interaction during animation
-				_animating=true;
+				_animating = true;
 
 				//Set end of Animation handler
 				UIView.SetAnimationDelegate(this);
 				UIView.SetAnimationDidStopSelector(new Selector("AnimationCompleted"));
-				
-				Frame=location;
-				
+
+				Frame = location;
+
 				//Execute Animation
 				UIView.CommitAnimations();
 
-				#if TRIAL 
-				ACToast.MakeText("ACTray by Appracatappra, LLC.",ACToastLength.Medium).Show();
-				#endif
+#if TRIAL
+				ACToast.MakeText("ACTray by Appracatappra, LLC.", ACToastLength.Medium).Show();
+#else
+				AppracatappraLicenseManager.ValidateLicense();
+#endif
 			} else {
 				Frame=location;
 			}

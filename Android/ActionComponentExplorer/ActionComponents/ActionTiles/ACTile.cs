@@ -867,6 +867,12 @@ namespace ActionComponents
 			//Automatically bring view to front?
 			// if (_bringToFrontOnTouched && this.Superview!=null) this.Superview.BringSubviewToFront(this);
 
+			#if TRIAL
+			Android.Widget.Toast.MakeText(this.Context, "ACTile by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
+#else
+			AppracatappraLicenseManager.ValidateLicense(this.Context);
+#endif
+
 			//Inform caller of event
 			RaiseTouched ();
 
@@ -899,10 +905,6 @@ namespace ActionComponents
 
 			//Inform caller of event
 			RaiseReleased ();
-
-			#if TRIAL
-			Android.Widget.Toast.MakeText(this.Context, "ACTile by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
-			#endif
 
 			//Pass call to base object
 			base.TouchesEnded(touches, evt);

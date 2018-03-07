@@ -26,6 +26,7 @@ namespace ActionComponentExplorer
 		
 		public static void UpdateIdValues()
 		{
+			global::ActionComponents.Resource.String.library_name = global::ActionComponentExplorer.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -288,11 +289,14 @@ namespace ActionComponentExplorer
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int app_name = 2131034114;
+			
 			// aapt resource value: 0x7f050001
-			public const int app_name = 2131034113;
+			public const int hello = 2131034113;
 			
 			// aapt resource value: 0x7f050000
-			public const int hello = 2131034112;
+			public const int library_name = 2131034112;
 			
 			static String()
 			{

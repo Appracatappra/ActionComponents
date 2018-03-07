@@ -483,197 +483,245 @@ namespace ActionComponents
 		/// Opens the <see cref="ActionComponents.ACTray"/> 
 		/// </summary>
 		/// <param name="animated">If set to <c>true</c> animated.</param>
-		public void OpenTray(bool animated){
+		public void OpenTray(bool animated)
+		{
 
 			//Is the tray already open?
 			if (isOpened)
 				return;
-			
+
 			//Recalculate open and closing to be safe
-			CalculateOpenAndClosedPositions ();
-			
+			CalculateOpenAndClosedPositions();
+
 			//Save state
-			_opened=true;
+			_opened = true;
 
 			//Automatically bring view to front?
-			if (bringToFrontOnTouch) this.BringToFront ();
-			
-			//Calculate location based on the tray's orientation
-			switch (_orientation) {
-			case ACTrayOrientation.Left:
-				//Animate motion?
-				if (animated) {
-					_disableInteraction=true;
-					var animator = ValueAnimator.OfInt (LeftMargin,_openedPosition);
-					animator.SetDuration (500);
-					animator.Update += (sender, e) => {
-						LeftMargin=(int)e.Animation.AnimatedValue;
-					};
-					animator.AnimationEnd+= (sender, e) => {
-						_disableInteraction=false;
-					};
-					animator.Start ();
-				} else { 
-					LeftMargin=_openedPosition;
-				}
-				break;
-			case ACTrayOrientation.Right:
-				//Animate motion?
-				if (animated) {
-					_disableInteraction=true;
-					var animator = ValueAnimator.OfInt (RightMargin,_openedPosition);
-					animator.SetDuration (500);
-					animator.Update += (sender, e) => {
-						RightMargin=(int)e.Animation.AnimatedValue;
-					};
-					animator.AnimationEnd+= (sender, e) => {
-						_disableInteraction=false;
-					};
-					animator.Start ();
-				} else { 
-					RightMargin=_openedPosition;
-				}
-				break;
-			case ACTrayOrientation.Bottom:
-				//Animate motion?
-				if (animated) {
-					_disableInteraction=true;
-					var animator = ValueAnimator.OfInt (BottomMargin,_openedPosition);
-					animator.SetDuration (500);
-					animator.Update += (sender, e) => {
-						BottomMargin=(int)e.Animation.AnimatedValue;
-					};
-					animator.AnimationEnd+= (sender, e) => {
-						_disableInteraction=false;
-					};
-					animator.Start ();
-				} else { 
-					BottomMargin=_openedPosition;
-				}
-				break;
-			case ACTrayOrientation.Top:
-				//Animate motion?
-				if (animated) {
-					_disableInteraction=true;
-					var animator = ValueAnimator.OfInt (TopMargin,_openedPosition);
-					animator.SetDuration (500);
-					animator.Update += (sender, e) => {
-						TopMargin=(int)e.Animation.AnimatedValue;
-					};
-					animator.AnimationEnd+= (sender, e) => {
-						_disableInteraction=false;
-					};
-					animator.Start ();
-				} else { 
-					TopMargin=_openedPosition;
-				}
-				break;
-			}
-			
-			//Inform caller
-			RaiseMoved ();
-			RaiseOpened ();
+			if (bringToFrontOnTouch) this.BringToFront();
 
-			#if TRIAL
+			//Calculate location based on the tray's orientation
+			switch (_orientation)
+			{
+				case ACTrayOrientation.Left:
+					//Animate motion?
+					if (animated)
+					{
+						_disableInteraction = true;
+						var animator = ValueAnimator.OfInt(LeftMargin, _openedPosition);
+						animator.SetDuration(500);
+						animator.Update += (sender, e) =>
+						{
+							LeftMargin = (int)e.Animation.AnimatedValue;
+						};
+						animator.AnimationEnd += (sender, e) =>
+						{
+							_disableInteraction = false;
+						};
+						animator.Start();
+					}
+					else
+					{
+						LeftMargin = _openedPosition;
+					}
+					break;
+				case ACTrayOrientation.Right:
+					//Animate motion?
+					if (animated)
+					{
+						_disableInteraction = true;
+						var animator = ValueAnimator.OfInt(RightMargin, _openedPosition);
+						animator.SetDuration(500);
+						animator.Update += (sender, e) =>
+						{
+							RightMargin = (int)e.Animation.AnimatedValue;
+						};
+						animator.AnimationEnd += (sender, e) =>
+						{
+							_disableInteraction = false;
+						};
+						animator.Start();
+					}
+					else
+					{
+						RightMargin = _openedPosition;
+					}
+					break;
+				case ACTrayOrientation.Bottom:
+					//Animate motion?
+					if (animated)
+					{
+						_disableInteraction = true;
+						var animator = ValueAnimator.OfInt(BottomMargin, _openedPosition);
+						animator.SetDuration(500);
+						animator.Update += (sender, e) =>
+						{
+							BottomMargin = (int)e.Animation.AnimatedValue;
+						};
+						animator.AnimationEnd += (sender, e) =>
+						{
+							_disableInteraction = false;
+						};
+						animator.Start();
+					}
+					else
+					{
+						BottomMargin = _openedPosition;
+					}
+					break;
+				case ACTrayOrientation.Top:
+					//Animate motion?
+					if (animated)
+					{
+						_disableInteraction = true;
+						var animator = ValueAnimator.OfInt(TopMargin, _openedPosition);
+						animator.SetDuration(500);
+						animator.Update += (sender, e) =>
+						{
+							TopMargin = (int)e.Animation.AnimatedValue;
+						};
+						animator.AnimationEnd += (sender, e) =>
+						{
+							_disableInteraction = false;
+						};
+						animator.Start();
+					}
+					else
+					{
+						TopMargin = _openedPosition;
+					}
+					break;
+			}
+
+			//Inform caller
+			RaiseMoved();
+			RaiseOpened();
+
+#if TRIAL
 			Android.Widget.Toast.MakeText(this.Context, "ACTray by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense(this.Context);
+#endif
 		}
 
 		/// <summary>
 		/// Closes the <see cref="ActionComponents.ACTray"/> 
 		/// </summary>
 		/// <param name="animated">If set to <c>true</c> animated.</param>
-		public void CloseTray(bool animated){
+		public void CloseTray(bool animated)
+		{
 
 			//Is the tray already open?
 			if (isClosed)
 				return;
-			
+
 			//Recalculate open and closing to be safe
-			CalculateOpenAndClosedPositions ();
-			
+			CalculateOpenAndClosedPositions();
+
 			//Save state
-			_opened=false;
-			
+			_opened = false;
+
 			//Calculate location based on the tray's orientation
-			switch (_orientation) {
-			case ACTrayOrientation.Left:
-				//Animate motion?
-				if (animated) {
-					_disableInteraction=true;
-					var animator = ValueAnimator.OfInt (LeftMargin,_closedPosition);
-					animator.SetDuration (500);
-					animator.Update += (sender, e) => {
-						LeftMargin=(int)e.Animation.AnimatedValue;
-					};
-					animator.AnimationEnd+= (sender, e) => {
-						_disableInteraction=false;
-					};
-					animator.Start ();
-				} else { 
-					LeftMargin=_closedPosition;
-				}
-				break;
-			case ACTrayOrientation.Right:
-				//Animate motion?
-				if (animated) {
-					_disableInteraction=true;
-					var animator = ValueAnimator.OfInt (RightMargin,_closedPosition);
-					animator.SetDuration (500);
-					animator.Update += (sender, e) => {
-						RightMargin=(int)e.Animation.AnimatedValue;
-					};
-					animator.AnimationEnd+= (sender, e) => {
-						_disableInteraction=false;
-					};
-					animator.Start ();
-				} else { 
-					RightMargin=_closedPosition;
-				}
-				break;
-			case ACTrayOrientation.Bottom:
-				//Animate motion?
-				if (animated) {
-					_disableInteraction=true;
-					var animator = ValueAnimator.OfInt (BottomMargin,_closedPosition);
-					animator.SetDuration (500);
-					animator.Update += (sender, e) => {
-						BottomMargin=(int)e.Animation.AnimatedValue;
-					};
-					animator.AnimationEnd+= (sender, e) => {
-						_disableInteraction=false;
-					};
-					animator.Start ();
-				} else { 
-					BottomMargin=_closedPosition;
-				}
-				break;
-			case ACTrayOrientation.Top:
-				//Animate motion?
-				if (animated) {
-					_disableInteraction=true;
-					var animator = ValueAnimator.OfInt (TopMargin,_closedPosition);
-					animator.SetDuration (500);
-					animator.Update += (sender, e) => {
-						TopMargin=(int)e.Animation.AnimatedValue;
-					};
-					animator.AnimationEnd+= (sender, e) => {
-						_disableInteraction=false;
-					};
-					animator.Start ();
-				} else { 
-					TopMargin=_closedPosition;
-				}
-				break;
+			switch (_orientation)
+			{
+				case ACTrayOrientation.Left:
+					//Animate motion?
+					if (animated)
+					{
+						_disableInteraction = true;
+						var animator = ValueAnimator.OfInt(LeftMargin, _closedPosition);
+						animator.SetDuration(500);
+						animator.Update += (sender, e) =>
+						{
+							LeftMargin = (int)e.Animation.AnimatedValue;
+						};
+						animator.AnimationEnd += (sender, e) =>
+						{
+							_disableInteraction = false;
+						};
+						animator.Start();
+					}
+					else
+					{
+						LeftMargin = _closedPosition;
+					}
+					break;
+				case ACTrayOrientation.Right:
+					//Animate motion?
+					if (animated)
+					{
+						_disableInteraction = true;
+						var animator = ValueAnimator.OfInt(RightMargin, _closedPosition);
+						animator.SetDuration(500);
+						animator.Update += (sender, e) =>
+						{
+							RightMargin = (int)e.Animation.AnimatedValue;
+						};
+						animator.AnimationEnd += (sender, e) =>
+						{
+							_disableInteraction = false;
+						};
+						animator.Start();
+					}
+					else
+					{
+						RightMargin = _closedPosition;
+					}
+					break;
+				case ACTrayOrientation.Bottom:
+					//Animate motion?
+					if (animated)
+					{
+						_disableInteraction = true;
+						var animator = ValueAnimator.OfInt(BottomMargin, _closedPosition);
+						animator.SetDuration(500);
+						animator.Update += (sender, e) =>
+						{
+							BottomMargin = (int)e.Animation.AnimatedValue;
+						};
+						animator.AnimationEnd += (sender, e) =>
+						{
+							_disableInteraction = false;
+						};
+						animator.Start();
+					}
+					else
+					{
+						BottomMargin = _closedPosition;
+					}
+					break;
+				case ACTrayOrientation.Top:
+					//Animate motion?
+					if (animated)
+					{
+						_disableInteraction = true;
+						var animator = ValueAnimator.OfInt(TopMargin, _closedPosition);
+						animator.SetDuration(500);
+						animator.Update += (sender, e) =>
+						{
+							TopMargin = (int)e.Animation.AnimatedValue;
+						};
+						animator.AnimationEnd += (sender, e) =>
+						{
+							_disableInteraction = false;
+						};
+						animator.Start();
+					}
+					else
+					{
+						TopMargin = _closedPosition;
+					}
+					break;
 			}
 
 			//Inform caller
-			RaiseMoved ();
-			RaiseClosed ();
+			RaiseMoved();
+			RaiseClosed();
 
-			#if TRIAL
+#if TRIAL
 			Android.Widget.Toast.MakeText(this.Context, "ACTray by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense(this.Context);
+#endif
 		}
 
 		/// <summary>

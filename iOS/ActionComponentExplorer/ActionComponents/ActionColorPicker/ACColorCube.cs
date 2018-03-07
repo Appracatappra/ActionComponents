@@ -239,7 +239,9 @@ namespace ActionComponents
 		{
 			#if TRIAL
 			ACToast.MakeText("ACColorCube by Appracatappra, LLC.", ACToastLength.Short).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 
 			//Pass call to base object
 			if (! ExclusiveTouch) 

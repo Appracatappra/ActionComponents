@@ -20,7 +20,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug</OutputPath>
-    <DefineConstants>DEBUG;</DefineConstants>
+    <DefineConstants>DEBUG; NOTRIAL;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
@@ -30,7 +30,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
-    <DefineConstants>TRIAL;</DefineConstants>
+    <DefineConstants>NOTRIAL;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\ActionComponents.xml</DocumentationFile>
@@ -159,6 +159,7 @@
     <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileSequence.cs" />
     <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileStyle.cs" />
     <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileText.cs" />
+    <Compile Include="Utilities\AppracatappraLicenseManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -183,6 +184,7 @@
     <Folder Include="CoreGraphics\" />
     <Folder Include="UIKit\" />
     <Folder Include="Foundation\" />
+    <Folder Include="Utilities\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

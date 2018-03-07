@@ -164,7 +164,9 @@ namespace ActionComponents
 
 			#if TRIAL
 			ACToast.MakeText("ACColorWell by Appracatappra, LLC.", ACToastLength.Short).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 
 			// Raise touched event
 			RaiseTouched ();

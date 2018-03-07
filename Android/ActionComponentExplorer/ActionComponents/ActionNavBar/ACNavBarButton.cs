@@ -726,8 +726,10 @@ namespace ActionComponents
 
 				#if TRIAL
 				Android.Widget.Toast.MakeText(this.Context, "NavBar by Appracatappra", Android.Widget.ToastLength.Short).Show();
-				#endif
-				break;
+#else
+					AppracatappraLicenseManager.ValidateLicense(this.Context);
+#endif
+					break;
 			case ACNavBarButtonType.Tool:
 				//No view adjustment required
 				break;

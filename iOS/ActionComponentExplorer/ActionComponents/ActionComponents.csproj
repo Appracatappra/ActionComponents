@@ -32,7 +32,7 @@
     <DebugType></DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
-    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;TRIAL;</DefineConstants>
+    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;NOTRIAL;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\ActionComponents.xml</DocumentationFile>
@@ -66,6 +66,7 @@
     <Folder Include="ActionColorPicker\" />
     <Folder Include="ActionTiles\" />
     <Folder Include="ActionTiles\LiveUpdateActions\" />
+    <Folder Include="Utilities\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -162,6 +163,7 @@
     <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileImages.cs" />
     <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileSequence.cs" />
     <Compile Include="ActionTiles\LiveUpdateActions\ACTileLiveUpdateTileText.cs" />
+    <Compile Include="Utilities\AppracatappraLicenseManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

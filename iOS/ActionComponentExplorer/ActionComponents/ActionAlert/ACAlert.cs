@@ -1126,84 +1126,96 @@ namespace ActionComponents
 		/// <summary>
 		/// Initialize this instance.
 		/// </summary>
-		private void Initialize(){
+		private void Initialize()
+		{
 
 			//Set defaults
 			this.BackgroundColor = UIColor.Clear;
 			this._isDraggable = false;
 			this._dragging = false;
 			this._bringToFrontOnTouched = false;
-			this._xConstraint = new ACAlertDragConstraint ();
-			this._yConstraint = new ACAlertDragConstraint ();
-			this._startLocation = new CGPoint (0, 0);
-			this.UserInteractionEnabled=true;
+			this._xConstraint = new ACAlertDragConstraint();
+			this._yConstraint = new ACAlertDragConstraint();
+			this._startLocation = new CGPoint(0, 0);
+			this.UserInteractionEnabled = true;
 
 			//Initially lock the y constraint if we are on an iPhone
-			if (iOSDevice.isPhone) {
+			if (iOSDevice.isPhone)
+			{
 				this._xConstraint.constraintType = ACAlertDragConstraintType.Locked;
 			}
 
 			//Wireup change events
-			this._xConstraint.ConstraintChanged+= () => {
+			this._xConstraint.ConstraintChanged += () =>
+			{
 				XConstraintModified();
 			};
-			this._yConstraint.ConstraintChanged+= () => {
+			this._yConstraint.ConstraintChanged += () =>
+			{
 				YConstraintModified();
 			};
 
 			//Set default appearance
-			this._appearance = new ACAlertAppearance ();
-			this._appearance.AppearanceModified += () => {
-				AdjustAlertPosition ();
-				RepositionButtons ();
+			this._appearance = new ACAlertAppearance();
+			this._appearance.AppearanceModified += () =>
+			{
+				AdjustAlertPosition();
+				RepositionButtons();
 			};
 
 			//Create default button appearances
-			this._buttonAppearance = new ACAlertButtonAppearance ();
-			this._buttonAppearanceDisabled = new ACAlertButtonAppearance ();
+			this._buttonAppearance = new ACAlertButtonAppearance();
+			this._buttonAppearanceDisabled = new ACAlertButtonAppearance();
 
 			//Are we running on iOS 7 or greater?
-			if (!iOSDevice.isIOS6) {
-				this._buttonAppearanceTouched = new ACAlertButtonAppearance (UIColor.FromRGB(0,122,255), this._appearance.border, UIColor.White);
-				this._buttonAppearanceHighlighted = new ACAlertButtonAppearance ();
-			} else {
-				this._buttonAppearanceTouched = new ACAlertButtonAppearance (UIColor.FromRGB (240, 240, 240), this._appearance.border, UIColor.Black);
-				this._buttonAppearanceHighlighted = new ACAlertButtonAppearance (UIColor.FromRGBA (0.272f, 0.272f, 0.272f, 1.000f), this._appearance.border);
+			if (!iOSDevice.isIOS6)
+			{
+				this._buttonAppearanceTouched = new ACAlertButtonAppearance(UIColor.FromRGB(0, 122, 255), this._appearance.border, UIColor.White);
+				this._buttonAppearanceHighlighted = new ACAlertButtonAppearance();
+			}
+			else
+			{
+				this._buttonAppearanceTouched = new ACAlertButtonAppearance(UIColor.FromRGB(240, 240, 240), this._appearance.border, UIColor.Black);
+				this._buttonAppearanceHighlighted = new ACAlertButtonAppearance(UIColor.FromRGBA(0.272f, 0.272f, 0.272f, 1.000f), this._appearance.border);
 			}
 
 			//Create any suplimental controls based on the alert's type
-			switch(type){
-			case ACAlertType.ActivityAlertMedium:
-			case ACAlertType.ActivityAlert:
-				//Create a new activity indicator and insert it into the control
-				_activityIndicator = new UIActivityIndicatorView (UIActivityIndicatorViewStyle.WhiteLarge);
-				_activityIndicator.Frame = new CGRect (23, 19, 37, 37);
-				_activityIndicator.HidesWhenStopped = true;
+			switch (type)
+			{
+				case ACAlertType.ActivityAlertMedium:
+				case ACAlertType.ActivityAlert:
+					//Create a new activity indicator and insert it into the control
+					_activityIndicator = new UIActivityIndicatorView(UIActivityIndicatorViewStyle.WhiteLarge);
+					_activityIndicator.Frame = new CGRect(23, 19, 37, 37);
+					_activityIndicator.HidesWhenStopped = true;
 
-				//Are we running on iOS 7 or greater?
-				if (!iOSDevice.isIOS6) {
-					//Yes, set the activity indicator color
-					_activityIndicator.Color = appearance.activityIndicatorColor;
-				}
-				this.AddSubview (_activityIndicator);
-				break;
-			case ACAlertType.ProgressAlert:
-				//Create new progress indicator and insert it into the control
-				_progressView = new UIProgressView (new CGRect (20, 20, 100, 9));
-				this.AddSubview (_progressView);
-				break;
+					//Are we running on iOS 7 or greater?
+					if (!iOSDevice.isIOS6)
+					{
+						//Yes, set the activity indicator color
+						_activityIndicator.Color = appearance.activityIndicatorColor;
+					}
+					this.AddSubview(_activityIndicator);
+					break;
+				case ACAlertType.ProgressAlert:
+					//Create new progress indicator and insert it into the control
+					_progressView = new UIProgressView(new CGRect(20, 20, 100, 9));
+					this.AddSubview(_progressView);
+					break;
 			}
 
 			//Adjust the alert location
-			AdjustAlertPosition ();
+			AdjustAlertPosition();
 
 			// Set the AutoresizingMask to anchor the view to the top left but
 			// allow height and width to grow
 			this.AutoresizingMask = (UIViewAutoresizing.FlexibleMargins);
 
-			#if TRIAL 
-			ACToast.MakeText("ActionAlert by Appracatappra",ACToastLength.Short).Show();
-			#endif
+#if TRIAL
+			ACToast.MakeText("ActionAlert by Appracatappra", ACToastLength.Short).Show();
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 		}
 		#endregion
 
@@ -2202,7 +2214,9 @@ namespace ActionComponents
 
 			#if TRIAL
 			ACToast.MakeText("ACAlert by Appracatappra", ACToastLength.Short).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 
 			//Pass call to base object
 			base.TouchesEnded(touches, evt);

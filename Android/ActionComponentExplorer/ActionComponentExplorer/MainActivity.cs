@@ -17,6 +17,14 @@ namespace ActionComponentExplorer
 		{
 			base.OnCreate(savedInstanceState);
 
+			// Set license information BEFORE any components are called to suppress the
+			// "Unlicensed Appracatappra Product" Toast popup.
+			AppracatappraLicenseManager.FirstName = "Kevin";
+			AppracatappraLicenseManager.LastName = "Mullins";
+			AppracatappraLicenseManager.Email = "kevin_mullins@mac.com";
+			AppracatappraLicenseManager.LicenseKey = "786a00012252366fdb67634a1be774c8";
+			AppracatappraLicenseManager.ActivationKey = "394-826-6678-7718";
+
 			// Set our view from the "main" layout resource
 			SetContentView(Resource.Layout.Main);
 

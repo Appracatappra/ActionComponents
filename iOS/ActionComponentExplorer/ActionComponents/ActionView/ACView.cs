@@ -488,7 +488,9 @@ namespace ActionComponents
 
 			#if TRIAL
 			ACToast.MakeText("ACView by Appracatappra, LLC.",2f).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 
 			//Pass call to base object
 			if (! ExclusiveTouch) 

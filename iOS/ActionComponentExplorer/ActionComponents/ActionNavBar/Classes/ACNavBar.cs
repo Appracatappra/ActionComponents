@@ -383,9 +383,11 @@ namespace ActionComponents
 			//Execute Animation
 			UIView.CommitAnimations();
 
-			#if TRIAL
-				ACToast.MakeText("ACNavBar by Appracatappra, LLC.",ACToastLength.Medium).Show();
-			#endif
+#if TRIAL
+			ACToast.MakeText("ACNavBar by Appracatappra, LLC.", ACToastLength.Medium).Show();
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 		}
 		#endregion
 

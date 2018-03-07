@@ -482,8 +482,10 @@ namespace ActionComponents
 			RaiseReleased ();
 
 			#if TRIAL
-			ACToast.MakeText("ACImage by Appracatappra, LLC.",2f).Show();
-			#endif
+			ACToast.MakeText("ACWebView by Appracatappra, LLC.",2f).Show();
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 
 			//Pass call to base object
 			base.TouchesEnded(touches, evt);

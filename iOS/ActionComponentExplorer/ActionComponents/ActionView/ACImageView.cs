@@ -599,6 +599,8 @@ namespace ActionComponents
 
 #if TRIAL
 			ACToast.MakeText("ACImageView by Appracatappra, LLC.",2f).Show();
+#else
+			AppracatappraLicenseManager.ValidateLicense();
 #endif
 
 			//Pass call to base object

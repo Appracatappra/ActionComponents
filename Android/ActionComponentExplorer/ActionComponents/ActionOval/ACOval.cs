@@ -259,14 +259,17 @@ namespace ActionComponents
 			this.SetBackgroundColor (Color.Argb (0, 0, 0, 0));
 
 			// Wireup events
-			this.Touched += (view) => {
+			this.Touched += (view) =>
+			{
 				// Mark as touched and redraw
 				_touched = true;
 				Redraw();
 
-				#if TRIAL 
+#if TRIAL
 				Android.Widget.Toast.MakeText(this.Context, "ACOval by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
-				#endif
+#else
+				AppracatappraLicenseManager.ValidateLicense(this.Context);
+#endif
 			};
 
 			this.Released += (view) => {

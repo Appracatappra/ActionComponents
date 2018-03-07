@@ -255,14 +255,17 @@ namespace ActionComponents
 			this.BackgroundColor = UIColor.Clear;
 
 			// Wireup events
-			this.Touched += (view) => {
+			this.Touched += (view) =>
+			{
 				// Mark as touched and redraw
 				_touched = true;
 				Redraw();
 
-				#if TRIAL 
-				ACToast.MakeText("ACOval by Appracatappra, LLC.",ACToastLength.Short).Show();
-				#endif
+#if TRIAL
+				ACToast.MakeText("ACOval by Appracatappra, LLC.", ACToastLength.Short).Show();
+#else
+				AppracatappraLicenseManager.ValidateLicense();
+#endif
 			};
 
 			this.Released += (view) => {

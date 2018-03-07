@@ -271,13 +271,16 @@ namespace ActionComponents
 		/// <summary>
 		/// Raises the request data event
 		/// </summary>
-		internal void RaiseRequestData(){
+		internal void RaiseRequestData()
+		{
 			if (this.RequestData != null)
-				this.RequestData (this);
+				this.RequestData(this);
 
-			#if TRIAL 
-			ACToast.MakeText("ACTable by Appracatappra, LLC",ACToastLength.Long).Show();
-			#endif
+#if TRIAL
+			ACToast.MakeText("ACTable by Appracatappra, LLC", ACToastLength.Long).Show();
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 
 		}
 		#endregion 

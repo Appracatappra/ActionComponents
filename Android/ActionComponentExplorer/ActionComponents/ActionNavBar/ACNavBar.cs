@@ -549,14 +549,17 @@ namespace ActionComponents
 		/// </summary>
 		/// <param name="y">The y coordinate.</param>
 		/// <param name="animated">If <c>true</c> the move will be animated</param> 
-		private void MovePointer(float y, bool animated){
-			
+		private void MovePointer(float y, bool animated)
+		{
+
 			//Adjust location
 			_pointer.MoveTo(y, animated);
 
-			#if TRIAL
+#if TRIAL
 			Android.Widget.Toast.MakeText(this.Context, "AVNavBar by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense(this.Context);
+#endif
 
 		}
 

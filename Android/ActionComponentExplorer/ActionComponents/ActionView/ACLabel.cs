@@ -234,10 +234,12 @@ namespace ActionComponents
 
 				#if TRIAL
 					Android.Widget.Toast.MakeText(this.Context, "ACLabel by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
-				#endif
+#else
+					AppracatappraLicenseManager.ValidateLicense(this.Context);
+#endif
 
-				//Inform system that we've handled this event 
-				break;
+					//Inform system that we've handled this event 
+					break;
 			case MotionEventActions.Cancel:
 				//Ignore for now
 				break;

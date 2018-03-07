@@ -1960,99 +1960,107 @@ namespace ActionComponents
 		/// <summary>
 		/// Initialize this instance.
 		/// </summary>
-		private void Initialize(){
+		private void Initialize()
+		{
 
 			//Set defaults
-			this.SetBackgroundColor (Color.Argb (0, 0, 0, 0));
+			this.SetBackgroundColor(Color.Argb(0, 0, 0, 0));
 			this._isDraggable = false;
 			this._dragging = false;
 			this._bringToFrontOnTouched = false;
-			this._xConstraint = new ACAlertDragConstraint ();
-			this._yConstraint = new ACAlertDragConstraint ();
-			this._startLocation = new Point (0, 0);
+			this._xConstraint = new ACAlertDragConstraint();
+			this._yConstraint = new ACAlertDragConstraint();
+			this._startLocation = new Point(0, 0);
 
 			//Setup initial layout position and size 
-			var layout = new RelativeLayout.LayoutParams (302,174);
+			var layout = new RelativeLayout.LayoutParams(302, 174);
 
 			//Set position based on location requested
-			switch (_location) {
-			case ACAlertLocation.Top:
-				layout.AddRule (LayoutRules.AlignParentTop);
-				layout.AddRule (LayoutRules.CenterHorizontal);
-				layout.TopMargin = 20;
-				break;
-			case ACAlertLocation.Middle:
-				layout.AddRule (LayoutRules.CenterInParent);
-				break;
-			case ACAlertLocation.Bottom:
-				layout.AddRule (LayoutRules.AlignParentBottom);
-				layout.AddRule (LayoutRules.CenterHorizontal);
-				layout.BottomMargin = 20;
-				break;
-			case ACAlertLocation.Custom:
-				layout.TopMargin = 20;
-				layout.RightMargin = 20;
-				break;
+			switch (_location)
+			{
+				case ACAlertLocation.Top:
+					layout.AddRule(LayoutRules.AlignParentTop);
+					layout.AddRule(LayoutRules.CenterHorizontal);
+					layout.TopMargin = 20;
+					break;
+				case ACAlertLocation.Middle:
+					layout.AddRule(LayoutRules.CenterInParent);
+					break;
+				case ACAlertLocation.Bottom:
+					layout.AddRule(LayoutRules.AlignParentBottom);
+					layout.AddRule(LayoutRules.CenterHorizontal);
+					layout.BottomMargin = 20;
+					break;
+				case ACAlertLocation.Custom:
+					layout.TopMargin = 20;
+					layout.RightMargin = 20;
+					break;
 			}
 
 			this.LayoutParameters = layout;
 
 			//Wireup change events
-			this._xConstraint.ConstraintChanged+= () => {
+			this._xConstraint.ConstraintChanged += () =>
+			{
 				XConstraintModified();
 			};
-			this._yConstraint.ConstraintChanged+= () => {
+			this._yConstraint.ConstraintChanged += () =>
+			{
 				YConstraintModified();
 			};
 
 			//Set default appearance
-			this._appearance = new ACAlertAppearance ();
-			this._appearance.AppearanceModified += () => {
-				AdjustAlertPosition ();
-				RepositionButtons ();
+			this._appearance = new ACAlertAppearance();
+			this._appearance.AppearanceModified += () =>
+			{
+				AdjustAlertPosition();
+				RepositionButtons();
 			};
 
 			//Create default button appearances
-			this._buttonAppearance = new ACAlertButtonAppearance ();
-			this._buttonAppearanceDisabled = new ACAlertButtonAppearance ();
-			this._buttonAppearanceTouched = new ACAlertButtonAppearance (Color.Rgb(240,240,240), this._appearance.border, Color.Black);
-			this._buttonAppearanceHighlighted = new ACAlertButtonAppearance (Color.Rgb (69,69,69), this._appearance.border);
+			this._buttonAppearance = new ACAlertButtonAppearance();
+			this._buttonAppearanceDisabled = new ACAlertButtonAppearance();
+			this._buttonAppearanceTouched = new ACAlertButtonAppearance(Color.Rgb(240, 240, 240), this._appearance.border, Color.Black);
+			this._buttonAppearanceHighlighted = new ACAlertButtonAppearance(Color.Rgb(69, 69, 69), this._appearance.border);
 
 			//Create any suplimental controls based on the alert's type
-			switch(type){
-			case ACAlertType.ActivityAlertMedium:
-			case ACAlertType.ActivityAlert:
-				//Create layout for activity indicator
-				var activityLayout = new RelativeLayout.LayoutParams (37, 37);
-				activityLayout.LeftMargin = 23;
-				activityLayout.TopMargin = 19;
+			switch (type)
+			{
+				case ACAlertType.ActivityAlertMedium:
+				case ACAlertType.ActivityAlert:
+					//Create layout for activity indicator
+					var activityLayout = new RelativeLayout.LayoutParams(37, 37);
+					activityLayout.LeftMargin = 23;
+					activityLayout.TopMargin = 19;
 
-				//Create a new activity indicator and insert it into the control
-				_activityIndicator = new ProgressBar (this.Context, null, Android.Resource.Attribute.ProgressBarStyleLarge);
-				_activityIndicator.LayoutParameters = activityLayout;
-				_activityIndicator.Indeterminate = true;
-				this.AddView (_activityIndicator);
-				break;
-			case ACAlertType.ProgressAlert:
-				//Create layout for activity indicator
-				var progressLayout = new RelativeLayout.LayoutParams (100, 9);
-				progressLayout.LeftMargin = 20;
-				progressLayout.TopMargin = 20;
+					//Create a new activity indicator and insert it into the control
+					_activityIndicator = new ProgressBar(this.Context, null, Android.Resource.Attribute.ProgressBarStyleLarge);
+					_activityIndicator.LayoutParameters = activityLayout;
+					_activityIndicator.Indeterminate = true;
+					this.AddView(_activityIndicator);
+					break;
+				case ACAlertType.ProgressAlert:
+					//Create layout for activity indicator
+					var progressLayout = new RelativeLayout.LayoutParams(100, 9);
+					progressLayout.LeftMargin = 20;
+					progressLayout.TopMargin = 20;
 
-				//Create new progress indicator and insert it into the control
-				_progressView = new ProgressBar (this.Context, null, Android.Resource.Attribute.ProgressBarStyleHorizontal);
-				_progressView.LayoutParameters = progressLayout;
-				_progressView.Max = 100;
-				this.AddView (_progressView);
-				break;
+					//Create new progress indicator and insert it into the control
+					_progressView = new ProgressBar(this.Context, null, Android.Resource.Attribute.ProgressBarStyleHorizontal);
+					_progressView.LayoutParameters = progressLayout;
+					_progressView.Max = 100;
+					this.AddView(_progressView);
+					break;
 			}
 
 			//Adjust the alert location
-			AdjustAlertPosition ();
+			AdjustAlertPosition();
 
-			#if TRIAL
+#if TRIAL
 			Android.Widget.Toast.MakeText(this.Context, "ACAlert by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense(this.Context);
+#endif
 		}
 		#endregion 
 

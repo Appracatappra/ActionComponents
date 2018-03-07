@@ -322,6 +322,8 @@ namespace ActionComponents
 
 #if TRIAL
 			ACToast.MakeText("ACSlider by Appracatappra, LLC.",2f).Show();
+#else
+			AppracatappraLicenseManager.ValidateLicense();
 #endif
 
 			//Pass call to base object

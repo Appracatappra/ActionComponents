@@ -544,13 +544,16 @@ namespace ActionComponents
 		/// <summary>
 		/// Raises the request data event
 		/// </summary>
-		internal void RaiseRequestData(){
+		internal void RaiseRequestData()
+		{
 			if (this.RequestData != null)
-				this.RequestData (this);
+				this.RequestData(this);
 
-			#if TRIAL
+#if TRIAL
 			Android.Widget.Toast.MakeText(_controller.Context, "ACTable by Appracatappra, LLC.", Android.Widget.ToastLength.Long).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense(_controller.Context);
+#endif
 		}
 		#endregion 
 	}

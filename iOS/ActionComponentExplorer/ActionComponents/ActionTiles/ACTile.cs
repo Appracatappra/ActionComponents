@@ -954,7 +954,9 @@ namespace ActionComponents
 
 			#if TRIAL
 			ACToast.MakeText("ACTile by Appracatappra",2f).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 
 			//Pass call to base object
 			base.TouchesEnded(touches, evt);

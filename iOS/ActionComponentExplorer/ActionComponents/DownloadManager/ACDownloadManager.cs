@@ -235,28 +235,31 @@ namespace ActionComponents
 			ClearQueue();
 			
 		}
-		
+
 		/// <summary>
 		/// Start downloading all files currently in the queue
 		/// </summary>
-		public void StartDownloading(){
-			
+		public void StartDownloading()
+		{
+
 			//Anything to do?
 			if (!_downloadItems.Any()) return;
-			
+
 			//Clear any suspended downloads
-			_suspendedDownload=null;
-			_suspended=false;
+			_suspendedDownload = null;
+			_suspended = false;
 
 			//Save the initial number of files
 			_initialFileCount = filesInQueue;
-			
+
 			//Kickoff the download process
 			DownloadNextFileInQueue();
 
-			#if TRIAL 
-			ACToast.MakeText("DownloadManager by Appracatappra, LLC.",ACToastLength.Long,ACToastGravity.Center).Show();
-			#endif
+#if TRIAL
+			ACToast.MakeText("DownloadManager by Appracatappra, LLC.", ACToastLength.Long, ACToastGravity.Center).Show();
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 		}
 		
 		/// <summary>

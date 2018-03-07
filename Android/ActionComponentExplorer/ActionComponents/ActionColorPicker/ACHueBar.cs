@@ -313,6 +313,9 @@ namespace ActionComponents
 				case MotionEventActions.Up:
 #if TRIAL
 					Android.Widget.Toast.MakeText(this.Context, "ACHueBar by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
+
+#else
+					AppracatappraLicenseManager.ValidateLicense(this.Context);
 #endif
 
 					//Inform system that we've handled this event 

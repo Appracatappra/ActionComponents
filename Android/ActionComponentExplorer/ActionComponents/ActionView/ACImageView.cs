@@ -572,10 +572,12 @@ namespace ActionComponents
 
 #if TRIAL
 					Android.Widget.Toast.MakeText(this.Context, "ACImageView by Appracatappra, LLC.", Android.Widget.ToastLength.Short).Show();
+#else
+					AppracatappraLicenseManager.ValidateLicense(this.Context);
 #endif
 
-				//Inform system that we've handled this event 
-				break;
+					//Inform system that we've handled this event 
+					break;
 			case MotionEventActions.Cancel:
 				//Clear any drag action
 				_dragging=false;

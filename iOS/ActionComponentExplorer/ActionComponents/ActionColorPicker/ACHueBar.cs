@@ -149,7 +149,9 @@ namespace ActionComponents
 
 			#if TRIAL
 			ACToast.MakeText("ACHueBar by Appracatappra, LLC.", ACToastLength.Short).Show();
-			#endif
+#else
+			AppracatappraLicenseManager.ValidateLicense();
+#endif
 
 			// Track user interaction
 			TrackIndicatorTouch (pt);
