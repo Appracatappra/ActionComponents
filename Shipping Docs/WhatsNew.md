@@ -1,3 +1,10 @@
+###Version 04.04###
+
+The following features and bug fixes have been added to `ActionComponents` in version 04.04:
+
+* **Xamarin Version** - The component suite was updated for the latest Xamarin version.
+* **License Activation** - Fixed issue where the required license activation was not being accepted correctly.
+
 ###Version 04.03###
 
 The following features and bug fixes have been added to `ActionComponents` in version 04.03:
