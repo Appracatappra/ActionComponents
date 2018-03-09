@@ -32,7 +32,7 @@
     <DebugType></DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
-    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;NOTRIAL;</DefineConstants>
+    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;TRIAL;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\ActionComponents.xml</DocumentationFile>
