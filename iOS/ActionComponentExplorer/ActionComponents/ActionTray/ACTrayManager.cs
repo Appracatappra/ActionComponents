@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Foundation;
+using CoreGraphics;
 
 namespace ActionComponents
 {
@@ -18,6 +19,9 @@ namespace ActionComponents
 	{
 		#region Private Variables
 		private List<ACTray> _trays;
+		private float _spacer = 10F;
+		private ACTrayTabLocation _tabLocation = ACTrayTabLocation.Custom;
+		private ACTrayOrientation _trayOrientation = ACTrayOrientation.Top;
 		#endregion
 
 		#region Computed Properties
@@ -35,6 +39,60 @@ namespace ActionComponents
 		/// <value>The trays.</value>
 		public List<ACTray> trays{
 			get{return _trays;}
+		}
+
+		/// <summary>
+		/// Gets or sets the tab spacer.
+		/// </summary>
+		/// <value>The tab spacer.</value>
+		public float TabSpacer {
+			get { return _spacer; }
+			set {
+				// Save value
+				_spacer = value;
+
+				// Update layout
+				LayoutTrays();
+			}
+		}
+
+		/// <summary>
+		/// Gets or sets the tray orientation.
+		/// </summary>
+		/// <value>The tray orientation.</value>
+		public ACTrayOrientation TrayOrientation {
+			get { return _trayOrientation; }
+			set {
+				// Save value
+				_trayOrientation = value;
+
+				// Set all trays to the same orientation
+				foreach(ACTray tray in trays) {
+					tray.orientation = _trayOrientation;
+				}
+			}
+		}
+
+		/// <summary>
+		/// Gets or sets the tab location.
+		/// </summary>
+		/// <value>The tab location.</value>
+		public ACTrayTabLocation TabLocation {
+			get { return _tabLocation; } 
+			set {
+				// Save value
+				_tabLocation = value;
+
+				// Set the tab location for all trays
+				if (_tabLocation != ACTrayTabLocation.Custom) {
+					foreach(ACTray tray in trays) {
+						tray.tabLocation = _tabLocation;
+					}
+				}
+
+				// Adjust layout
+				LayoutTrays();
+			}
 		}
 		#endregion 
 
@@ -105,8 +163,24 @@ namespace ActionComponents
 				RaiseTrayClosed (t);
 			};
 
+			// Wireup resize and location events
+			tray.TraySizeChanged += (t, s) =>
+			{
+				// Adjust tray layouts
+				LayoutTrays();
+			};
+
+			tray.TrayLocationChanged += (t, l) =>
+			{
+				// Adjust tray layouts
+				LayoutTrays();
+			};
+
 			//Add tray to collection
 			_trays.Add (tray);
+
+			// Adjust layout
+			LayoutTrays();
 		}
 
 		/// <summary>
@@ -168,6 +242,207 @@ namespace ActionComponents
 				if (sibling!=tray) sibling.CloseTray (true);
 			}
 
+		}
+
+		/// <summary>
+		/// Laysout the tray from left to right.
+		/// </summary>
+		private void LayoutLeftToRight() {
+			nfloat x = 0f;
+
+			// Process all trays
+			foreach(ACTray tray in trays) {
+				var tabOffset = tray.TabArea.X;
+				var trayX = x - tabOffset;
+
+				// Valid?
+				if (trayX < 0f) trayX = 0f;
+
+				// Move tray
+				tray.Frame = new CGRect(trayX, tray.Frame.Y, tray.Frame.Width, tray.Frame.Height);
+
+				// Calculate next position
+				x = tray.Frame.X + tray.TabArea.X + tray.TabArea.Width + TabSpacer;
+			}
+		}
+
+		/// <summary>
+		/// Laysout the trays from top to bottom.
+		/// </summary>
+		private void LayoutTopToBottom()
+		{
+			nfloat y = 0f;
+
+			// Process all trays
+			foreach (ACTray tray in trays)
+			{
+				var tabOffset = tray.TabArea.Y;
+				var trayY = y - tabOffset;
+
+				// Valid?
+				if (trayY < 0f) trayY = 0f;
+
+				// Move tray
+				tray.Frame = new CGRect(tray.Frame.X, trayY, tray.Frame.Width, tray.Frame.Height);
+
+				// Calculate next position
+				y = tray.Frame.Y + tray.TabArea.Y + tray.TabArea.Height + TabSpacer;
+			}
+		}
+
+		/// <summary>
+		/// Laysout the trays centered horizontally.
+		/// </summary>
+		private void LayoutCenterHorizontal() {
+			nfloat width = 0f;
+
+			// Calculate widths
+			foreach(ACTray tray in trays) {
+				width += tray.TabArea.Width + TabSpacer;
+			}
+
+			// Calculate the starting position
+			nfloat x = (iOSDevice.AvailableScreenBounds.Width / 2f) - (width / 2f);
+
+			// Process all trays
+			foreach (ACTray tray in trays)
+			{
+				var tabOffset = tray.TabArea.X;
+				var trayX = x - tabOffset;
+
+				// Valid?
+				if (trayX < 0f) trayX = 0f;
+
+				// Move tray
+				tray.Frame = new CGRect(trayX, tray.Frame.Y, tray.Frame.Width, tray.Frame.Height);
+
+				// Calculate next position
+				x = tray.Frame.X + tray.TabArea.X + tray.TabArea.Width + TabSpacer;
+			}
+		}
+
+		/// <summary>
+		/// Laysout the trays centered vertically.
+		/// </summary>
+		private void LayoutCenterVertical()
+		{
+			nfloat height = 0f;
+
+			// Calculate widths
+			foreach (ACTray tray in trays)
+			{
+				height += tray.TabArea.Height + TabSpacer;
+			}
+
+			// Calculate the starting position
+			nfloat y = (iOSDevice.AvailableScreenBounds.Height / 2f) - (height / 2f);
+
+			// Process all trays
+			foreach (ACTray tray in trays)
+			{
+				var tabOffset = tray.TabArea.Y;
+				var trayY = y - tabOffset;
+
+				// Valid?
+				if (trayY < 0f) trayY = 0f;
+
+				// Move tray
+				tray.Frame = new CGRect(tray.Frame.X, trayY, tray.Frame.Width, tray.Frame.Height);
+
+				// Calculate next position
+				y = tray.Frame.Y + tray.TabArea.Y + tray.TabArea.Height + TabSpacer;
+			}
+		}
+
+		/// <summary>
+		/// Laysout the trays right to left.
+		/// </summary>
+		private void LayoutRightToLeft() {
+			nfloat x = iOSDevice.AvailableScreenBounds.Width;
+
+			// Process all trays
+			for (int n = count - 1; n >= 0; --n) {
+				var tray = trays[n];
+				var tabOffset = tray.TabArea.X + tray.TabArea.Width;
+				var trayX = x - tabOffset;
+
+				// Valid?
+				if (trayX + tray.Frame.Width > iOSDevice.AvailableScreenBounds.Width) trayX = iOSDevice.AvailableScreenBounds.Width - tray.Frame.Width;
+
+				// Move tray
+				tray.Frame = new CGRect(trayX, tray.Frame.Y, tray.Frame.Width, tray.Frame.Height);
+
+				// Calculate next position
+				x = tray.Frame.X + tray.TabArea.X - TabSpacer;
+			}
+		}
+
+		/// <summary>
+		/// Laysout the trays from top to bottom.
+		/// </summary>
+		private void LayoutBottomToTop()
+		{
+			nfloat y = iOSDevice.AvailableScreenBounds.Height;
+
+			// Process all trays
+			for (int n = count - 1; n >= 0; --n)
+			{
+				var tray = trays[n];
+				var tabOffset = tray.TabArea.Y + tray.TabArea.Height;
+				var trayY = y - tabOffset;
+
+				// Valid?
+				if (trayY + tray.Frame.Height > iOSDevice.AvailableScreenBounds.Height) trayY = iOSDevice.AvailableScreenBounds.Height - tray.Frame.Height;
+
+				// Move tray
+				tray.Frame = new CGRect(tray.Frame.X, trayY, tray.Frame.Width, tray.Frame.Height);
+
+				// Calculate next position
+				y = tray.Frame.Y + tray.TabArea.Y - TabSpacer;
+			}
+		}
+
+		/// <summary>
+		/// Laysout the trays based on the tray orientation and the tab location.
+		/// </summary>
+		private void LayoutTrays() {
+			// Anything to process?
+			if (TabLocation == ACTrayTabLocation.Custom) return;
+
+			// Take action based on the location of the trays inside the window
+			switch(TrayOrientation) {
+				case ACTrayOrientation.Top:
+				case ACTrayOrientation.Bottom:
+					// Take action based on the tab location
+					switch(TabLocation) {
+						case ACTrayTabLocation.TopOrLeft:
+							LayoutLeftToRight();
+							break;
+						case ACTrayTabLocation.Middle:
+							LayoutCenterHorizontal();
+							break;
+						case ACTrayTabLocation.BottomOrRight:
+							LayoutRightToLeft();
+							break;
+					}
+					break;
+				case ACTrayOrientation.Left:
+				case ACTrayOrientation.Right:
+					// Take action based on the tab location
+					switch (TabLocation)
+					{
+						case ACTrayTabLocation.TopOrLeft:
+							LayoutTopToBottom();
+							break;
+						case ACTrayTabLocation.Middle:
+							LayoutCenterVertical();
+							break;
+						case ACTrayTabLocation.BottomOrRight:
+							LayoutBottomToTop();
+							break;
+					}
+					break;
+			}
 		}
 		#endregion 
 

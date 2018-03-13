@@ -12,7 +12,7 @@ using Android.Graphics;
 using Android.Graphics.Drawables;
 using Android.Graphics.Drawables.Shapes;
 using Android.Animation;
-
+using CoreGraphics;
 
 namespace ActionComponents
 {
@@ -193,6 +193,32 @@ namespace ActionComponents
 		}
 
 		/// <summary>
+		/// Gets or sets the width of the layout.
+		/// </summary>
+		/// <value>The width of the layout.</value>
+		public int LayoutWidth {
+			get { return layoutParams.Width; }
+			set {
+				//Adjust position and save back to parent object
+				layoutParams.Width = value;
+				this.LayoutParameters = layoutParams;
+			}
+		}
+
+		/// <summary>
+		/// Gets or sets the height of the layout.
+		/// </summary>
+		/// <value>The height of the layout.</value>
+		public int LayoutHeight {
+			get { return layoutParams.Height; }
+			set {
+				//Adjust position and save back to parent object
+				layoutParams.Height = value;
+				this.LayoutParameters = layoutParams;
+			}
+		}
+
+		/// <summary>
 		/// Gets or sets the orientation of this <see cref="ActionComponents.ACTray"/> on the screen
 		/// </summary>
 		/// <value>The tray's orientation.</value>
@@ -206,6 +232,10 @@ namespace ActionComponents
 				
 				//Automatically set the open and closed positions based on my location
 				CalculateOpenAndClosedPositions ();
+
+				// Inform caller of change
+				RaiseTrayLocationChanged();
+				RaiseTraySizeChanged();
 
 				//Force a redraw
 				this.Redraw ();
@@ -339,6 +369,98 @@ namespace ActionComponents
 		/// </summary>
 		/// <value>The type of the tray.</value>
 		public ACTrayType trayType { get; set; }
+
+		/// <summary>
+		/// Gets or sets the size of the tray.
+		/// </summary>
+		/// <value>The size of the tray.</value>
+		/// <remarks>The developer is responsible for resizing and repositioning the contents of the trays.</remarks>
+		public CGSize TraySize
+		{
+			get { return new CGSize(layoutParams.Width, layoutParams.Height); }
+			set
+			{
+				// Save new size
+				LayoutWidth = (int)value.Width;
+				LayoutHeight = (int)value.Height;
+
+				// Reposition tray for new size
+				RepositionInParentView();
+
+				// Inform caller of change 
+				RaiseTraySizeChanged();
+			}
+		}
+
+		/// <summary>
+		/// Gets or sets the tray location.
+		/// </summary>
+		/// <value>The tray location.</value>
+		public CGPoint TrayLocation
+		{
+			get { return new CGPoint(layoutParams.LeftMargin, layoutParams.TopMargin); }
+			set
+			{
+				// Save new location
+				LeftMargin = (int)value.X;
+				TopMargin = (int)value.Y;
+
+				// Reposition tray for new location
+				RepositionInParentView();
+
+				// Inform caller of change
+				RaiseTrayLocationChanged();
+			}
+		}
+
+		/// <summary>
+		/// Gets the tab area.
+		/// </summary>
+		/// <value>The tab area.</value>
+		public CGRect TabArea
+		{
+			get
+			{
+				switch (orientation)
+				{
+					case ACTrayOrientation.Top:
+						return new CGRect(CalculateTabposition(), layoutParams.Height - 38f, _tabWidth + 10f, 36f);
+					case ACTrayOrientation.Left:
+						return new CGRect(layoutParams.Width - 38f, CalculateTabposition(), 36, _tabWidth + 10f);
+					case ACTrayOrientation.Right:
+						return new CGRect(5f, CalculateTabposition(), 36, _tabWidth + 10f);
+					case ACTrayOrientation.Bottom:
+						return new CGRect(CalculateTabposition(), 2f, _tabWidth + 10f, 36f);
+					default:
+						return new CGRect(0, 0, 0, 0);
+				}
+			}
+		}
+
+		/// <summary>
+		/// Gets the safe content area based on how the tray is oriented.
+		/// </summary>
+		/// <value>The safe content area that avoids the tab area.</value>
+		public CGRect ContentArea
+		{
+			get
+			{
+				var inset = 5;
+				switch (orientation)
+				{
+					case ACTrayOrientation.Top:
+						return new CGRect(inset, inset, layoutParams.Width - (inset * 2), layoutParams.Height - (36 + (inset * 2)));
+					case ACTrayOrientation.Left:
+						return new CGRect(inset, inset, layoutParams.Width - (36 + (inset * 2)), layoutParams.Height - (inset * 2));
+					case ACTrayOrientation.Right:
+						return new CGRect(inset + 36, inset, layoutParams.Width - (36 + (inset * 2)), layoutParams.Height - (inset * 2));
+					case ACTrayOrientation.Bottom:
+						return new CGRect(inset, inset + 36, layoutParams.Width - (inset * 2), layoutParams.Height - (36f + (inset * 2)));
+					default:
+						return new CGRect(0, 0, 0, 0);
+				}
+			}
+		}
 		#endregion 
 
 		#region Constructors
@@ -765,6 +887,52 @@ namespace ActionComponents
 				_hideBodyShadow=(layoutParams.Width!=SuperView.Width);
 				break;
 			}
+		}
+
+		/// <summary>
+		/// Repositions the tray in parent view.
+		/// </summary>
+		private void RepositionInParentView()
+		{
+			bool wasOpen = isOpened;
+			CGRect location = new CGRect();
+
+			//Recalculate Open and Closed positions
+			CalculateOpenAndClosedPositions();
+
+			//Ensure the tray remains stuck to the correct location after a rotation
+			//has occurred
+			if (wasOpen)
+			{
+				//Calculate location based on the tray's orientation
+				switch (_orientation)
+				{
+					case ACTrayOrientation.Left:
+					case ACTrayOrientation.Right:
+						LeftMargin = _openedPosition;
+						break;
+					case ACTrayOrientation.Bottom:
+					case ACTrayOrientation.Top:
+						TopMargin = _openedPosition;
+						break;
+				}
+			}
+			else
+			{
+				//Calculate location based on the tray's orientation
+				switch (_orientation)
+				{
+					case ACTrayOrientation.Left:
+					case ACTrayOrientation.Right:
+						LeftMargin = _closedPosition;
+						break;
+					case ACTrayOrientation.Bottom:
+					case ACTrayOrientation.Top:
+						TopMargin = _closedPosition;
+						break;
+				}
+			}
+
 		}
 
 		/// <summary>
@@ -1842,6 +2010,40 @@ namespace ActionComponents
 		/// <param name="rect">Rect.</param>
 		private void RaiseCustomDrawDragTab(Canvas canvas, Rect rect){
 			if (this.CustomDrawDragTab!=null) this.CustomDrawDragTab(this,canvas,rect);
+		}
+
+		/// <summary>
+		/// Occurs when the size of the tray is changed.
+		/// </summary>
+		public delegate void TraySizeChangedDelegate(ACTray tray, CGSize size);
+		public event TraySizeChangedDelegate TraySizeChanged;
+
+		/// <summary>
+		/// Raises the tray size changed event.
+		/// </summary>
+		internal void RaiseTraySizeChanged()
+		{
+			if (this.TraySizeChanged != null)
+			{
+				this.TraySizeChanged(this, new CGSize(layoutParams.Width, layoutParams.Height));
+			}
+		}
+
+		/// <summary>
+		/// Occurs when the tray's location has changed.
+		/// </summary>
+		public delegate void TrayLocationChangedDelegate(ACTray tray, CGPoint location);
+		public event TrayLocationChangedDelegate TrayLocationChanged;
+
+		/// <summary>
+		/// Raises the tray location changed event.
+		/// </summary>
+		internal void RaiseTrayLocationChanged()
+		{
+			if (this.TrayLocationChanged != null)
+			{
+				this.TrayLocationChanged(this, new CGPoint(layoutParams.LeftMargin, layoutParams.TopMargin));
+			}
 		}
 		#endregion
 	}

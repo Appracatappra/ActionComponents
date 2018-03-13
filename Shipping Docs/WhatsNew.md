@@ -1,3 +1,21 @@
+###Version 04.05###
+
+The following features and bug fixes have been added to `ActionComponents` in version 04.05:
+
+* **Action Tray Properties** - The following new properties were added:
+	* **TraySize** - Allows you to get or set the size of the tray.
+	* **TrayLocation** - Allows you to get or set the location of the tray on screen. This value will be adjusted by the tray's `orientation` property.
+	* **TabArea** - Returns the location of the tab inside of the tray's bounds.
+	* **ContentArea** - Returns the "safe" content area inside of the tray avoiding the tab and thumb areas.
+* **Action Tray Events** - The following new events were added:
+	* **TraySizeChanged** - Is raised when the tray is resized.
+	* **TrayLocationChanged** - Is raised when the tray's location changes.
+* **Action Tray Manager Properties** - The following new properties were added:
+	* **Tab Spacer** - Adjust the space between tray tabs when they are being automatically positioned by the manager.
+	* **Tray Orientation** - Sets the orientation for all trays in the manager and prepares the manager to do automatic tab location.
+	* **Tab Location** - If set to any value other than `Custom`, the manager will automatically layout the tray based on this location. 
+	
+
 ###Version 04.04###
 
 The following features and bug fixes have been added to `ActionComponents` in version 04.04:
