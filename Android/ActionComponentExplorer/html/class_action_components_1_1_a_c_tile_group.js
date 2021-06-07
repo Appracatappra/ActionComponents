@@ -19,6 +19,7 @@ var class_action_components_1_1_a_c_tile_group =
     [ "Redraw", "class_action_components_1_1_a_c_tile_group.html#a41babfc73fbdc85c7505f4455500242f", null ],
     [ "RemoveTileAt", "class_action_components_1_1_a_c_tile_group.html#a7566615839362fb7505f3f390f953770", null ],
     [ "Reset", "class_action_components_1_1_a_c_tile_group.html#a8fb0cc26c65883b0b000c2d4a99c3d03", null ],
+    [ "SetTileColor", "class_action_components_1_1_a_c_tile_group.html#adc1fbd172aaee2f2b8dec9b634c98998", null ],
     [ "TouchesBegan", "class_action_components_1_1_a_c_tile_group.html#adafca6ab966c84de8db14dcfd4d7ab4a", null ],
     [ "TouchesEnded", "class_action_components_1_1_a_c_tile_group.html#a8f628bbaa15e09a76c74577ee9b1ba38", null ],
     [ "TouchesMoved", "class_action_components_1_1_a_c_tile_group.html#ac68f6fa4247387f7e199836743d394d9", null ],

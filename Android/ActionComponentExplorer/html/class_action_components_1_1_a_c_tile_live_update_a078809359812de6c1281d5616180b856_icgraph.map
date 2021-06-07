@@ -1,7 +1,7 @@
 <map id="ActionComponents.ACTileLiveUpdate.PerformUpdate" name="ActionComponents.ACTileLiveUpdate.PerformUpdate">
 <area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_controller.html#abc2b6c08476be1f786369a5feba3f7cc" title="Test to see if the given point is inside this ACTile " alt="" coords="257,5,495,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_group.html#a76a6d7e02a2104deda8de670c1dafcc3" title="Changes the background color of every ACTile in this ACTileGroup by creating a random brightness off ..." alt="" coords="267,73,485,117"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_group.html#adc1fbd172aaee2f2b8dec9b634c98998" title="Sets the color of the tiles in the group. " alt="" coords="267,73,485,117"/>
 <area shape="rect" id="node6" href="$class_action_components_1_1_a_c_tile_live_update_tile_sequence.html#adec01f38f5ff209b77d31095ded8d60a" title="Performs the update. " alt="" coords="256,141,496,185"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_live_update_controller_chroma_key.html#a9fe1a551cdac94c5238a513efbe40f43" title="Performs the update. " alt="" coords="556,27,799,87"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_live_update_group_chroma_key.html#ac94cc78bde3c1295f9a1f43d6c499926" title="Performs the update. " alt="" coords="545,111,810,155"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_live_update_group_color.html#aa0efdb866c749a579b2a5c45e9f64763" title="Performs the update. " alt="" coords="569,39,796,83"/>
+<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_live_update_group_color_random.html#a7f15af184adfed2e9c295ed9d34d5326" title="Performs the update. " alt="" coords="544,107,822,151"/>
 </map>

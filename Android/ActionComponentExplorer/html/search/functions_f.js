@@ -15,6 +15,7 @@ var searchData=
   ['setneedslayout',['SetNeedsLayout',['../class_u_i_kit_1_1_u_i_view.html#aade48c5271819c9d10d0fb6f75dd6088',1,'UIKit::UIView']]],
   ['setshadow',['SetShadow',['../class_u_i_kit_1_1_c_g_context.html#a3f70070c30571f7d696f395c2cd77888',1,'UIKit::CGContext']]],
   ['setstroke',['SetStroke',['../class_action_components_1_1_a_c_color.html#a983f360de34dbef27e4573fef757b12f',1,'ActionComponents::ACColor']]],
+  ['settilecolor',['SetTileColor',['../class_action_components_1_1_a_c_tile_group.html#adc1fbd172aaee2f2b8dec9b634c98998',1,'ActionComponents::ACTileGroup']]],
   ['setviewbottommargin',['SetViewBottomMargin',['../class_action_components_1_1_a_c_alert.html#af50aa19b7aeaf0b187590c1668a6a1d1',1,'ActionComponents.ACAlert.SetViewBottomMargin()'],['../class_action_components_1_1_a_c_view.html#ae2ac4c9714652c7d451ea24db75d9840',1,'ActionComponents.ACView.SetViewBottomMargin()']]],
   ['setviewheight',['SetViewHeight',['../class_action_components_1_1_a_c_alert.html#a546457cd8ff7b6f949ccbdf15def2f3a',1,'ActionComponents.ACAlert.SetViewHeight()'],['../class_action_components_1_1_a_c_view.html#a66a96914a6d188a894bf45f8e1625ec1',1,'ActionComponents.ACView.SetViewHeight()']]],
   ['setviewleftmargin',['SetViewLeftMargin',['../class_action_components_1_1_a_c_alert.html#a185852f08ea2dc3e42e2915ea8c71093',1,'ActionComponents.ACAlert.SetViewLeftMargin()'],['../class_action_components_1_1_a_c_view.html#a51e6b667c4f425c12a29f91176731ee8',1,'ActionComponents.ACView.SetViewLeftMargin()']]],

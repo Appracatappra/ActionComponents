@@ -14,5 +14,7 @@ var searchData=
   ['touchesforview',['TouchesForView',['../class_u_i_kit_1_1_u_i_event.html#a4dbf9f479de0084d8ef98faafe9826ae',1,'UIKit::UIEvent']]],
   ['touchesmoved',['TouchesMoved',['../class_action_components_1_1_a_c_tile.html#a5ec3e393980b90340e78afcafd9f6796',1,'ActionComponents.ACTile.TouchesMoved()'],['../class_action_components_1_1_a_c_tile_controller.html#acb9e682f862c974a29020b598efae91a',1,'ActionComponents.ACTileController.TouchesMoved()'],['../class_action_components_1_1_a_c_tile_group.html#ac68f6fa4247387f7e199836743d394d9',1,'ActionComponents.ACTileGroup.TouchesMoved()'],['../class_u_i_kit_1_1_u_i_scroll_view.html#a7e0a73b1fdbd8a0b36ccbf4131572884',1,'UIKit.UIScrollView.TouchesMoved()'],['../class_u_i_kit_1_1_u_i_view.html#af5952a47acd3ed7a2a1754ed87614f84',1,'UIKit.UIView.TouchesMoved()']]],
   ['transform',['Transform',['../class_markdown_sharp_1_1_markdown.html#a686bb27d05878774fba97be66abca317',1,'MarkdownSharp::Markdown']]],
-  ['tray',['Tray',['../class_action_components_1_1_a_c_tray_manager.html#a6dd0f5f173e9302a9c2c481657554e99',1,'ActionComponents::ACTrayManager']]]
+  ['tray',['Tray',['../class_action_components_1_1_a_c_tray_manager.html#a6dd0f5f173e9302a9c2c481657554e99',1,'ActionComponents::ACTrayManager']]],
+  ['traylocationchangeddelegate',['TrayLocationChangedDelegate',['../class_action_components_1_1_a_c_tray.html#a3dd657c597c9a67ee6e0f0f4cf9875c8',1,'ActionComponents::ACTray']]],
+  ['traysizechangeddelegate',['TraySizeChangedDelegate',['../class_action_components_1_1_a_c_tray.html#a4d8ceb29b0192231284ef95d60f73243',1,'ActionComponents::ACTray']]]
 ];

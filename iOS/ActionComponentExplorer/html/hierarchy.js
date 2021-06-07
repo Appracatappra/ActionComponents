@@ -34,6 +34,7 @@ var hierarchy =
     [ "ActionComponents.ACTrayAppearance", "class_action_components_1_1_a_c_tray_appearance.html", null ],
     [ "ActionComponents.ACTrayManager", "class_action_components_1_1_a_c_tray_manager.html", null ],
     [ "ActionComponents.ACViewDragConstraint", "class_action_components_1_1_a_c_view_drag_constraint.html", null ],
+    [ "ActionComponents.AppracatappraLicenseManager", "class_action_components_1_1_appracatappra_license_manager.html", null ],
     [ "ActionComponents.HSVColor", "class_action_components_1_1_h_s_v_color.html", null ],
     [ "ActionComponents.HSVImage", "class_action_components_1_1_h_s_v_image.html", null ],
     [ "IEnumerable", null, [

@@ -62,6 +62,7 @@ var namespace_action_components =
     [ "ACView", "class_action_components_1_1_a_c_view.html", "class_action_components_1_1_a_c_view" ],
     [ "ACViewDragConstraint", "class_action_components_1_1_a_c_view_drag_constraint.html", "class_action_components_1_1_a_c_view_drag_constraint" ],
     [ "ACWebView", "class_action_components_1_1_a_c_web_view.html", "class_action_components_1_1_a_c_web_view" ],
+    [ "AppracatappraLicenseManager", "class_action_components_1_1_appracatappra_license_manager.html", "class_action_components_1_1_appracatappra_license_manager" ],
     [ "HSVColor", "class_action_components_1_1_h_s_v_color.html", "class_action_components_1_1_h_s_v_color" ],
     [ "HSVImage", "class_action_components_1_1_h_s_v_image.html", "class_action_components_1_1_h_s_v_image" ],
     [ "iOSDevice", "class_action_components_1_1i_o_s_device.html", "class_action_components_1_1i_o_s_device" ],

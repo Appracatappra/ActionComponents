@@ -45,7 +45,7 @@ var searchData=
   ['orientation',['orientation',['../class_action_components_1_1_a_c_tray.html#a8cbac527d2e59bf24afa09c70b725e6f',1,'ActionComponents::ACTray']]],
   ['overalldownloadprogresspercent',['OverallDownloadProgressPercent',['../class_action_components_1_1_a_c_download_manager.html#acedd2f7d636da0e19a0a9ebf4df1c8ec',1,'ActionComponents::ACDownloadManager']]],
   ['overalldownloadprogresspercentdelegate',['OverallDownloadProgressPercentDelegate',['../class_action_components_1_1_a_c_download_manager.html#ad678f126885376d106031c755261f70e',1,'ActionComponents::ACDownloadManager']]],
-  ['overlay',['overlay',['../class_action_components_1_1_a_c_alert_appearance.html#aa25bcf3795d9b461766140a47393af26',1,'ActionComponents.ACAlertAppearance.overlay()'],['../class_action_components_1_1_a_c_alert.html#a5af951ad11bd37fdda0e7919bee729e5',1,'ActionComponents.ACAlert.Overlay()']]],
+  ['overlay',['Overlay',['../class_action_components_1_1_a_c_alert.html#a5af951ad11bd37fdda0e7919bee729e5',1,'ActionComponents.ACAlert.Overlay()'],['../class_action_components_1_1_a_c_alert_appearance.html#aa25bcf3795d9b461766140a47393af26',1,'ActionComponents.ACAlertAppearance.overlay()']]],
   ['overlayalpha',['overlayAlpha',['../class_action_components_1_1_a_c_alert_appearance.html#afd8753f212b57203b97d176f4ba72827',1,'ActionComponents::ACAlertAppearance']]],
   ['overlaytouched',['OverlayTouched',['../class_action_components_1_1_a_c_alert.html#aa750014fda3a99a0a012b6586de4986d',1,'ActionComponents::ACAlert']]]
 ];

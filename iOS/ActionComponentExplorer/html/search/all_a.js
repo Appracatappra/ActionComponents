@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['lastname',['LastName',['../class_action_components_1_1_appracatappra_license_manager.html#a283539769ded5b3319b81cefae7d1b9f',1,'ActionComponents::AppracatappraLicenseManager']]],
   ['lavender',['Lavender',['../class_action_components_1_1_a_c_color.html#ac502c4bf4fa8203436474f7c675a175d',1,'ActionComponents::ACColor']]],
   ['lavenderblush',['LavenderBlush',['../class_action_components_1_1_a_c_color.html#a5a13318dd3337417172e670af5b574d8',1,'ActionComponents::ACColor']]],
   ['lawngreen',['LawnGreen',['../class_action_components_1_1_a_c_color.html#acce774a6f87d121e549bfc474654d815',1,'ActionComponents::ACColor']]],
@@ -8,6 +9,8 @@ var searchData=
   ['leftbuttons',['leftButtons',['../class_action_components_1_1_a_c_tile_navigation_bar.html#a9230248ee0a28e76529121825bfa198e',1,'ActionComponents::ACTileNavigationBar']]],
   ['lemonchiffon',['LemonChiffon',['../class_action_components_1_1_a_c_color.html#a33d6b3db9ad5c89625a7f20b2d5e898c',1,'ActionComponents::ACColor']]],
   ['length',['length',['../class_action_components_1_1_a_c_toast.html#a19863642f9cdf9daa6cc0c736b104264',1,'ActionComponents::ACToast']]],
+  ['licenseisvalid',['LicenseIsValid',['../class_action_components_1_1_appracatappra_license_manager.html#a378fdd89717dd30bddeef70f2c75c40d',1,'ActionComponents::AppracatappraLicenseManager']]],
+  ['licensekey',['LicenseKey',['../class_action_components_1_1_appracatappra_license_manager.html#a01cfca4f397eb98070f726bbe5ad7e9b',1,'ActionComponents::AppracatappraLicenseManager']]],
   ['lightblue',['LightBlue',['../class_action_components_1_1_a_c_color.html#a493b765d3aaff95e4aadc4441fb9933f',1,'ActionComponents::ACColor']]],
   ['lightcoral',['LightCoral',['../class_action_components_1_1_a_c_color.html#a6a5012b5781269098be48188c6ffe345',1,'ActionComponents::ACColor']]],
   ['lightcyan',['LightCyan',['../class_action_components_1_1_a_c_color.html#aa7995f1ed452039c542c3b77757f021c',1,'ActionComponents::ACColor']]],

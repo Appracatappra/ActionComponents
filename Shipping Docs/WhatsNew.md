@@ -11,9 +11,9 @@ The following features and bug fixes have been added to `ActionComponents` in ve
 	* **TraySizeChanged** - Is raised when the tray is resized.
 	* **TrayLocationChanged** - Is raised when the tray's location changes.
 * **Action Tray Manager Properties** - The following new properties were added:
-	* **Tab Spacer** - Adjust the space between tray tabs when they are being automatically positioned by the manager.
-	* **Tray Orientation** - Sets the orientation for all trays in the manager and prepares the manager to do automatic tab location.
-	* **Tab Location** - If set to any value other than `Custom`, the manager will automatically layout the tray based on this location. 
+	* **TabSpacer** - Adjust the space between tray tabs when they are being automatically positioned by the manager.
+	* **TrayOrientation** - Sets the orientation for all trays in the manager and prepares the manager to do automatic tab location.
+	* **TabLocation** - If set to any value other than `Custom`, the manager will automatically layout the tray based on this location. 
 	
 
 ###Version 04.04###

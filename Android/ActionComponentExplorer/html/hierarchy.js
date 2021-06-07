@@ -38,6 +38,7 @@ var hierarchy =
     [ "ActionComponents.ACTrayManager", "class_action_components_1_1_a_c_tray_manager.html", null ],
     [ "ActionComponents.ACViewController", "class_action_components_1_1_a_c_view_controller.html", null ],
     [ "ActionComponents.ACViewDragConstraint", "class_action_components_1_1_a_c_view_drag_constraint.html", null ],
+    [ "ActionComponents.AppracatappraLicenseManager", "class_action_components_1_1_appracatappra_license_manager.html", null ],
     [ "actioncomponents.actioncomponents.R.attr", "classactioncomponents_1_1actioncomponents_1_1_r_1_1attr.html", null ],
     [ "ActionComponents.Resource.Attribute", "class_action_components_1_1_resource_1_1_attribute.html", null ],
     [ "BaseAdapter", null, [
@@ -93,8 +94,8 @@ var hierarchy =
     [ "ScrollView", null, [
       [ "ActionComponents.ACTableViewController", "class_action_components_1_1_a_c_table_view_controller.html", null ]
     ] ],
-    [ "ActionComponents.Resource.String", "class_action_components_1_1_resource_1_1_string.html", null ],
     [ "actioncomponents.actioncomponents.R.string", "classactioncomponents_1_1actioncomponents_1_1_r_1_1string.html", null ],
+    [ "ActionComponents.Resource.String", "class_action_components_1_1_resource_1_1_string.html", null ],
     [ "TextView", null, [
       [ "ActionComponents.ACLabel", "class_action_components_1_1_a_c_label.html", null ]
     ] ],

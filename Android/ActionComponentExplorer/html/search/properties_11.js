@@ -1,8 +1,10 @@
 var searchData=
 [
   ['tabalpha',['tabAlpha',['../class_action_components_1_1_a_c_tray_appearance.html#acce359a57eea783c13289bf906673c70',1,'ActionComponents::ACTrayAppearance']]],
-  ['tablocation',['tabLocation',['../class_action_components_1_1_a_c_tray.html#a47cecfb0db4c9e2d7b74d2d034accb1e',1,'ActionComponents::ACTray']]],
+  ['tabarea',['TabArea',['../class_action_components_1_1_a_c_tray.html#aa0d6aaf9af61b4fac0c0296a74f8e0bb',1,'ActionComponents::ACTray']]],
+  ['tablocation',['tabLocation',['../class_action_components_1_1_a_c_tray.html#a47cecfb0db4c9e2d7b74d2d034accb1e',1,'ActionComponents.ACTray.tabLocation()'],['../class_action_components_1_1_a_c_tray_manager.html#ac1bb55a80ac51e766e8369d1879f77e8',1,'ActionComponents.ACTrayManager.TabLocation()']]],
   ['taboffset',['tabOffset',['../class_action_components_1_1_a_c_tray.html#af1d53e8ce2f29f1ae1a8f99696b9310c',1,'ActionComponents::ACTray']]],
+  ['tabspacer',['TabSpacer',['../class_action_components_1_1_a_c_tray_manager.html#acbbf852aa50b6d84c5a36bbe514e10d2',1,'ActionComponents::ACTrayManager']]],
   ['tabstops',['TabStops',['../class_foundation_1_1_n_s_mutable_paragraph_style.html#a544e57d77a468f4d53187843a3d86f5a',1,'Foundation::NSMutableParagraphStyle']]],
   ['tabtype',['tabType',['../class_action_components_1_1_a_c_tray.html#a51b4fb4db7110e8cf1126f6297b9cea4',1,'ActionComponents::ACTray']]],
   ['tabwidth',['tabWidth',['../class_action_components_1_1_a_c_tray.html#a8a131f849f1bf4fc7c411f6cfa95bff3',1,'ActionComponents::ACTray']]],
@@ -10,7 +12,7 @@ var searchData=
   ['tailindent',['TailIndent',['../class_foundation_1_1_n_s_mutable_paragraph_style.html#ae8b5b31bdaf30610fd0512712d930c38',1,'Foundation::NSMutableParagraphStyle']]],
   ['tan',['Tan',['../class_action_components_1_1_a_c_color.html#a325c7b2598acf80a1b0ac250ab83e474',1,'ActionComponents::ACColor']]],
   ['teal',['Teal',['../class_action_components_1_1_a_c_color.html#a5f249835f0d3d8b24d3891d9e27b8bfd',1,'ActionComponents::ACColor']]],
-  ['text',['Text',['../class_action_components_1_1_a_c_oval.html#ab33664059f8e8eab1a48ca870661b9f5',1,'ActionComponents.ACOval.Text()'],['../class_foundation_1_1_n_s_string.html#a2d0314729dd8d2bb2698c8bffaa3125b',1,'Foundation.NSString.Text()'],['../class_action_components_1_1_a_c_table_item.html#ac7ec94e417f0308af10bcc60880f6292',1,'ActionComponents.ACTableItem.text()']]],
+  ['text',['text',['../class_action_components_1_1_a_c_table_item.html#ac7ec94e417f0308af10bcc60880f6292',1,'ActionComponents.ACTableItem.text()'],['../class_action_components_1_1_a_c_oval.html#ab33664059f8e8eab1a48ca870661b9f5',1,'ActionComponents.ACOval.Text()'],['../class_foundation_1_1_n_s_string.html#a2d0314729dd8d2bb2698c8bffaa3125b',1,'Foundation.NSString.Text()']]],
   ['textbold',['TextBold',['../class_u_i_kit_1_1_u_i_font.html#aee381ee4c3bb9f3361a36497a352f462',1,'UIKit::UIFont']]],
   ['textcolor',['TextColor',['../class_u_i_kit_1_1_u_i_font.html#a4bccf2b1649e742fbdf720426d6b3985',1,'UIKit::UIFont']]],
   ['textsize',['TextSize',['../class_u_i_kit_1_1_u_i_font.html#af0561cd6b4b91a3ee698a75c4987ac0e',1,'UIKit::UIFont']]],
@@ -32,7 +34,10 @@ var searchData=
   ['toppadding',['topPadding',['../class_action_components_1_1_a_c_tile_navigation_bar_appearance.html#a0f3cff3b424608efe040ea2e6dbeaa60',1,'ActionComponents::ACTileNavigationBarAppearance']]],
   ['totalheight',['totalHeight',['../class_action_components_1_1_a_c_tile_navigation_bar_appearance.html#ae4a651a31b5d4615a40caa41505782d3',1,'ActionComponents::ACTileNavigationBarAppearance']]],
   ['transparent',['Transparent',['../class_action_components_1_1_a_c_color.html#aeddd0b7554da2d6ea97f94e07ee33a20',1,'ActionComponents::ACColor']]],
+  ['traylocation',['TrayLocation',['../class_action_components_1_1_a_c_tray.html#af6ff4ba9e84d8837bd40cec83ca2f070',1,'ActionComponents::ACTray']]],
+  ['trayorientation',['TrayOrientation',['../class_action_components_1_1_a_c_tray_manager.html#aff8a611a43f4ccb07358e5d25c7a6e41',1,'ActionComponents::ACTrayManager']]],
   ['trays',['trays',['../class_action_components_1_1_a_c_tray_manager.html#a940da31c9387eb3379421864a971c9ec',1,'ActionComponents::ACTrayManager']]],
+  ['traysize',['TraySize',['../class_action_components_1_1_a_c_tray.html#adc72bc86fded69f23976c89d47373222',1,'ActionComponents::ACTray']]],
   ['traytype',['trayType',['../class_action_components_1_1_a_c_tray.html#ae619f83faad1aeecb8f694d1dec70a52',1,'ActionComponents::ACTray']]],
   ['turquoise',['Turquoise',['../class_action_components_1_1_a_c_color.html#acb54f69a98a197297111d160acd89a48',1,'ActionComponents::ACColor']]],
   ['type',['type',['../class_action_components_1_1_a_c_alert.html#a4eff27ff4fcaaf7b477966c82d5cd90d',1,'ActionComponents.ACAlert.type()'],['../class_action_components_1_1_a_c_nav_bar_button.html#aa9edb9dea61b13805f8f8760bad18dd6',1,'ActionComponents.ACNavBarButton.type()']]]

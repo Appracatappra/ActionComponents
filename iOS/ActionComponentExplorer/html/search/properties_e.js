@@ -14,6 +14,7 @@ var searchData=
   ['pointerhidden',['PointerHidden',['../class_action_components_1_1_a_c_nav_bar.html#a8981ede4d4ffd1d5cbe0f5758f9a45eb',1,'ActionComponents::ACNavBar']]],
   ['position',['position',['../class_action_components_1_1_a_c_toast.html#a2796dc0b70eae12f5d6d13f64ade87e6',1,'ActionComponents::ACToast']]],
   ['powderblue',['PowderBlue',['../class_action_components_1_1_a_c_color.html#a3eb9756824a54095a082f242600eb62e',1,'ActionComponents::ACColor']]],
+  ['productname',['ProductName',['../class_action_components_1_1_appracatappra_license_manager.html#ad98ef34de387dc9b1c4c8a51ec740760',1,'ActionComponents::AppracatappraLicenseManager']]],
   ['progressview',['progressView',['../class_action_components_1_1_a_c_alert.html#a43774d4671c40a6036b515be2f7de396',1,'ActionComponents::ACAlert']]],
   ['purple',['Purple',['../class_action_components_1_1_a_c_color.html#af2841e621e6d56bda9eb983702e78500',1,'ActionComponents::ACColor']]]
 ];

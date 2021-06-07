@@ -61,5 +61,6 @@ var searchData=
   ['actraymanager',['ACTrayManager',['../class_action_components_1_1_a_c_tray_manager.html',1,'ActionComponents']]],
   ['acview',['ACView',['../class_action_components_1_1_a_c_view.html',1,'ActionComponents']]],
   ['acviewdragconstraint',['ACViewDragConstraint',['../class_action_components_1_1_a_c_view_drag_constraint.html',1,'ActionComponents']]],
-  ['acwebview',['ACWebView',['../class_action_components_1_1_a_c_web_view.html',1,'ActionComponents']]]
+  ['acwebview',['ACWebView',['../class_action_components_1_1_a_c_web_view.html',1,'ActionComponents']]],
+  ['appracatappralicensemanager',['AppracatappraLicenseManager',['../class_action_components_1_1_appracatappra_license_manager.html',1,'ActionComponents']]]
 ];

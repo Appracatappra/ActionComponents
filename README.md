@@ -1,3 +1,5 @@
+> NOTE: This project is no longer in active development and we are no longer selling this API Toolkit. As a results, we had decided to release the API as open source software. Please feel free to use this software however you wish, with the exception of selling this API as a standalone library.
+
 # ActionComponents
 Customizable UI and time-saving tools for iOS and Android development with Xamarin and Visual Studio.
 

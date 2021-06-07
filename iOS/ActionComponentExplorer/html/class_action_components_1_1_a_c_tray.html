@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="ActionComponents.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ActionComponents
-   &#160;<span id="projectnumber">04.03.00</span>
+   &#160;<span id="projectnumber">04.05.00</span>
    </div>
    <div id="projectbrief">Customizable UI and time-saving tools for iOS development with Xamarin and Visual Studio.</div>
   </td>
@@ -213,6 +213,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aff9b5ded0610e48d9d541eb95ff08889"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#aff9b5ded0610e48d9d541eb95ff08889">CustomDrawDragTabDelegate</a> (<a class="el" href="class_action_components_1_1_a_c_tray.html">ACTray</a> tray, CGRect rect)</td></tr>
 <tr class="memdesc:aff9b5ded0610e48d9d541eb95ff08889"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when the <a class="el" href="namespace_action_components.html#ae5a301965be44c241e9acc69e54e0e2c" title="Defines the type of dragTab for the given ActionComponents.ACTray ">ActionComponents.ACTrayTabType</a> is set to <code>CustomDrawn</code> and the <code>dragTab</code> needs to be drawn  <a href="#aff9b5ded0610e48d9d541eb95ff08889">More...</a><br /></td></tr>
 <tr class="separator:aff9b5ded0610e48d9d541eb95ff08889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d8ceb29b0192231284ef95d60f73243"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#a4d8ceb29b0192231284ef95d60f73243">TraySizeChangedDelegate</a> (<a class="el" href="class_action_components_1_1_a_c_tray.html">ACTray</a> tray, CGSize size)</td></tr>
+<tr class="memdesc:a4d8ceb29b0192231284ef95d60f73243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when the size of the tray is changed.  <a href="#a4d8ceb29b0192231284ef95d60f73243">More...</a><br /></td></tr>
+<tr class="separator:a4d8ceb29b0192231284ef95d60f73243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dd657c597c9a67ee6e0f0f4cf9875c8"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#a3dd657c597c9a67ee6e0f0f4cf9875c8">TrayLocationChangedDelegate</a> (<a class="el" href="class_action_components_1_1_a_c_tray.html">ACTray</a> tray, CGPoint location)</td></tr>
+<tr class="memdesc:a3dd657c597c9a67ee6e0f0f4cf9875c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when the tray's location has changed.  <a href="#a3dd657c597c9a67ee6e0f0f4cf9875c8">More...</a><br /></td></tr>
+<tr class="separator:a3dd657c597c9a67ee6e0f0f4cf9875c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -273,6 +279,18 @@ Properties</h2></td></tr>
 <tr class="memitem:ae619f83faad1aeecb8f694d1dec70a52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_action_components.html#aff6db584bd8c87c185a8ea9d7a3a1c31">ACTrayType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#ae619f83faad1aeecb8f694d1dec70a52">trayType</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ae619f83faad1aeecb8f694d1dec70a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the <a class="el" href="namespace_action_components.html#aff6db584bd8c87c185a8ea9d7a3a1c31" title="Defines the user&#39;s interaction with the ActionComponents.ACTray ">ActionComponents.ACTrayType</a> of this <a class="el" href="class_action_components_1_1_a_c_tray.html" title="The ActionComponents.ACTray is a dockable, customizable, slide-out MonoTouch.UIKit.UIView controller with a dragTab that can be attached to the edge of any parent MonoTouch.UIKit.UIView. The ActionComponents.ACTray handles sliding the attached MonoTouch.UIKit.UIView based on the ActionComponents.ACTrayType. The ActionComponents.ACTray can either be created in a .xib file in Xcode or manually in C# code. ">ActionComponents.ACTray</a>  <a href="#ae619f83faad1aeecb8f694d1dec70a52">More...</a><br /></td></tr>
 <tr class="separator:ae619f83faad1aeecb8f694d1dec70a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc72bc86fded69f23976c89d47373222"><td class="memItemLeft" align="right" valign="top">CGSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#adc72bc86fded69f23976c89d47373222">TraySize</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:adc72bc86fded69f23976c89d47373222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the size of the tray.  <a href="#adc72bc86fded69f23976c89d47373222">More...</a><br /></td></tr>
+<tr class="separator:adc72bc86fded69f23976c89d47373222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6ff4ba9e84d8837bd40cec83ca2f070"><td class="memItemLeft" align="right" valign="top">CGPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#af6ff4ba9e84d8837bd40cec83ca2f070">TrayLocation</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:af6ff4ba9e84d8837bd40cec83ca2f070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the tray location.  <a href="#af6ff4ba9e84d8837bd40cec83ca2f070">More...</a><br /></td></tr>
+<tr class="separator:af6ff4ba9e84d8837bd40cec83ca2f070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0d6aaf9af61b4fac0c0296a74f8e0bb"><td class="memItemLeft" align="right" valign="top">CGRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#aa0d6aaf9af61b4fac0c0296a74f8e0bb">TabArea</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa0d6aaf9af61b4fac0c0296a74f8e0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the tab area.  <a href="#aa0d6aaf9af61b4fac0c0296a74f8e0bb">More...</a><br /></td></tr>
+<tr class="separator:aa0d6aaf9af61b4fac0c0296a74f8e0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a310ad0ecf63ac912e0982b467fbf8f18"><td class="memItemLeft" align="right" valign="top">CGRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#a310ad0ecf63ac912e0982b467fbf8f18">ContentArea</a><code> [get]</code></td></tr>
+<tr class="memdesc:a310ad0ecf63ac912e0982b467fbf8f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the safe content area based on how the tray is oriented.  <a href="#a310ad0ecf63ac912e0982b467fbf8f18">More...</a><br /></td></tr>
+<tr class="separator:a310ad0ecf63ac912e0982b467fbf8f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10e3e1c57627ca144961b237d48c0be9"><td class="memItemLeft" align="right" valign="top">UIColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#a10e3e1c57627ca144961b237d48c0be9">background</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a10e3e1c57627ca144961b237d48c0be9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the background color  <a href="#a10e3e1c57627ca144961b237d48c0be9">More...</a><br /></td></tr>
 <tr class="separator:a10e3e1c57627ca144961b237d48c0be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,6 +345,10 @@ Events</h2></td></tr>
 <tr class="separator:a44ed72d0b1aa1f123b2e02d838b4ad8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa8f63f8ead6d61d53c37236fc4b56be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_action_components_1_1_a_c_tray.html#aff9b5ded0610e48d9d541eb95ff08889">CustomDrawDragTabDelegate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#afa8f63f8ead6d61d53c37236fc4b56be">CustomDrawDragTab</a></td></tr>
 <tr class="separator:afa8f63f8ead6d61d53c37236fc4b56be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab474b3f113842f0a98c5e3608550a73d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_action_components_1_1_a_c_tray.html#a4d8ceb29b0192231284ef95d60f73243">TraySizeChangedDelegate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#ab474b3f113842f0a98c5e3608550a73d">TraySizeChanged</a></td></tr>
+<tr class="separator:ab474b3f113842f0a98c5e3608550a73d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33d47471ea98b399e952276863500a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_action_components_1_1_a_c_tray.html#a3dd657c597c9a67ee6e0f0f4cf9875c8">TrayLocationChangedDelegate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_components_1_1_a_c_tray.html#ad33d47471ea98b399e952276863500a4">TrayLocationChanged</a></td></tr>
+<tr class="separator:ad33d47471ea98b399e952276863500a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="class_action_components_1_1_a_c_tray.html" title="The ActionComponents.ACTray is a dockable, customizable, slide-out MonoTouch.UIKit.UIView controller with a dragTab that can be attached to the edge of any parent MonoTouch.UIKit.UIView. The ActionComponents.ACTray handles sliding the attached MonoTouch.UIKit.UIView based on the ActionComponents.ACTrayType. The ActionComponents.ACTray can either be created in a .xib file in Xcode or manually in C# code. ">ActionComponents.ACTray</a> is a dockable, customizable, slide-out MonoTouch.UIKit.UIView controller with a <code>dragTab</code> that can be attached to the edge of any parent MonoTouch.UIKit.UIView. The <a class="el" href="class_action_components_1_1_a_c_tray.html" title="The ActionComponents.ACTray is a dockable, customizable, slide-out MonoTouch.UIKit.UIView controller with a dragTab that can be attached to the edge of any parent MonoTouch.UIKit.UIView. The ActionComponents.ACTray handles sliding the attached MonoTouch.UIKit.UIView based on the ActionComponents.ACTrayType. The ActionComponents.ACTray can either be created in a .xib file in Xcode or manually in C# code. ">ActionComponents.ACTray</a> handles sliding the attached MonoTouch.UIKit.UIView based on the <a class="el" href="namespace_action_components.html#aff6db584bd8c87c185a8ea9d7a3a1c31" title="Defines the user&#39;s interaction with the ActionComponents.ACTray ">ActionComponents.ACTrayType</a>. The <a class="el" href="class_action_components_1_1_a_c_tray.html" title="The ActionComponents.ACTray is a dockable, customizable, slide-out MonoTouch.UIKit.UIView controller with a dragTab that can be attached to the edge of any parent MonoTouch.UIKit.UIView. The ActionComponents.ACTray handles sliding the attached MonoTouch.UIKit.UIView based on the ActionComponents.ACTrayType. The ActionComponents.ACTray can either be created in a .xib file in Xcode or manually in C# code. ">ActionComponents.ACTray</a> can either be created in a .xib file in Xcode or manually in C# code. </p>
@@ -1164,6 +1186,62 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a3dd657c597c9a67ee6e0f0f4cf9875c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void ActionComponents.ACTray.TrayLocationChangedDelegate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_action_components_1_1_a_c_tray.html">ACTray</a>&#160;</td>
+          <td class="paramname"><em>tray</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CGPoint&#160;</td>
+          <td class="paramname"><em>location</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Occurs when the tray's location has changed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4d8ceb29b0192231284ef95d60f73243"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void ActionComponents.ACTray.TraySizeChangedDelegate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_action_components_1_1_a_c_tray.html">ACTray</a>&#160;</td>
+          <td class="paramname"><em>tray</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CGSize&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Occurs when the size of the tray is changed. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a733ac2fb1fd3afa18688535028928d21"></a>
 <div class="memitem">
@@ -1283,6 +1361,29 @@ Here is the call graph for this function:</div>
 
 <p>Gets or sets the border color </p>
 <p>The border color</p>
+
+</div>
+</div>
+<a class="anchor" id="a310ad0ecf63ac912e0982b467fbf8f18"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CGRect ActionComponents.ACTray.ContentArea</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the safe content area based on how the tray is oriented. </p>
+<p>The safe content area that avoids the tab area.</p>
 
 </div>
 </div>
@@ -1566,6 +1667,29 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="aa0d6aaf9af61b4fac0c0296a74f8e0bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CGRect ActionComponents.ACTray.TabArea</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the tab area. </p>
+<p>The tab area.</p>
+
+</div>
+</div>
 <a class="anchor" id="a47cecfb0db4c9e2d7b74d2d034accb1e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1801,6 +1925,53 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="af6ff4ba9e84d8837bd40cec83ca2f070"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CGPoint ActionComponents.ACTray.TrayLocation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets or sets the tray location. </p>
+<p>The tray location.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc72bc86fded69f23976c89d47373222"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CGSize ActionComponents.ACTray.TraySize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets or sets the size of the tray. </p>
+<p>The size of the tray.</p>
+<p>The developer is responsible for resizing and repositioning the contents of the trays.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae619f83faad1aeecb8f694d1dec70a52"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1897,13 +2068,37 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ad33d47471ea98b399e952276863500a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_action_components_1_1_a_c_tray.html#a3dd657c597c9a67ee6e0f0f4cf9875c8">TrayLocationChangedDelegate</a> ActionComponents.ACTray.TrayLocationChanged</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab474b3f113842f0a98c5e3608550a73d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_action_components_1_1_a_c_tray.html#a4d8ceb29b0192231284ef95d60f73243">TraySizeChangedDelegate</a> ActionComponents.ACTray.TraySizeChanged</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_action_components.html">ActionComponents</a></li><li class="navelem"><a class="el" href="class_action_components_1_1_a_c_tray.html">ACTray</a></li>
-    <li class="footer">Generated on Thu Feb 15 2018 09:27:23 for ActionComponents by
+    <li class="footer">Generated on Tue Mar 13 2018 13:13:51 for ActionComponents by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

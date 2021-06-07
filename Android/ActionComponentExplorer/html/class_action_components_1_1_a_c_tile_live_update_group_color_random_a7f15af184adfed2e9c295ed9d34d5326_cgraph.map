@@ -1,0 +1,11 @@
+<map id="ActionComponents.ACTileLiveUpdateGroupColorRandom.PerformUpdate" name="ActionComponents.ACTileLiveUpdateGroupColorRandom.PerformUpdate">
+<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_group.html#adc1fbd172aaee2f2b8dec9b634c98998" title="Sets the color of the tiles in the group. " alt="" coords="331,133,549,177"/>
+<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_live_update.html#a078809359812de6c1281d5616180b856" title="Performs the update on the given ACTile or ACTileGroup this ACTileLiveUpdate is attached to ..." alt="" coords="606,5,808,49"/>
+<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_group.html#a41babfc73fbdc85c7505f4455500242f" title="Forces this ACTileGroup to fully redraw itself " alt="" coords="598,73,816,117"/>
+<area shape="rect" id="node6" href="$class_u_i_kit_1_1_u_i_font.html#a117715dad70c86144dcb65cefb26e655" title="Measures the size of the current string for the given font, available size and line break mode..." alt="" coords="627,141,786,169"/>
+<area shape="rect" id="node8" href="$class_u_i_kit_1_1_u_i_font.html#afe3404670e746e70a8e2aae0e28631ed" title="Returns a bold system font of the given size. " alt="" coords="609,193,804,237"/>
+<area shape="rect" id="node10" href="$class_u_i_kit_1_1_u_i_font.html#a9667789d64e86328d3667a0a18ef58bb" title="Returns a system font of the given size. " alt="" coords="602,261,811,289"/>
+<area shape="rect" id="node5" href="$class_u_i_kit_1_1_u_i_view.html#a363e100ee3dc9327a7df3f6f54e58536" title="Sets the needs display flag. " alt="" coords="874,81,1075,109"/>
+<area shape="rect" id="node7" href="$class_action_components_1_1_action_canvas_extensions.html#a0396d0ffa4c13feabe1e6f5307d1dfe0" title="Calculates the height of a block of text to be drawn in a canvas given the wrapping width and the max..." alt="" coords="865,133,1085,177"/>
+<area shape="rect" id="node9" href="$class_u_i_kit_1_1_u_i_font.html#a7c5d198d2f408f63a6d14fcfc5a4a062" title="Initializes a new instance of the T:UIKit.UIFont class. " alt="" coords="906,230,1043,258"/>
+</map>
