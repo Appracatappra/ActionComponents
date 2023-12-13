@@ -1,5 +1,0 @@
-<map id="ActionComponents.HSVImage.Blend" name="ActionComponents.HSVImage.Blend">
-<area shape="rect" id="node2" href="$class_action_components_1_1_h_s_v_image.html#a309adcd43ca85e1adbd32a398ad5c8c2" title="Saturations the brightness square image. " alt="" coords="259,5,485,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color_cube.html#aa2fcb52667629ff825f0058d42331d2c" title="Redraws the color cube using the current Hue, Saturation and Brightness values. " alt="" coords="534,5,722,49"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_color_cube.html#a0a9f7ba59e287274c2c4a080687ed6a4" title="Initializes a new instance of the T:ActionComponents.ACColorCube class. " alt="" coords="771,5,959,49"/>
-</map>

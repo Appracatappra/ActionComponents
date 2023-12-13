@@ -1,4 +1,0 @@
-<map id="ActionComponents.HSVImage.SaturationBrightnessSquareImage" name="ActionComponents.HSVImage.SaturationBrightnessSquareImage">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color_cube.html#aa2fcb52667629ff825f0058d42331d2c" title="Redraws the color cube using the current Hue, Saturation and Brightness values. " alt="" coords="281,5,469,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color_cube.html#a0a9f7ba59e287274c2c4a080687ed6a4" title="Initializes a new instance of the T:ActionComponents.ACColorCube class. " alt="" coords="518,5,706,49"/>
-</map>

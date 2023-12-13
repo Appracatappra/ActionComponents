@@ -1,6 +1,0 @@
-<map id="ActionComponents.ACAlert.ACAlert" name="ActionComponents.ACAlert.ACAlert">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_alert.html#a23a4e780ab937ae960de6332af097c8e" title="Takes a comma seperated string of button titles, creates a new ActionComponents.ACAlertButton for eac..." alt="" coords="244,5,431,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_action_canvas_extensions.html#a205033d643403b4a6b37750969eb798f" title="Measures the height of the given text drawn with the given style properties, wrapping the text at the..." alt="" coords="487,65,707,109"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_alert.html#af729db65fbb51d33d59a4bf1dcaecee8" title="Forces the Appracatappra.ActionComponents.ActionTray.ACTray to dump it&#39;s draw buffer and completely r..." alt="" coords="244,125,431,169"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_action_canvas_extensions.html#a846639b86efe48533cb9a7ce52ec52a1" title="Draws the given text at the given x,y coordinates in the given style in the given canvas..." alt="" coords="480,133,715,177"/>
-</map>

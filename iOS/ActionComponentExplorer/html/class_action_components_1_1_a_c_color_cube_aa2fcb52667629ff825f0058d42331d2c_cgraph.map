@@ -1,6 +1,0 @@
-<map id="ActionComponents.ACColorCube.Redraw" name="ActionComponents.ACColorCube.Redraw">
-<area shape="rect" id="node2" href="$class_action_components_1_1_h_s_v_image.html#a309adcd43ca85e1adbd32a398ad5c8c2" title="Saturations the brightness square image. " alt="" coords="243,38,469,82"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_h_s_v_image.html#a72b1f08a5382b44f1d3a17adf91122ab" title="Pin the specified minValue, value and maxValue. " alt="" coords="243,106,469,134"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_h_s_v_image.html#ac7a081be3a653aa0ee497a380b04b9ea" title="Creates the background rx image context. " alt="" coords="517,5,723,49"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_h_s_v_image.html#a706d732b4aad313dd49d565ddcf41a02" title="Blend the specified value and percent. " alt="" coords="517,73,723,117"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACView.OnTouchEvent" name="ActionComponents.ACView.OnTouchEvent">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_view.html#a21b218deea6042e2bf7a3d0101ce1bf9" title="Moves this ActionComponents.ACView to the given point and honors any ActionComponents.ACViewDragConstraints applied to the X or Y axis " alt="" coords="243,5,431,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_view.html#a1fac9c8f300cdde5a534c711e598537b" title="Occurs when this ActionComponents.ACView is touched " alt="" coords="243,73,431,117"/>
-</map>

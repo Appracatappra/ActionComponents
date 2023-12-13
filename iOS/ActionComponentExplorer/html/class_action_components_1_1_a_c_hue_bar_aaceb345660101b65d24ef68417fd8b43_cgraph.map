@@ -1,6 +1,0 @@
-<map id="ActionComponents.ACHueBar.ACHueBar" name="ActionComponents.ACHueBar.ACHueBar">
-<area shape="rect" id="node2" href="$class_action_components_1_1_h_s_v_image.html#a29fc8477a1c79bd5fffe8afcde3dbe6c" title="Hues the bar image. " alt="" coords="258,5,464,49"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_hue_bar.html#ac7240b2cac573c1492fae4cd27dab09f" title="Redraw the Hue Bar using the current Hue value. " alt="" coords="259,73,464,117"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_h_s_v_image.html#ac7a081be3a653aa0ee497a380b04b9ea" title="Creates the background rx image context. " alt="" coords="522,5,728,49"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_h_s_v_image.html#a72b1f08a5382b44f1d3a17adf91122ab" title="Pin the specified minValue, value and maxValue. " alt="" coords="513,81,738,109"/>
-</map>

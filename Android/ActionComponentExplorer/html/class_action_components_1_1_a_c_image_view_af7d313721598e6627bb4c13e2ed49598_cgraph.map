@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACImageView.FromResource" name="ActionComponents.ACImageView.FromResource">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_image_view.html#a5138a6dc73cdc7843fd7d73c73e82c7c" title="Forces this ActionComponents.ACImageView to release all of the memory being held by the Bitmap image ..." alt="" coords="250,5,443,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image.html#a7720532448ce3150a5369c0ea033dc26" title="Loads the image from the given resources and resource ID " alt="" coords="248,73,445,117"/>
-</map>

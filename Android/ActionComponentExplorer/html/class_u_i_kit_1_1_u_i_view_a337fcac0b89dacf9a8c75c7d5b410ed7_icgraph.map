@@ -1,6 +1,0 @@
-<map id="UIKit.UIView.Draw" name="UIKit.UIView.Draw">
-<area shape="rect" id="node2" href="$class_u_i_kit_1_1_u_i_view.html#a95bca38b7da6505c0a85e6b25973baf8" title="Invokes the given action on the main UI thread. " alt="" coords="185,5,370,49"/>
-<area shape="rect" id="node5" href="$class_u_i_kit_1_1_u_i_view.html#a85761797f33046f3f9e069ddd09af197" title="Called when the view needs to draw itself. " alt="" coords="203,73,351,101"/>
-<area shape="rect" id="node3" href="$class_u_i_kit_1_1_u_i_scroll_view.html#a94bb8e817c609f8c06d0db8d36897a66" title="UIKit.UIScrollView.Redraw" alt="" coords="419,13,597,41"/>
-<area shape="rect" id="node4" href="$class_u_i_kit_1_1_u_i_scroll_view.html#a7e0a73b1fdbd8a0b36ccbf4131572884" title="Sent when the ACTile is being dragged " alt="" coords="645,5,827,49"/>
-</map>

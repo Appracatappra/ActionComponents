@@ -1,6 +1,0 @@
-<map id="ActionComponents.ACTableViewController.RefreshView" name="ActionComponents.ACTableViewController.RefreshView">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_table_view_data_source.html#ab101b68869ca1f836225863839f982d4" title="Requests that this ActionComponents.ACTableViewDataSource reloads all of the data from it&#39;s source ..." alt="" coords="246,5,434,49"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_table_view_data_source.html#ab37a3efd9b3504452757ae4913c7cabf" title="Call this method to update the ListView after making changes to any ActionComponents.ACTableSections or ActionComponents.ACTableItems being controller by this ActionComponents.ACTableViewDataSource " alt="" coords="242,73,438,117"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_table_view_controller.html#a68db3cabd9ac223edf1a11113cb48a06" title="Causes this ActionComponents.ACTableViewController to populate it&#39;s TableView with data from the atta..." alt="" coords="515,5,703,49"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_table_view_controller.html#ae58768b551f2a5bfcb7d87b91f65021b" title="Initializes a new instance of the Appracatappra.ActionComponents.ActionView.ACView class..." alt="" coords="486,73,733,117"/>
-</map>

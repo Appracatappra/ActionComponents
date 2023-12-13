@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACWebView.OnTouchEvent" name="ActionComponents.ACWebView.OnTouchEvent">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_web_view.html#ad3f29c54b332a4957b469a7d072982a2" title="Moves this ActionComponents.ACWebView to the given point and honors any ActionComponents.ACWebViewDragConstraints applied to the X or Y axis " alt="" coords="270,5,485,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_web_view.html#a8793d792a86f4fd3001587418f196a97" title="Occurs when this ActionComponents.ACWebView is touched " alt="" coords="270,73,485,117"/>
-</map>

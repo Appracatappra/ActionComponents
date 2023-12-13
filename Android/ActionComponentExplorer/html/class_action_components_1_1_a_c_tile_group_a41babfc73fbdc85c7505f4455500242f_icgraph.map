@@ -1,5 +1,0 @@
-<map id="ActionComponents.ACTileGroup.Redraw" name="ActionComponents.ACTileGroup.Redraw">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_group.html#adc1fbd172aaee2f2b8dec9b634c98998" title="Sets the color of the tiles in the group. " alt="" coords="272,39,490,83"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_live_update_group_color.html#aa0efdb866c749a579b2a5c45e9f64763" title="Performs the update. " alt="" coords="564,5,791,49"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_live_update_group_color_random.html#a7f15af184adfed2e9c295ed9d34d5326" title="Performs the update. " alt="" coords="538,73,816,117"/>
-</map>

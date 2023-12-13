@@ -1,8 +1,0 @@
-<map id="ActionComponents.ACTileController.TouchesEnded" name="ActionComponents.ACTileController.TouchesEnded">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_controller.html#aa6873a059cb2bf5b6ecad479015c2c5c" title="Moves this ACTile to the given point and honors any ACTileDragConstraints applied to the X or Y axis ..." alt="" coords="321,5,559,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_controller.html#a40e5c80298193e3d317b9e3b989f003b" title="Occurs when this ACTileController is touched " alt="" coords="321,73,559,117"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_controller.html#a8febbb2f5c29394404f4b6c0da6fe2d8" title="Occurs when this ACTileController is moved " alt="" coords="321,141,559,185"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_controller.html#a95f5f2eb35873bbbbd7a9dc050e704e1" title="Occurs when this ACTileController is released " alt="" coords="321,209,559,253"/>
-<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_tile_controller.html#a714f77afd71dd32d64635c12bfea3807" title="Occurs when live updating has been kicked off by the ACTileController " alt="" coords="315,277,565,321"/>
-<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_tile_controller.html#a9cde05855d91a33decea45d8e3aa7a3d" title="Occurs when the ACTile Style is set to CustomDrawn and the ACTile needs to be updated ..." alt="" coords="291,345,589,389"/>
-</map>

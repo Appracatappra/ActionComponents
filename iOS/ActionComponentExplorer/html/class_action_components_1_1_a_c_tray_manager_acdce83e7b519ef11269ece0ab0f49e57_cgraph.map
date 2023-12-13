@@ -1,7 +1,0 @@
-<map id="ActionComponents.ACTrayManager.AddTray" name="ActionComponents.ACTrayManager.AddTray">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tray.html#a81588bb8494487fffa78627456ea3590" title="Closes the ActionComponents.ACTray " alt="" coords="291,38,477,82"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_toast.html#a4af76b6552bb36363f996a98246f9861" title="Creates a new instance of the ActionComponents.ACToast message with the given properties and returns ..." alt="" coords="543,7,735,51"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_toast.html#a86fb712580c12d786782caba1b3c80d5" title="Show the ActionComponents.ACToast message " alt="" coords="526,77,751,105"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_toast.html#a8d92226587ae0be62220d964b1ba6f6d" title="Initializes a new instance of the ActionComponents.ACToast class. " alt="" coords="800,5,992,49"/>
-<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_toast.html#aac02447ee45d628c713b82652d15603b" title="Hides this ActionComponents.ACToast message " alt="" coords="800,73,992,117"/>
-</map>

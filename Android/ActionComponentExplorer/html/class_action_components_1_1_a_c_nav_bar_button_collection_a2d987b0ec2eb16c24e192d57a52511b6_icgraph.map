@@ -1,5 +1,0 @@
-<map id="ActionComponents.ACNavBarButtonCollection.SelectedButton" name="ActionComponents.ACNavBarButtonCollection.SelectedButton">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_nav_bar.html#ae6e422780f82064c0a909bfa60f2d3e3" title="Returns the currently selected button in this ActionComponents.ACNavBar " alt="" coords="268,39,471,83"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_nav_bar.html#a8dac88594c832c043839993d0e6f80ae" title="Returns the Unique Identifier for the currently selected ActionComponents.ACNavBarButton or zero if n..." alt="" coords="521,5,724,49"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_nav_bar.html#a2e1c43b7a2fd442f63220048a100fd5e" title="Causes the selected ActionComponents.ACNavBarButton in the any ActionComponents.ACNavBarButtonCollect..." alt="" coords="521,73,724,117"/>
-</map>

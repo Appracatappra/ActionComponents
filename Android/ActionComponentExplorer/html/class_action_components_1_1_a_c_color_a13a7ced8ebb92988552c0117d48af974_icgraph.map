@@ -1,8 +1,0 @@
-<map id="ActionComponents.ACColor.FromHSB" name="ActionComponents.ACColor.FromHSB">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color.html#ad15a57136b5680217511bc198c8d0117" title="Creates a color from using the hue, saturation and brightness components with the given alpha value ..." alt="" coords="246,85,437,129"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile.html#a80f4d781cc51e412994004782b44f0f1" title="Changes the background color of this ACTile by creating a random brightness off the given base ACColo..." alt="" coords="486,85,666,129"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_group.html#a76a6d7e02a2104deda8de670c1dafcc3" title="Changes the background color of every ACTile in this ACTileGroup by creating a random brightness off ..." alt="" coords="731,50,949,94"/>
-<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_tile_live_update_tile_chroma_key.html#aba34f4d26c0f275f5bff43bb4c1b1261" title="Performs the update. " alt="" coords="716,118,964,162"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_live_update_controller_chroma_key.html#a9fe1a551cdac94c5238a513efbe40f43" title="Performs the update. " alt="" coords="1025,5,1268,65"/>
-<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_tile_live_update_group_chroma_key.html#ac94cc78bde3c1295f9a1f43d6c499926" title="Performs the update. " alt="" coords="1014,89,1279,133"/>
-</map>

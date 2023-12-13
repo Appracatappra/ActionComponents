@@ -1,5 +1,0 @@
-<map id="ActionComponents.ACTileGroupAppearance.Clone" name="ActionComponents.ACTileGroupAppearance.Clone">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_group_appearance.html#a0ee86200b005a20653fc4363ee404418" title="Initializes a new instance of the ACTrayAppearance class and sets the default appearance for the cont..." alt="" coords="269,21,515,65"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#a1d3309905a15c9a52e23cb0b79301472" title="Creates a new color from the given red, green and blue values with the given alpha value ..." alt="" coords="563,21,754,65"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_color.html#a0df3e259f24e52ae6080f5d9d2372470" title="Return a color from alpha, red, green, blue components. These component values should be [0..." alt="" coords="802,29,1022,57"/>
-</map>

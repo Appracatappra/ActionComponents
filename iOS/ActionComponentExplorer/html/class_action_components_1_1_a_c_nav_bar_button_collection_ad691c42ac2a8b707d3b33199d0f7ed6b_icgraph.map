@@ -1,5 +1,0 @@
-<map id="ActionComponents.ACNavBarButtonCollection.Add" name="ActionComponents.ACNavBarButtonCollection.Add">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a4fff4f1b48ef739c44a9392d5772de24" title="Adds a view with the given image and auto dispose state. " alt="" coords="257,5,458,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a700601d404ad3db173c072ebded85dda" title="Adds a tool to the bar with the given image " alt="" coords="257,73,458,117"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#ae4b7e761e57014add88fe6c3514c7a20" title="Adds a selection to the given group with the given image " alt="" coords="257,141,458,185"/>
-</map>

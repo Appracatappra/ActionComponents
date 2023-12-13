@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACImage.FromResource" name="ActionComponents.ACImage.FromResource">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_table_item.html#a87e79118a33f9187bb94e74c67c57c8d" title="Adds a Appracatappra.ActionComponents.ActionView.ACImageView accessory to this ActionComponents.ACTableItem " alt="" coords="251,5,490,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image_view.html#a5d239a38172a9c53eba37741b7f36cd6" title="Loads the image being displayed by this ActionComponents.ACImageView from the given resources and res..." alt="" coords="274,73,467,117"/>
-</map>

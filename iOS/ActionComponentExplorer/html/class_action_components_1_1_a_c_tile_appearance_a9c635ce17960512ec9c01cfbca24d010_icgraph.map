@@ -1,6 +1,0 @@
-<map id="ActionComponents.ACTileAppearance.Clone" name="ActionComponents.ACTileAppearance.Clone">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_controller.html#ae5348769a58ef4d2083b7b8bc6254f71" title="Adds a new group to the tile controller with the given properties. " alt="" coords="306,5,544,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_group.html#aed56a6addd06b1c4c386b6260169ae98" title="Adds a new ACTile to this ACTileGroup. " alt="" coords="316,73,534,117"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_group.html#a56d90f4ee04d9438b87ade327105f846" title="Adds a new ACTile to this ACTileGroup. " alt="" coords="592,133,810,177"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_group.html#ae985a5a8a50108daae8b55e9367d00ef" title="Adds a new ACTile to this ACTileGroup. " alt="" coords="592,65,810,109"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACNavBar.Redraw" name="ActionComponents.ACNavBar.Redraw">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_nav_bar_pointer.html#ae9913fc40516ee2ca33b012140f4f387" title="Moves the ActionComponents.ACNavBarPointer to the location specified and optionally animates the move..." alt="" coords="260,5,460,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_nav_bar_button_appearance.html#a9d89d4bb786473bbfb8c9317abb28755" title="Clones the values from the passed ActionComponents.ACNavBarButtonAppearance into this one ..." alt="" coords="260,73,460,117"/>
-</map>

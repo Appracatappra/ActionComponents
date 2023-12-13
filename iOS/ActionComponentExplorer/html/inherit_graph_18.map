@@ -1,3 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_table_view_data_source.html" title="The ActionComponents.ACTableViewDataSource provides all data to it&#39;s parent ActionComponents.ACTableViewController via the controller&#39;s RequestData event. It maintains a collection of ActionComponents.ACTableSections each containing a collection of ActionComponents.ACTableItem. As a result, you may never need to create a custom version of this class to support your UITableViews maintained by the ActionComponents.ACTableViewController. " alt="" coords="219,5,407,49"/>
-</map>

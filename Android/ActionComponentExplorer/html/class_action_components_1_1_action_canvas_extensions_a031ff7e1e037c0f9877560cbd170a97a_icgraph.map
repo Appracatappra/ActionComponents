@@ -1,6 +1,0 @@
-<map id="ActionComponents.ActionCanvasExtensions.DrawTextAligned" name="ActionComponents.ActionCanvasExtensions.DrawTextAligned">
-<area shape="rect" id="node2" href="$class_action_components_1_1_action_canvas_extensions.html#a996fd599b1005a7e71ae054697c8fc54" title="Draws a single line of text aligned horizontaly and vertically inside the rectangle specified by the ..." alt="" coords="275,5,495,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_oval.html#ac42d9f4e4b8af4a9ba96b91f9701fa6a" title="Redraw this ActionComponents.ACOval. " alt="" coords="292,73,479,117"/>
-<area shape="rect" id="node5" href="$class_foundation_1_1_n_s_string.html#a457f6e63278630bf8067dfe5e2d7d083" title="Draws the string into the canvas from the current context of the UIGraphics class using the given pro..." alt="" coords="295,141,475,185"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_oval.html#a0a8675509dc80c65814463da65edffb7" title="Initializes a new instance of the ActionComponents.ACOval class. " alt="" coords="545,73,732,117"/>
-</map>

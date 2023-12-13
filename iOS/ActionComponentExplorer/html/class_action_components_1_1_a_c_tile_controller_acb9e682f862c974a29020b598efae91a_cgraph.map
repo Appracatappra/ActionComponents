@@ -1,3 +1,0 @@
-<map id="ActionComponents.ACTileController.TouchesMoved" name="ActionComponents.ACTileController.TouchesMoved">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_controller.html#aa6873a059cb2bf5b6ecad479015c2c5c" title="Moves this ACTile to the given point and honors any ACTileDragConstraints applied to the X or Y axis ..." alt="" coords="290,5,528,49"/>
-</map>

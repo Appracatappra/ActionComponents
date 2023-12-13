@@ -1,6 +1,0 @@
-<map id="ActionComponents.ACColorCube.Redraw" name="ActionComponents.ACColorCube.Redraw">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_view.html#a21b218deea6042e2bf7a3d0101ce1bf9" title="Moves this ActionComponents.ACView to the given point and honors any ActionComponents.ACViewDragConstraints applied to the X or Y axis " alt="" coords="262,5,450,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_h_s_v_image.html#a065efe8ed69540940fe69488e977d201" title="Pin the specified minValue, value and maxValue. " alt="" coords="243,73,469,101"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_h_s_v_image.html#a31e9cc5016853c70eaa4ac3a8d302798" title="Saturations the brightness square image. " alt="" coords="243,125,469,169"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_h_s_v_image.html#a706d732b4aad313dd49d565ddcf41a02" title="Blend the specified value and percent. " alt="" coords="517,125,723,169"/>
-</map>

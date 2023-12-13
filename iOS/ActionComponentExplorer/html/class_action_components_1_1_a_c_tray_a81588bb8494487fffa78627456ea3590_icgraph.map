@@ -1,7 +1,0 @@
-<map id="ActionComponents.ACTray.CloseTray" name="ActionComponents.ACTray.CloseTray">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tray.html#aec5ee349049d831a0b82119a9c3b02b1" title="Handles the ActionComponents.ACTray being double tapped " alt="" coords="266,5,451,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tray.html#a367f3b8f8f5cee82c93f7329594f1e9d" title="Tests to see if this ActionComponents.ACTray or any of it&#39;s subviews were hit during an event ..." alt="" coords="266,73,451,117"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tray.html#a3b7a4328d3baf29ebe60985b21f93db8" title="Sent when one or more fingers touches the screen. " alt="" coords="266,141,451,185"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tray_manager.html#acdce83e7b519ef11269ece0ab0f49e57" title="Adds the ActionComponents.ACTray to this ActionComponents.ACTrayManager&#39;s collection ..." alt="" coords="240,209,478,253"/>
-<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_tray_manager.html#a556d9ea4fca4954ccb4d41370b86d110" title="Closes all open ActionComponents.ACTray in this ActionComponents.ACTrayManager&#39;s collection ..." alt="" coords="240,277,478,321"/>
-</map>

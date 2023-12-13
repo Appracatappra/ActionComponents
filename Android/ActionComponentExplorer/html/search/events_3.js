@@ -1,7 +1,0 @@
-var searchData=
-[
-  ['downloadcanceled',['DownloadCanceled',['../class_action_components_1_1_a_c_download_item.html#a23ae840e271dd192cf8adf717dffc698',1,'ActionComponents.ACDownloadItem.DownloadCanceled()'],['../class_action_components_1_1_a_c_download_manager.html#a1c90bc87b22d05f5d992999659eb9c21',1,'ActionComponents.ACDownloadManager.DownloadCanceled()']]],
-  ['downloaderror',['DownloadError',['../class_action_components_1_1_a_c_download_item.html#a4684f54ca89a8e9326677a627469579e',1,'ActionComponents.ACDownloadItem.DownloadError()'],['../class_action_components_1_1_a_c_download_manager.html#a292b57be2ed872aff17108aa258990ad',1,'ActionComponents.ACDownloadManager.DownloadError()']]],
-  ['downloadfilecompleted',['DownloadFileCompleted',['../class_action_components_1_1_a_c_download_item.html#a1b982f10f03827d6ff377c4652eefc7f',1,'ActionComponents.ACDownloadItem.DownloadFileCompleted()'],['../class_action_components_1_1_a_c_download_manager.html#aa2d242283a49e530594c836ec37ddafe',1,'ActionComponents.ACDownloadManager.DownloadFileCompleted()']]],
-  ['downloadfilestarted',['DownloadFileStarted',['../class_action_components_1_1_a_c_download_item.html#a61ed33389bfad2a174f9d3e17239473f',1,'ActionComponents.ACDownloadItem.DownloadFileStarted()'],['../class_action_components_1_1_a_c_download_manager.html#a2b4102278f76dc84fad0b23e94ba1af4',1,'ActionComponents.ACDownloadManager.DownloadFileStarted()']]]
-];

@@ -1,7 +1,0 @@
-<map id="CoreGraphics.CGPoint.CGPoint" name="CoreGraphics.CGPoint.CGPoint">
-<area shape="rect" id="node2" href="$class_core_graphics_1_1_c_g_point.html#ac27ca99b528abde763759677f94937b6" title="Converts the Point to a CGPoint. " alt="" coords="270,5,482,49"/>
-<area shape="rect" id="node3" href="$class_core_graphics_1_1_c_g_point.html#a28df46bf4a4be1fd80c28cd69ca68d70" title="Adds a CoreGraphics.CGPoint to a CoreGraphics.CGPoint, yielding a new T:CoreGraphics.CGPoint. " alt="" coords="267,73,485,101"/>
-<area shape="rect" id="node4" href="$class_core_graphics_1_1_c_g_point.html#aa2db6148a40fa4da2876debe84700cd7" title="Subtracts a CoreGraphics.CGPoint from a CoreGraphics.CGPoint, yielding a new T:CoreGraphics.CGPoint. " alt="" coords="268,125,484,153"/>
-<area shape="rect" id="node5" href="$class_core_graphics_1_1_c_g_point.html#aa242d8aabe91725dfe64d3cf17be2b14" title="Computes the product of a and b, yielding a new T:CoreGraphics.CGPoint. " alt="" coords="268,177,484,205"/>
-<area shape="rect" id="node6" href="$class_core_graphics_1_1_c_g_point.html#a17b8cd06aaf28c18007887a79ffd2d2b" title="Computes the division of a and b, yielding a new T:CoreGraphics.CGPoint. " alt="" coords="269,229,483,257"/>
-</map>

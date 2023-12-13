@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACImageView.RotateImageTo" name="ActionComponents.ACImageView.RotateImageTo">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_image.html#af096e31c679215dfbd321df7c2b8f456" title="Given a source UIImage, return a new UIImage containing the source image rotated to the given radian ..." alt="" coords="248,5,445,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image.html#a88032695ed0b501d34ca2cde99bf41eb" title="Given a value in degrees, return the value in radians " alt="" coords="494,5,690,49"/>
-</map>

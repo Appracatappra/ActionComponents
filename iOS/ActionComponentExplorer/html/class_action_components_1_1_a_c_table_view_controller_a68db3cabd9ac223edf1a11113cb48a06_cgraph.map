@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACTableViewController.LoadData" name="ActionComponents.ACTableViewController.LoadData">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_table_view_data_source.html#ab101b68869ca1f836225863839f982d4" title="Requests that this ActionComponents.ACTableViewDataSource reloads all of the data from it&#39;s source ..." alt="" coords="269,5,457,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_table_view_controller.html#a3765fea735391487281a9e39cae5ffaa" title="Occurs when this ActionComponents.ACTableItem has been selected by the user " alt="" coords="243,73,482,133"/>
-</map>

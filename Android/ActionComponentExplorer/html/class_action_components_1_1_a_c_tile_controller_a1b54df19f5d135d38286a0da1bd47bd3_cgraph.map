@@ -1,6 +1,0 @@
-<map id="ActionComponents.ACTileController.Draw" name="ActionComponents.ACTileController.Draw">
-<area shape="rect" id="node2" href="$class_u_i_kit_1_1_u_i_graphics.html#a5fb40b0a2e9846e2e1da6d911f423ed4" title="Gets the current context. NOTE: Unlike the iOS version, the developer needs to pass a reference to th..." alt="" coords="325,5,515,49"/>
-<area shape="rect" id="node3" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a89c7c56b2c624d3c787bf5306d7f45aa" title="Creates a new UIBezierPath from the given rect. " alt="" coords="323,73,517,101"/>
-<area shape="rect" id="node5" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a7d3ec6e13f8df2bbe6d22082612489fb" title="Draws a filled version of the path into the current graphics context. " alt="" coords="343,125,497,153"/>
-<area shape="rect" id="node4" href="$class_u_i_kit_1_1_u_i_bezier_path.html#a2ba7d22501a5ba34049eacfdc40dd77a" title="Initializes a new instance of the T:UIKit.UIBezierPath class. " alt="" coords="566,73,781,101"/>
-</map>

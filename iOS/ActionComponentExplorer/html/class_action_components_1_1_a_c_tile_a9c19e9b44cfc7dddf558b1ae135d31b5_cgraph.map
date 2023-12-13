@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACTile.DrawAccessory" name="ActionComponents.ACTile.DrawAccessory">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_font.html#a958dce6722bc466c15c44f03e64e0abb" title="Acts as a replacement for the UIKit.UIView.StringSize method deprecated in iOS7. This function calcul..." alt="" coords="237,5,424,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_color.html#ac00985e179c5f20da6eedcfee1fb3ca7" title="Sets the fill color for drawing. " alt="" coords="235,73,426,117"/>
-</map>

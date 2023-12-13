@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACWebView.MoveToPoint" name="ActionComponents.ACWebView.MoveToPoint">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_web_view.html#ab3f43d1e4af3377d6d1c126abc033c31" title="Sent when the ActionComponents.ACView is being dragged " alt="" coords="270,5,485,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_web_view.html#a22c65f7d397ecbb98f925b966f75f9fe" title="Send when one or more fingers are lifted from the screen. " alt="" coords="270,73,485,117"/>
-</map>

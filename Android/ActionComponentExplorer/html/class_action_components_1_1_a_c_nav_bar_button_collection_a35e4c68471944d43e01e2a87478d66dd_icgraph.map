@@ -1,6 +1,0 @@
-<map id="ActionComponents.ACNavBarButtonCollection.AddButton" name="ActionComponents.ACNavBarButtonCollection.AddButton">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a1a3ac8b20c722eeba9460023b39e0fca" title="Creates a new button and adds it to the collection " alt="" coords="272,5,472,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#aef3df62205f40495e3eafe0614f7a718" title="Creates a new button that will automatically dispose of its attached view when it is unselected and a..." alt="" coords="256,73,488,133"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a20d295e0e33b060603a559d70a1f1863" title="Creates a new tool button and adds it to the collection " alt="" coords="272,157,472,201"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a50824daaf83a94610b5f772f78b01eeb" title="Creates a new notification icon and adds it to the collection " alt="" coords="266,225,478,269"/>
-</map>

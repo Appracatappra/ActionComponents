@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color_cube.html" title="The Action Color Cube displays a color selection cube in the app&#39;s user interface that allows the use..." alt="" coords="155,5,375,33"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_hue_bar.html" title="The Action Color Hue Bar presents a hue selection bar to the user that they can interact with to sele..." alt="" coords="165,57,366,85"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_image_view.html" title="The ActionComponents.ACImageView is a custom UIImageView that defines several helper properties and m..." alt="" coords="154,109,376,137"/>
-</map>

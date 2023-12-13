@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACTileGroup.Redraw" name="ActionComponents.ACTileGroup.Redraw">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_live_update.html#a078809359812de6c1281d5616180b856" title="Performs the update on the given ACTile or ACTileGroup this ACTileLiveUpdate is attached to ..." alt="" coords="272,5,474,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_image.html#a88032695ed0b501d34ca2cde99bf41eb" title="Given a value in degrees, return the value in radians " alt="" coords="275,73,472,117"/>
-</map>

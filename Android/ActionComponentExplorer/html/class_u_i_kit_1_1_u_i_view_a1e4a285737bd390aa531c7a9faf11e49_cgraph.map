@@ -1,5 +1,0 @@
-<map id="UIKit.UIView.OnTouchEvent" name="UIKit.UIView.OnTouchEvent">
-<area shape="rect" id="node2" href="$class_u_i_kit_1_1_u_i_view.html#afa121beb593da174a1c57e5ad8046bdb" title="Sent when one or more fingers touches the screen. " alt="" coords="241,5,428,33"/>
-<area shape="rect" id="node3" href="$class_u_i_kit_1_1_u_i_view.html#af5952a47acd3ed7a2a1754ed87614f84" title="Sent when the ACTile is being dragged " alt="" coords="240,57,429,85"/>
-<area shape="rect" id="node4" href="$class_u_i_kit_1_1_u_i_view.html#aa087048823600b7c05f0cc6ee9d090f6" title="Send when one or more fingers are lifted from the screen. " alt="" coords="241,109,428,137"/>
-</map>

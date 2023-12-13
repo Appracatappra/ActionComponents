@@ -1,4 +1,0 @@
-<map id="ActionComponents.RGBColor.FromHSV" name="ActionComponents.RGBColor.FromHSV">
-<area shape="rect" id="node2" href="$class_action_components_1_1_h_s_v_color.html#a1805b0778173eadbd04d8ffbde4de020" title="Converts the current HSV color to an RGB color. " alt="" coords="256,5,456,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_h_s_v_color.html#a0cb7bafd327952d00a8c44d01b869381" title="Converts a given hue value into its Red, Green, Blue component factors " alt="" coords="504,5,704,49"/>
-</map>

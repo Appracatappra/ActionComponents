@@ -1,7 +1,0 @@
-<map id="ActionComponents.ACColorCube.ACColorCube" name="ActionComponents.ACColorCube.ACColorCube">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_color_cube.html#aa2fcb52667629ff825f0058d42331d2c" title="Redraws the color cube using the current Hue, Saturation and Brightness values. " alt="" coords="243,69,431,113"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_h_s_v_image.html#a309adcd43ca85e1adbd32a398ad5c8c2" title="Saturations the brightness square image. " alt="" coords="481,38,706,82"/>
-<area shape="rect" id="node6" href="$class_action_components_1_1_h_s_v_image.html#a72b1f08a5382b44f1d3a17adf91122ab" title="Pin the specified minValue, value and maxValue. " alt="" coords="481,106,706,134"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_h_s_v_image.html#ac7a081be3a653aa0ee497a380b04b9ea" title="Creates the background rx image context. " alt="" coords="754,5,960,49"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_h_s_v_image.html#a706d732b4aad313dd49d565ddcf41a02" title="Blend the specified value and percent. " alt="" coords="754,73,960,117"/>
-</map>

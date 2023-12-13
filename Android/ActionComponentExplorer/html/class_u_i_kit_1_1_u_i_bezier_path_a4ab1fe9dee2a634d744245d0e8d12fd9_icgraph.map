@@ -1,6 +1,0 @@
-<map id="UIKit.UIBezierPath.FromRoundedRect" name="UIKit.UIBezierPath.FromRoundedRect">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile.html#a6302dfc04df7a81d9950c19400fc4461" title="Draws the top title bar. " alt="" coords="339,5,520,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile.html#a1ae7993c1fae0e730e1cec2964fd7b57" title="Draws the bottom title bar. " alt="" coords="603,35,784,79"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile.html#ab7e04b0a9e16fa57bdde14b0c4f8a24e" title="Draw the specified rect. " alt="" coords="323,125,535,153"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_group.html#ac483cbcecdc95e8521be31a227f24fb4" title="Draw the specified rect. " alt="" coords="305,177,554,205"/>
-</map>

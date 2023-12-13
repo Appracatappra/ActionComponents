@@ -1,7 +1,0 @@
-<map id="ActionComponents.ACAlert.ShowActivityAlertCancel" name="ActionComponents.ACAlert.ShowActivityAlertCancel">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_alert.html#a1285158837d4df09f3ea7fdd8dd0bf46" title="Initializes a new instance of the ActionComponents.ACAlert class. " alt="" coords="260,5,447,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_alert.html#a39190984ed21c28b8a64d49de68aaef3" title="Removes this ActionComponents.ACAlert from the screen " alt="" coords="246,73,461,101"/>
-<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_alert.html#affd516e7379efe95c305bd1e05612eb2" title="Show this ActionComponents.ACAlert " alt="" coords="243,125,464,153"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_alert.html#a34d4165a9e4b9fc44fcc27c206221469" title="Removes this view from its parent view " alt="" coords="525,31,712,75"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_alert_overlay.html#afb70099d99003f70aaaef26912dcf48d" title="Removes this view from its parent view " alt="" coords="512,99,725,143"/>
-</map>

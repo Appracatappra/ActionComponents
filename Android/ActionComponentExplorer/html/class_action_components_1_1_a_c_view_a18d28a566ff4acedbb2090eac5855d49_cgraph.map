@@ -1,5 +1,0 @@
-<map id="ActionComponents.ACView.GetViewHeight" name="ActionComponents.ACView.GetViewHeight">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_view.html#a4091ff1b0742f96a2777974832c3e346" title="Returns the height of the default display for the given view. " alt="" coords="243,5,431,49"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_view.html#aa53437926d491a78e503b6ad1b9b7a81" title="Gets the status bar height for the given view. " alt="" coords="243,73,431,117"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_view.html#a4b6083b92d2160e276e1ce96e5cdc438" title="Gets the default display for the given view " alt="" coords="481,5,669,49"/>
-</map>

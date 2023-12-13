@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACNavBar.SelectedButton" name="ActionComponents.ACNavBar.SelectedButton">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_nav_bar_button_collection.html#a2d987b0ec2eb16c24e192d57a52511b6" title="Returns the currently selected ActionComponents.ACNavBarButton in this ActionComponents.ACNavBarButtonCollection button group " alt="" coords="259,5,472,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_nav_bar_button_appearance.html#a9d89d4bb786473bbfb8c9317abb28755" title="Clones the values from the passed ActionComponents.ACNavBarButtonAppearance into this one ..." alt="" coords="521,5,722,49"/>
-</map>

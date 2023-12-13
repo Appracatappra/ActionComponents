@@ -1,5 +1,0 @@
-<map id="ActionComponents.ACTray.OnTouchEvent" name="ActionComponents.ACTray.OnTouchEvent">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tray.html#a81588bb8494487fffa78627456ea3590" title="Closes the ActionComponents.ACTray " alt="" coords="241,5,426,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tray.html#a509e69f8eb8e9e80fd79c3cde5c82a95" title="Opens the ActionComponents.ACTray " alt="" coords="241,73,426,117"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tray.html#a0dab858ecd00dc5dd5fd1f9edd4295ad" title="Occurs when this ActionComponents.ACTray is touched " alt="" coords="241,141,426,185"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="CoreGraphics.CGRect.IntersectsWith" name="CoreGraphics.CGRect.IntersectsWith">
-<area shape="rect" id="node2" href="$class_core_graphics_1_1_c_g_rect.html#a22e3bcb009547fbabdee8d0cec5caf82" title="Replaces this CGRect with the intersection of itself and the specified CGRect. " alt="" coords="297,5,506,33"/>
-<area shape="rect" id="node3" href="$class_u_i_kit_1_1_u_i_scroll_view.html#a94bb8e817c609f8c06d0db8d36897a66" title="UIKit.UIScrollView.Redraw" alt="" coords="312,57,490,85"/>
-<area shape="rect" id="node4" href="$class_u_i_kit_1_1_u_i_scroll_view.html#a7e0a73b1fdbd8a0b36ccbf4131572884" title="Sent when the ACTile is being dragged " alt="" coords="554,49,736,93"/>
-</map>

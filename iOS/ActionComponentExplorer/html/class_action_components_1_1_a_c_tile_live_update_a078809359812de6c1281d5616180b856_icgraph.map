@@ -1,9 +1,0 @@
-<map id="ActionComponents.ACTileLiveUpdate.PerformUpdate" name="ActionComponents.ACTileLiveUpdate.PerformUpdate">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tile_controller.html#a9f14d9a57d6f28bfe16288a9bd50eee6" title="The Purge command causes this ACTile to force the removal of any subview from the screen and dispose ..." alt="" coords="257,5,495,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_tile_controller.html#a250d80103cf2d97bf3ee583124c3b566" title="Initializes a new instance of the ACTileController class. " alt="" coords="257,73,495,117"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_tile_group.html#a76a6d7e02a2104deda8de670c1dafcc3" title="Changes the background color of every ACTile in this ACTileGroup by creating a random brightness off ..." alt="" coords="267,141,485,185"/>
-<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_tile_group.html#ad8876888995740615d97150bedde2e19" title="Forces this ACTileGroup to fully redraw itself " alt="" coords="267,209,485,253"/>
-<area shape="rect" id="node8" href="$class_action_components_1_1_a_c_tile_live_update_tile_sequence.html#adec01f38f5ff209b77d31095ded8d60a" title="Performs the update. " alt="" coords="256,277,496,321"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_tile_live_update_controller_chroma_key.html#a9fe1a551cdac94c5238a513efbe40f43" title="Performs the update. " alt="" coords="556,95,799,155"/>
-<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_tile_live_update_group_chroma_key.html#ac94cc78bde3c1295f9a1f43d6c499926" title="Performs the update. " alt="" coords="545,179,810,223"/>
-</map>

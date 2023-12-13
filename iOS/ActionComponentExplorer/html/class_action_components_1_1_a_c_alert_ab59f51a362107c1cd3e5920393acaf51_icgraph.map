@@ -1,4 +1,0 @@
-<map id="ActionComponents.ACAlert.MoveToPoint" name="ActionComponents.ACAlert.MoveToPoint">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_alert.html#a2b1160ecc62e4d37eab61ef3735f1143" title="Sent when the ActionComponents.ACAlert is being dragged " alt="" coords="244,5,431,49"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_alert.html#a8895334ff99c36ae51d3ed662d93de18" title="Send when one or more fingers are lifted from the screen. " alt="" coords="244,73,431,117"/>
-</map>

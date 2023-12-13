@@ -1,8 +1,0 @@
-<map id="ActionComponents.ACTray.OnDoubleTap" name="ActionComponents.ACTray.OnDoubleTap">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_tray.html#a509e69f8eb8e9e80fd79c3cde5c82a95" title="Opens the ActionComponents.ACTray " alt="" coords="241,5,426,49"/>
-<area shape="rect" id="node7" href="$class_action_components_1_1_a_c_tray.html#a81588bb8494487fffa78627456ea3590" title="Closes the ActionComponents.ACTray " alt="" coords="241,73,426,117"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_toast.html#a4af76b6552bb36363f996a98246f9861" title="Creates a new instance of the ActionComponents.ACToast message with the given properties and returns ..." alt="" coords="492,5,684,49"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_toast.html#a86fb712580c12d786782caba1b3c80d5" title="Show the ActionComponents.ACToast message " alt="" coords="475,81,701,109"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_toast.html#a8d92226587ae0be62220d964b1ba6f6d" title="Initializes a new instance of the ActionComponents.ACToast class. " alt="" coords="749,5,941,49"/>
-<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_toast.html#aac02447ee45d628c713b82652d15603b" title="Hides this ActionComponents.ACToast message " alt="" coords="749,73,941,117"/>
-</map>

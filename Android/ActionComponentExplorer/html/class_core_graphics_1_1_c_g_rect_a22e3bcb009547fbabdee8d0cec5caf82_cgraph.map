@@ -1,5 +1,0 @@
-<map id="CoreGraphics.CGRect.Intersect" name="CoreGraphics.CGRect.Intersect">
-<area shape="rect" id="node2" href="$class_core_graphics_1_1_c_g_rect.html#ac01e9e51b9e1f38395cb32cf11e6821a" title="Contains the specified point. " alt="" coords="280,5,491,33"/>
-<area shape="rect" id="node3" href="$class_core_graphics_1_1_c_g_rect.html#a13eeead364233007a4a00c05f795185d" title="Copy the specified rect into this rect. " alt="" coords="291,57,480,85"/>
-<area shape="rect" id="node4" href="$class_core_graphics_1_1_c_g_rect.html#a613d7b66ed564eaa6b10bb033d83b70e" title="Test to see if the given rectangle intersects with this rectangle. " alt="" coords="264,109,507,137"/>
-</map>

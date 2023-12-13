@@ -1,4 +1,6 @@
-> NOTE: This project is no longer in active development and we are no longer selling this API Toolkit. As a results, we had decided to release the API as open source software. Please feel free to use this software however you wish, with the exception of selling this API as a standalone library.
+![](https://img.shields.io/badge/license-MIT-green) ![](https://img.shields.io/badge/maintained%3F-No-red) ![](https://img.shields.io/badge/supported-No-red) ![](https://img.shields.io/badge/resealed-As--Is-red) ![](https://img.shields.io/badge/dependency-Xamarin-orange) ![](https://img.shields.io/badge/dependency-Visual_Studio-orange)
+
+> **NOTE:** This project is no longer in active development and we are no longer selling this API Toolkit. As a results, we had decided to release the API as open source software. Please feel free to use this software however you wish, with the exception of selling this API as a standalone library.
 
 # ActionComponents
 Customizable UI and time-saving tools for iOS and Android development with Xamarin and Visual Studio.

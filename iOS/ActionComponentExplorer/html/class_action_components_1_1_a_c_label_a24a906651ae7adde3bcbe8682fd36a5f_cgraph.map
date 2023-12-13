@@ -1,7 +1,0 @@
-<map id="ActionComponents.ACLabel.TouchesEnded" name="ActionComponents.ACLabel.TouchesEnded">
-<area shape="rect" id="node2" href="$class_action_components_1_1_a_c_toast.html#a4af76b6552bb36363f996a98246f9861" title="Creates a new instance of the ActionComponents.ACToast message with the given properties and returns ..." alt="" coords="263,9,455,53"/>
-<area shape="rect" id="node4" href="$class_action_components_1_1_a_c_toast.html#a86fb712580c12d786782caba1b3c80d5" title="Show the ActionComponents.ACToast message " alt="" coords="246,78,471,106"/>
-<area shape="rect" id="node6" href="$class_action_components_1_1_a_c_label.html#a5b2bd46fe3f1b821cc918bc43ca5860a" title="Occurs when this ActionComponents.ACLabel is touched " alt="" coords="262,130,455,174"/>
-<area shape="rect" id="node3" href="$class_action_components_1_1_a_c_toast.html#a8d92226587ae0be62220d964b1ba6f6d" title="Initializes a new instance of the ActionComponents.ACToast class. " alt="" coords="520,5,712,49"/>
-<area shape="rect" id="node5" href="$class_action_components_1_1_a_c_toast.html#aac02447ee45d628c713b82652d15603b" title="Hides this ActionComponents.ACToast message " alt="" coords="520,73,712,117"/>
-</map>
